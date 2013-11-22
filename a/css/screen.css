@@ -364,3 +364,18 @@ table {
   max-width: 30em;
   margin: 0 auto;
 }
+
+/* line 12, ../sass/screen.sass */
+.js .about {
+  position: absolute;
+  height: 300px;
+  background: #eeeeee;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 20, ../sass/screen.sass */
+.js {
+  padding-top: 300px;
+}
