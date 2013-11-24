@@ -156,19 +156,30 @@ p.callout
   font-style: normal
   color: rgba(255,255,255,0.7)
 
+.blog-nav-container
+  height: 300px
+
 .blog-nav
-  opacity: 0
+  opacity: 1
   +transition-property(opacity)
   +transition-duration(0.5s)
+  position: relative
+  height: 300px
+  width: 100%
+
+.js .blog-nav
+  opacity: 0
+
+.is-not-top-gutter-shown .blog-nav
+  opacity: 1
 
 .is-top .blog-nav
+  opacity: 1
   height: 100%
   position: absolute
   top: 0
   left: 0
-  width: 100%
   background: rgba(187,84,0,0.9)
-  opacity: 1
 
 .blog-nav-previous, .blog-nav-next
   position: absolute
@@ -176,11 +187,22 @@ p.callout
   font-family: adelle
   font-weight: 400
   font-size: 25px
-  color: white
+  color: black
   text-decoration: none
   width: 25%
   background: rgba(0,0,0,0.1)
   padding: 30px
+  +transition-property(background)
+  +transition-duration(0.5s)
+
+.blog-nav-previous:hover, .blog-nav-next:hover
+  background: rgba(0,0,0,0.3)
+
+.blog-nav-previous:active, .blog-nav-next:active
+  bottom: 99px
+
+.is-top .blog-nav-previous, .is-top .blog-nav-next
+  color: white
 
 .blog-nav-previous
   left: 0
@@ -199,4 +221,4 @@ p.callout
   font-family: adelle
   font-weight: 400
   margin: 0
-  
+

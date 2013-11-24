@@ -556,8 +556,13 @@ p.callout {
 }
 
 /* line 159, ../sass/screen.sass */
+.blog-nav-container {
+  height: 300px;
+}
+
+/* line 162, ../sass/screen.sass */
 .blog-nav {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
@@ -566,45 +571,80 @@ p.callout {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  position: relative;
+  height: 300px;
+  width: 100%;
 }
 
-/* line 164, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
+.js .blog-nav {
+  opacity: 0;
+}
+
+/* line 173, ../sass/screen.sass */
+.is-not-top-gutter-shown .blog-nav {
+  opacity: 1;
+}
+
+/* line 176, ../sass/screen.sass */
 .is-top .blog-nav {
+  opacity: 1;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   background: rgba(187, 84, 0, 0.9);
-  opacity: 1;
 }
 
-/* line 173, ../sass/screen.sass */
+/* line 184, ../sass/screen.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
   bottom: 100px;
   font-family: adelle;
   font-weight: 400;
   font-size: 25px;
-  color: white;
+  color: black;
   text-decoration: none;
   width: 25%;
   background: rgba(0, 0, 0, 0.1);
   padding: 30px;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
-/* line 185, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
+.blog-nav-previous:hover, .blog-nav-next:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 201, ../sass/screen.sass */
+.blog-nav-previous:active, .blog-nav-next:active {
+  bottom: 99px;
+}
+
+/* line 204, ../sass/screen.sass */
+.is-top .blog-nav-previous, .is-top .blog-nav-next {
+  color: white;
+}
+
+/* line 207, ../sass/screen.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 188, ../sass/screen.sass */
+/* line 210, ../sass/screen.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 192, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -612,7 +652,7 @@ p.callout {
   font-size: 0.6em;
 }
 
-/* line 198, ../sass/screen.sass */
+/* line 220, ../sass/screen.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
