@@ -16,6 +16,13 @@
       tolerance = 20
       setTimeout(function(){
         scrollPos = $(window).scrollTop();
+        
+        if (scrollPos < (topGutterHeight - 1)) {
+          $("body").eq(0).addClass('is-top-gutter-shown');
+        } else {
+          $("body").eq(0).removeClass('is-top-gutter-shown');
+        }
+        
         if (topGutterHeight == scrollPos) {
           return;
         }

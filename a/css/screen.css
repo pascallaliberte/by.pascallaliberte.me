@@ -359,28 +359,13 @@ table {
   border-spacing: 0;
 }
 
-/* line 8, ../sass/screen.sass */
+/* line 9, ../sass/screen.sass */
 .site {
   max-width: 30em;
   margin: 0 auto;
 }
 
-/* line 12, ../sass/screen.sass */
-.js .about {
-  position: absolute;
-  height: 305px;
-  background: #bb5400;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
-/* line 20, ../sass/screen.sass */
-.js {
-  padding-top: 300px;
-}
-
-/* line 23, ../sass/screen.sass */
+/* line 13, ../sass/screen.sass */
 body {
   font-family: adelle-sans, sans-serif;
   font-size: 16px;
@@ -389,14 +374,14 @@ body {
   font-style: normal;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 20, ../sass/screen.sass */
 div.intro {
   font-family: adelle, serif;
   padding: 20px 0 0;
   color: #999999;
 }
 
-/* line 35, ../sass/screen.sass */
+/* line 25, ../sass/screen.sass */
 blockquote {
   margin-bottom: 25px;
   font-size: 29px;
@@ -412,7 +397,7 @@ blockquote {
   font-style: italic;
 }
 
-/* line 49, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 h1 {
   font-size: 66px;
   line-height: 75px;
@@ -424,7 +409,7 @@ h1 {
   color: #bb5400;
 }
 
-/* line 59, ../sass/screen.sass */
+/* line 49, ../sass/screen.sass */
 h2 {
   font-size: 22px;
   line-height: 28px;
@@ -436,7 +421,7 @@ h2 {
   margin: 40px 0px 20px;
 }
 
-/* line 69, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 p {
   text-indent: 0em;
   margin-bottom: 25px;
@@ -445,13 +430,13 @@ p {
   font-style: normal;
 }
 
-/* line 77, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 p.meta {
   font-family: adelle, serif;
   color: #999999;
 }
 
-/* line 81, ../sass/screen.sass */
+/* line 71, ../sass/screen.sass */
 p.author {
   text-indent: 0px;
   margin-bottom: 25px;
@@ -464,7 +449,7 @@ p.author {
   font-style: normal;
 }
 
-/* line 92, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 .post p:first-of-type {
   text-indent: 0px;
   margin-bottom: 15px;
@@ -476,7 +461,7 @@ p.author {
   font-style: normal;
 }
 
-/* line 102, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 p.first {
   margin-bottom: 25px;
   font-family: adelle-sans, sans-serif;
@@ -484,7 +469,7 @@ p.first {
   font-style: normal;
 }
 
-/* line 108, ../sass/screen.sass */
+/* line 98, ../sass/screen.sass */
 p.callout {
   text-indent: 0em;
   margin-bottom: 25px;
@@ -498,4 +483,73 @@ p.callout {
   font-family: adelle, serif;
   font-weight: 100;
   font-style: italic;
+}
+
+/* line 112, ../sass/screen.sass */
+.js .about {
+  position: absolute;
+  height: 305px;
+  background: #bb5400;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+/* line 121, ../sass/screen.sass */
+.js .intro, .js .about-details {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 126, ../sass/screen.sass */
+.is-top-gutter-shown .intro {
+  opacity: 0;
+}
+
+/* line 129, ../sass/screen.sass */
+.js {
+  padding-top: 300px;
+}
+
+/* line 132, ../sass/screen.sass */
+.js .about-details {
+  max-width: 30em;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+/* line 137, ../sass/screen.sass */
+.is-top-gutter-shown .about-details {
+  opacity: 1;
+}
+
+/* line 140, ../sass/screen.sass */
+.about-name {
+  font-size: 43px;
+  line-height: 43px;
+  width: 10em;
+  margin-top: 30px;
+  font-family: adelle;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 148, ../sass/screen.sass */
+.about-title {
+  font-size: 30px;
+  line-height: 32px;
+  width: 10em;
+  margin-top: 20px;
+  font-family: adelle-sans;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.7);
 }

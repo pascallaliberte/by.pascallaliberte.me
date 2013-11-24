@@ -4,22 +4,12 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "normalize"
+@import "compass/css3"
 
 .site
   max-width: 30em
   margin: 0 auto
 
-.js .about
-  position: absolute
-  height: 305px
-  background: #BB5400
-  width: 100%
-  top: 0
-  left: 0
-
-.js
-  padding-top: 300px
-  
 body
   font-family: adelle-sans, sans-serif
   font-size: 16px
@@ -118,3 +108,49 @@ p.callout
   font-family: adelle, serif
   font-weight: 100
   font-style: italic
+
+.js .about
+  position: absolute
+  height: 305px
+  background: #BB5400
+  width: 100%
+  top: 0
+  left: 0
+  color: white
+
+.js .intro, .js .about-details
+  opacity: 1
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+
+.is-top-gutter-shown .intro
+  opacity: 0
+
+.js
+  padding-top: 300px
+  
+.js .about-details
+  max-width: 30em
+  margin: 0 auto
+  opacity: 0
+
+.is-top-gutter-shown .about-details
+  opacity: 1
+
+.about-name
+  font-size: 43px
+  line-height: 43px
+  width: 10em
+  margin-top: 30px
+  font-family: adelle
+  font-weight: 400
+  font-style: normal
+.about-title
+  font-size: 30px
+  line-height: 32px
+  width: 10em
+  margin-top: 20px
+  font-family: adelle-sans
+  font-weight: 400
+  font-style: normal
+  color: rgba(255,255,255,0.7)
