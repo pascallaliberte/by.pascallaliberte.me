@@ -4,12 +4,16 @@ layout: default
 
 <div class="intro">Pascal Laliberté &mdash; Interaction designer</div>
 
+<article class="post">
+
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div class="post-details">
 {{ content }}
 </div>
+
+</article>
 
 <div class="about">
 
@@ -19,3 +23,22 @@ layout: default
   </div>
 
 </div>
+
+<nav class="blog-nav">
+  {% if page.previous.url %} 
+  <a href="{{page.previous.url}}" class="blog-nav-previous">
+    <h3 class="blog-nav-label">Previous post:</h3>
+    <p class="blog-nav-post-title">
+    {{page.previous.title}}
+    </p>
+  </a> 
+  {% endif %} 
+  {% if page.next.url %} 
+  <a href="{{page.next.url}}" class="blog-nav-next">
+    <h3 class="blog-nav-label">Next post:</h3>
+    <p class="blog-nav-post-title">
+    {{page.next.title}}
+    </p>
+  </a>
+  {% endif %} 
+</nav>

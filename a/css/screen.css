@@ -450,7 +450,7 @@ p.author {
 }
 
 /* line 82, ../sass/screen.sass */
-.post p:first-of-type {
+.post-details p:first-of-type {
   text-indent: 0px;
   margin-bottom: 15px;
   line-height: 37px;
@@ -494,9 +494,10 @@ p.callout {
   top: 0;
   left: 0;
   color: white;
+  z-index: 1;
 }
 
-/* line 121, ../sass/screen.sass */
+/* line 122, ../sass/screen.sass */
 .js .intro, .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -509,29 +510,29 @@ p.callout {
   transition-duration: 0.5s;
 }
 
-/* line 126, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 .is-top-gutter-shown .intro {
   opacity: 0;
 }
 
-/* line 129, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 .js {
   padding-top: 300px;
 }
 
-/* line 132, ../sass/screen.sass */
+/* line 133, ../sass/screen.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 137, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 140, ../sass/screen.sass */
+/* line 141, ../sass/screen.sass */
 .about-name {
   font-size: 43px;
   line-height: 43px;
@@ -542,7 +543,7 @@ p.callout {
   font-style: normal;
 }
 
-/* line 148, ../sass/screen.sass */
+/* line 149, ../sass/screen.sass */
 .about-title {
   font-size: 30px;
   line-height: 32px;
@@ -552,4 +553,68 @@ p.callout {
   font-weight: 400;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 159, ../sass/screen.sass */
+.blog-nav {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 164, ../sass/screen.sass */
+.is-top .blog-nav {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(187, 84, 0, 0.9);
+  opacity: 1;
+}
+
+/* line 173, ../sass/screen.sass */
+.blog-nav-previous, .blog-nav-next {
+  position: absolute;
+  bottom: 100px;
+  font-family: adelle;
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  width: 25%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* line 185, ../sass/screen.sass */
+.blog-nav-previous {
+  left: 0;
+}
+
+/* line 188, ../sass/screen.sass */
+.blog-nav-next {
+  right: 0;
+  text-align: right;
+}
+
+/* line 192, ../sass/screen.sass */
+.blog-nav-label {
+  font-family: adelle-sans;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 0.6em;
+}
+
+/* line 198, ../sass/screen.sass */
+.blog-nav-post-title {
+  font-family: adelle;
+  font-weight: 400;
+  margin: 0;
 }

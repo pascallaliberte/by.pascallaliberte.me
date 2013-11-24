@@ -14,6 +14,15 @@
     
     $(window).scroll(function(){
       tolerance = 20
+
+      scrollPos = $(window).scrollTop();
+
+      if (0 >= scrollPos) {
+        $("body").eq(0).addClass('is-top');
+      } else {
+        $("body").eq(0).removeClass('is-top');
+      }
+
       setTimeout(function(){
         scrollPos = $(window).scrollTop();
         

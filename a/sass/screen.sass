@@ -79,7 +79,7 @@ p.author
   font-weight: 400
   font-style: normal
 
-.post p:first-of-type
+.post-details p:first-of-type
   text-indent: 0px
   margin-bottom: 15px
   line-height: 37px
@@ -117,6 +117,7 @@ p.callout
   top: 0
   left: 0
   color: white
+  z-index: 1
 
 .js .intro, .js .about-details
   opacity: 1
@@ -154,3 +155,48 @@ p.callout
   font-weight: 400
   font-style: normal
   color: rgba(255,255,255,0.7)
+
+.blog-nav
+  opacity: 0
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+
+.is-top .blog-nav
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  background: rgba(187,84,0,0.9)
+  opacity: 1
+
+.blog-nav-previous, .blog-nav-next
+  position: absolute
+  bottom: 100px
+  font-family: adelle
+  font-weight: 400
+  font-size: 25px
+  color: white
+  text-decoration: none
+  width: 25%
+  background: rgba(0,0,0,0.1)
+  padding: 30px
+
+.blog-nav-previous
+  left: 0
+
+.blog-nav-next
+  right: 0
+  text-align: right
+
+.blog-nav-label
+  font-family: adelle-sans
+  text-transform: uppercase
+  margin: 0
+  font-size: 0.6em
+  
+.blog-nav-post-title
+  font-family: adelle
+  font-weight: 400
+  margin: 0
+  
