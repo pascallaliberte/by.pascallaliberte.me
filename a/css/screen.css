@@ -368,8 +368,8 @@ table {
 /* line 12, ../sass/screen.sass */
 .js .about {
   position: absolute;
-  height: 300px;
-  background: #eeeeee;
+  height: 305px;
+  background: #bb5400;
   width: 100%;
   top: 0;
   left: 0;
@@ -378,4 +378,124 @@ table {
 /* line 20, ../sass/screen.sass */
 .js {
   padding-top: 300px;
+}
+
+/* line 23, ../sass/screen.sass */
+body {
+  font-family: adelle-sans, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 30, ../sass/screen.sass */
+div.intro {
+  font-family: adelle, serif;
+  padding: 20px 0 0;
+  color: #999999;
+}
+
+/* line 35, ../sass/screen.sass */
+blockquote {
+  margin-bottom: 25px;
+  font-size: 29px;
+  line-height: 50px;
+  text-indent: 0em;
+  border-left-width: 3px;
+  border-style: solid;
+  border-color: #333333;
+  padding-left: 25px;
+  margin-left: -28px;
+  font-family: adelle, serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* line 49, ../sass/screen.sass */
+h1 {
+  font-size: 66px;
+  line-height: 75px;
+  margin-top: 120px;
+  margin-bottom: 25px;
+  font-family: adelle;
+  font-weight: 400;
+  font-style: normal;
+  color: #bb5400;
+}
+
+/* line 59, ../sass/screen.sass */
+h2 {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: adelle, serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 40px 0px 20px;
+}
+
+/* line 69, ../sass/screen.sass */
+p {
+  text-indent: 0em;
+  margin-bottom: 25px;
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 77, ../sass/screen.sass */
+p.meta {
+  font-family: adelle, serif;
+  color: #999999;
+}
+
+/* line 81, ../sass/screen.sass */
+p.author {
+  text-indent: 0px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #666464;
+  line-height: 25px;
+  font-family: adelle, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 92, ../sass/screen.sass */
+.post p:first-of-type {
+  text-indent: 0px;
+  margin-bottom: 15px;
+  line-height: 37px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 102, ../sass/screen.sass */
+p.first {
+  margin-bottom: 25px;
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 108, ../sass/screen.sass */
+p.callout {
+  text-indent: 0em;
+  margin-bottom: 25px;
+  font-size: 29px;
+  line-height: 50px;
+  border-left-width: 3px;
+  border-style: solid;
+  border-color: #333333;
+  padding-left: 25px;
+  margin-left: -28px;
+  font-family: adelle, serif;
+  font-weight: 100;
+  font-style: italic;
 }
