@@ -13,8 +13,6 @@
     });
     
     $(window).scroll(function(){
-      tolerance = 20
-
       scrollPos = $(window).scrollTop();
 
       if (0 >= scrollPos) {
@@ -28,19 +26,12 @@
       setTimeout(function(){
         scrollPos = $(window).scrollTop();
         
-        if (scrollPos < (topGutterHeight - 1)) {
+        if (scrollPos < (topGutterHeight - 31)) {
           $("body").eq(0).addClass('is-top-gutter-shown');
           $("body").eq(0).removeClass('is-not-top-gutter-shown');
         } else {
           $("body").eq(0).removeClass('is-top-gutter-shown');
           $("body").eq(0).addClass('is-not-top-gutter-shown');
-        }
-        
-        if (topGutterHeight == scrollPos) {
-          return;
-        }
-        if ( (topGutterHeight - tolerance) < scrollPos && (topGutterHeight + tolerance) > scrollPos) {
-          $(window).scrollTop(topGutterHeight);
         }
       }, 1000);
     });
