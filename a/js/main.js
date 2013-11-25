@@ -35,7 +35,7 @@
           $("body").eq(0).removeClass('is-top-gutter-shown');
           $("body").eq(0).addClass('is-not-top-gutter-shown');
         }
-      }, 1000);
+      }, 500);
     });
     
     $(window).scrollTop(parseInt($("body").eq(0).css("padding-top")));
