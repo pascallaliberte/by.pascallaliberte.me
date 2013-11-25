@@ -117,7 +117,7 @@ p.callout
   top: 0
   left: 0
   color: white
-  z-index: 1
+  z-index: 2
 
 .js .intro, .js .about-details
   opacity: 1
@@ -167,6 +167,13 @@ p.callout
   height: 300px
   width: 100%
 
+.js .to-top
+  display: block
+  opacity: 0
+  z-index: 1
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+
 .js .blog-nav
   opacity: 0
 
@@ -176,6 +183,14 @@ p.callout
 .is-top .blog-nav
   opacity: 1
   height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  
+.is-top .to-top
+  opacity: 1
+  height: 100%
+  width: 100%
   position: absolute
   top: 0
   left: 0
@@ -194,6 +209,7 @@ p.callout
   padding: 30px
   +transition-property(background)
   +transition-duration(0.5s)
+  z-index: 3
 
 .blog-nav-previous:hover, .blog-nav-next:hover
   background: rgba(87,55,29,0.4)
@@ -222,3 +238,12 @@ p.callout
   font-weight: 400
   margin: 0
 
+a.intro-more
+  text-decoration: none
+  color: inherit
+  
+a.intro-more:hover, a.intro-more:active
+  text-decoration: underline
+
+a.to-top
+  text-indent: -1000em

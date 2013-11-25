@@ -494,7 +494,7 @@ p.callout {
   top: 0;
   left: 0;
   color: white;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* line 122, ../sass/screen.sass */
@@ -577,26 +577,51 @@ p.callout {
 }
 
 /* line 170, ../sass/screen.sass */
+.js .to-top {
+  display: block;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 177, ../sass/screen.sass */
 .js .blog-nav {
   opacity: 0;
 }
 
-/* line 173, ../sass/screen.sass */
+/* line 180, ../sass/screen.sass */
 .is-not-top-gutter-shown .blog-nav {
   opacity: 1;
 }
 
-/* line 176, ../sass/screen.sass */
+/* line 183, ../sass/screen.sass */
 .is-top .blog-nav {
   opacity: 1;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/* line 190, ../sass/screen.sass */
+.is-top .to-top {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: rgba(87, 55, 29, 0.5);
 }
 
-/* line 184, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
   bottom: 100px;
@@ -616,35 +641,36 @@ p.callout {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  z-index: 3;
 }
 
-/* line 198, ../sass/screen.sass */
+/* line 214, ../sass/screen.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.4);
 }
 
-/* line 201, ../sass/screen.sass */
+/* line 217, ../sass/screen.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   bottom: 99px;
 }
 
-/* line 204, ../sass/screen.sass */
+/* line 220, ../sass/screen.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   color: white;
 }
 
-/* line 207, ../sass/screen.sass */
+/* line 223, ../sass/screen.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 210, ../sass/screen.sass */
+/* line 226, ../sass/screen.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 230, ../sass/screen.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -652,9 +678,25 @@ p.callout {
   font-size: 0.6em;
 }
 
-/* line 220, ../sass/screen.sass */
+/* line 236, ../sass/screen.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
+}
+
+/* line 241, ../sass/screen.sass */
+a.intro-more {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 245, ../sass/screen.sass */
+a.intro-more:hover, a.intro-more:active {
+  text-decoration: underline;
+}
+
+/* line 248, ../sass/screen.sass */
+a.to-top {
+  text-indent: -1000em;
 }
