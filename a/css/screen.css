@@ -622,6 +622,11 @@ p.callout {
 }
 
 /* line 199, ../sass/screen.sass */
+.is-top .to-top:hover, .is-top .to-top:active {
+  opacity: 0.7;
+}
+
+/* line 202, ../sass/screen.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
   bottom: 100px;
@@ -644,33 +649,33 @@ p.callout {
   z-index: 3;
 }
 
-/* line 214, ../sass/screen.sass */
+/* line 217, ../sass/screen.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.4);
 }
 
-/* line 217, ../sass/screen.sass */
+/* line 220, ../sass/screen.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   bottom: 99px;
 }
 
-/* line 220, ../sass/screen.sass */
+/* line 223, ../sass/screen.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   color: white;
 }
 
-/* line 223, ../sass/screen.sass */
+/* line 226, ../sass/screen.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 226, ../sass/screen.sass */
+/* line 229, ../sass/screen.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 230, ../sass/screen.sass */
+/* line 233, ../sass/screen.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -678,25 +683,25 @@ p.callout {
   font-size: 0.6em;
 }
 
-/* line 236, ../sass/screen.sass */
+/* line 239, ../sass/screen.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 241, ../sass/screen.sass */
+/* line 244, ../sass/screen.sass */
 a.intro-more {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 245, ../sass/screen.sass */
+/* line 248, ../sass/screen.sass */
 a.intro-more:hover, a.intro-more:active {
   text-decoration: underline;
 }
 
-/* line 248, ../sass/screen.sass */
+/* line 251, ../sass/screen.sass */
 a.to-top {
   text-indent: -1000em;
 }

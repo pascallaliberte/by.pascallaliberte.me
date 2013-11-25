@@ -1,6 +1,8 @@
 (function($){
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
+    
+    $(".intro-more,.to-top").smoothScroll();
 
     topGutterHeight = parseInt($("body").eq(0).css("padding-top"))
 
