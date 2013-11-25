@@ -378,7 +378,7 @@ body {
 div.intro {
   font-family: adelle, serif;
   padding: 20px 0 0;
-  color: #999999;
+  color: #bcafa5;
 }
 
 /* line 25, ../sass/screen.sass */
@@ -433,7 +433,7 @@ p {
 /* line 67, ../sass/screen.sass */
 p.meta {
   font-family: adelle, serif;
-  color: #999999;
+  color: #bcafa5;
 }
 
 /* line 71, ../sass/screen.sass */
@@ -488,7 +488,7 @@ p.callout {
 /* line 112, ../sass/screen.sass */
 .js .about {
   position: absolute;
-  height: 305px;
+  height: 308px;
   background: #bb5400;
   width: 100%;
   top: 0;
@@ -593,7 +593,7 @@ p.callout {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(87, 55, 29, 0.4);
+  background: rgba(87, 55, 29, 0.5);
 }
 
 /* line 184, ../sass/screen.sass */
