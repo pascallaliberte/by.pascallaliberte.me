@@ -1,0 +1,41 @@
+.js .about
+  position: absolute
+  height: 308px
+  background: #BB5400
+  width: 100%
+  top: 0
+  left: 0
+  color: white
+  z-index: 2
+
+.js .about-details
+  opacity: 1
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+  
+.js .about-details
+  max-width: 30em
+  margin: 0 auto
+  opacity: 0
+
+.is-top-gutter-shown .about-details
+  opacity: 1
+
+.about-name
+  font-size: 43px
+  line-height: 43px
+  width: 10em
+  margin-top: 30px
+  font-family: adelle
+  font-weight: 400
+  font-style: normal
+  
+.about-title
+  font-size: 30px
+  line-height: 32px
+  width: 10em
+  margin-top: 20px
+  font-family: adelle-sans
+  font-weight: 400
+  font-style: normal
+  color: rgba(255,255,255,0.7)

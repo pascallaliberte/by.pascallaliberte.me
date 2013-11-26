@@ -1,0 +1,17 @@
+@import "compass/css3"
+
+.js .intro
+  opacity: 1
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+
+.is-top-gutter-shown .intro
+  opacity: 0
+
+a.intro-more
+  text-decoration: none
+  color: inherit
+  
+a.intro-more:hover, a.intro-more:active
+  text-decoration: underline
+

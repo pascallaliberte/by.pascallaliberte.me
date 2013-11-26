@@ -1,0 +1,28 @@
+/* line 3, ../../sass/modules/intro.sass */
+.js .intro {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 8, ../../sass/modules/intro.sass */
+.is-top-gutter-shown .intro {
+  opacity: 0;
+}
+
+/* line 11, ../../sass/modules/intro.sass */
+a.intro-more {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 15, ../../sass/modules/intro.sass */
+a.intro-more:hover, a.intro-more:active {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+/* line 1, ../../sass/layouts/post.sass */
+.post, .intro, .about-details {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+/* line 5, ../../sass/layouts/post.sass */
+.js {
+  padding-top: 300px;
+}

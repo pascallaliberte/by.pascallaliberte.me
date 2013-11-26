@@ -1,0 +1,23 @@
+@import "compass/css3"
+
+.js .to-top
+  display: block
+  opacity: 0
+  z-index: 1
+  +transition-property(opacity)
+  +transition-duration(0.5s)
+
+.is-top .to-top
+  opacity: 1
+  height: 100%
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+  background: rgba(87,55,29,0.5)
+
+.is-top .to-top:hover, .is-top .to-top:active
+  opacity: 0.7
+
+a.to-top
+  text-indent: -1000em
