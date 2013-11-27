@@ -359,135 +359,114 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, ../sass/_base.sass */
-body {
-  font-family: adelle-sans, sans-serif;
+/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 0.3125em;
+}
+
+/* line 8, ../sass/_base.sass */
+html {
+  line-height: 1.5625em;
+  font-family: adelle-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 8, ../sass/_base.sass */
+/* line 14, ../sass/_base.sass */
 div.intro {
   font-family: adelle, serif;
-  padding: 20px 0 0;
+  padding-top: 1.25em;
   color: #bcafa5;
 }
 
-/* line 13, ../sass/_base.sass */
-blockquote {
-  margin-bottom: 25px;
-  font-size: 29px;
-  line-height: 50px;
-  text-indent: 0em;
-  border-left-width: 3px;
-  border-style: solid;
-  border-color: #333333;
-  padding-left: 25px;
-  margin-left: -28px;
-  font-family: adelle, serif;
-  font-weight: 100;
-  font-style: italic;
+/* line 3, ../sass/layouts/post.sass */
+.post, .intro, .about-details {
+  max-width: 30em;
+  margin: 0 auto;
 }
 
-/* line 27, ../sass/_base.sass */
-h1 {
-  font-size: 66px;
-  line-height: 75px;
-  margin-top: 120px;
-  margin-bottom: 25px;
+/* line 7, ../sass/layouts/post.sass */
+.js {
+  padding-top: 18.75em;
+}
+
+/* line 10, ../sass/layouts/post.sass */
+.post h1 {
+  font-size: 4.125em;
+  line-height: 1.13636em;
+  margin-top: 1.81818em;
+  margin-bottom: 0.37879em;
   font-family: adelle;
   font-weight: 400;
   font-style: normal;
   color: #bb5400;
 }
 
-/* line 37, ../sass/_base.sass */
-h2 {
-  font-size: 22px;
-  line-height: 28px;
+/* line 19, ../sass/layouts/post.sass */
+.post h2 {
+  font-size: 1.375em;
+  line-height: 1.13636em;
+  margin-top: 2.04545em;
+  margin-bottom: 1.36364em;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: adelle, serif;
   font-weight: 100;
   font-style: normal;
-  margin: 40px 0px 20px;
 }
 
-/* line 47, ../sass/_base.sass */
-p {
+/* line 29, ../sass/layouts/post.sass */
+.post p {
   text-indent: 0em;
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 1.5625em;
   font-family: adelle-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 55, ../sass/_base.sass */
-p.meta {
-  font-family: adelle, serif;
-  color: #bcafa5;
-}
-
-/* line 59, ../sass/_base.sass */
-p.author {
-  text-indent: 0px;
-  margin-bottom: 25px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #666464;
-  line-height: 25px;
-  font-family: adelle, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* line 70, ../sass/_base.sass */
-.post-details p:first-of-type {
-  text-indent: 0px;
-  margin-bottom: 15px;
-  line-height: 37px;
-  font-size: 24px;
-  letter-spacing: 0px;
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* line 80, ../sass/_base.sass */
-p.first {
-  margin-bottom: 25px;
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* line 86, ../sass/_base.sass */
-p.callout {
-  text-indent: 0em;
-  margin-bottom: 25px;
-  font-size: 29px;
-  line-height: 50px;
-  border-left-width: 3px;
-  border-style: solid;
-  border-color: #333333;
-  padding-left: 25px;
-  margin-left: -28px;
+/* line 37, ../sass/layouts/post.sass */
+.post blockquote {
+  margin-bottom: 1.5625em;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   font-family: adelle, serif;
   font-weight: 100;
   font-style: italic;
 }
 
-/* line 1, ../sass/layouts/post.sass */
-.post, .intro, .about-details {
-  max-width: 30em;
-  margin: 0 auto;
+/* line 46, ../sass/layouts/post.sass */
+.post blockquote p {
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
 }
 
-/* line 5, ../sass/layouts/post.sass */
-.js {
-  padding-top: 300px;
+/* line 52, ../sass/layouts/post.sass */
+.post p.meta {
+  font-family: adelle, serif;
+  color: #bcafa5;
+  margin-top: 0.78125em;
+  margin-bottom: 1.5625em;
+}
+
+/* line 58, ../sass/layouts/post.sass */
+.post-details > p:first-of-type {
+  font-size: 1.5em;
+  line-height: 1.45833em;
+  margin-bottom: 1.04167em;
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* line 3, ../sass/modules/intro.sass */

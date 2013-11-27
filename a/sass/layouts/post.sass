@@ -1,6 +1,63 @@
+@import "compass/typography/vertical_rhythm"
+
 .post, .intro, .about-details
   max-width: 30em
   margin: 0 auto
   
 .js
-  padding-top: 300px
+  +padding-leader(60)
+  
+.post h1
+  +adjust-font-size-to(66px, 15)
+  +leader(24, 66px)
+  +trailer(5, 66px)
+  font-family: adelle
+  font-weight: 400
+  font-style: normal
+  color: #BB5400
+
+.post h2
+  +adjust-font-size-to(22px, 5)
+  +leader(9, 22px)
+  +trailer(6, 22px)
+  letter-spacing: 1px
+  text-transform: uppercase
+  font-family: adelle, serif
+  font-weight: 100
+  font-style: normal
+
+.post p
+  text-indent: 0em
+  margin-top: 0
+  +trailer(5)
+  font-family: adelle-sans, sans-serif
+  font-weight: 400
+  font-style: normal
+
+.post blockquote
+  +trailer(5)
+  +adjust-font-size-to(20px, 5)
+  margin-left: (20/16)+em
+  margin-right: (20/16)+em
+  font-family: adelle, serif
+  font-weight: 100
+  font-style: italic
+
+.post blockquote p
+  font-size: 1em
+  font-family: inherit
+  font-weight: inherit
+  font-style: inherit
+  
+.post p.meta
+  font-family: adelle, serif
+  color: #BCAFA5
+  +leader(2.5)
+  +trailer(5)
+
+.post-details > p:first-of-type
+  +adjust-font-size-to(24px, 7)
+  +trailer(5, 24px)
+  font-family: adelle-sans, sans-serif
+  font-weight: 400
+  font-style: normal

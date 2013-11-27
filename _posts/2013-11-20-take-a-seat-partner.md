@@ -24,7 +24,7 @@ Those are my clients, and these are my partners.
 
 Clients want more than you can offer, and you close the case at some point. You define the scope. Win-win, for a time. You got more clients to serve.
 
-Partners, though, they help you as much as you help them. There’s give and take. Win-win, at a deeper level, and for longer. 
+> Partners, though, they help you as much as you help them. There’s give and take. Win-win, at a deeper level, and for longer. 
 
 Partners partly own your problems and you partly own theirs, and that’s okay because you communicate more openly, and you feed off of each other’s strengths.
 
