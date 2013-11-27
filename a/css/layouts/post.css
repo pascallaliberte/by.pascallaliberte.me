@@ -2,14 +2,15 @@
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
-/* line 7, ../../sass/layouts/post.sass */
+/* line 8, ../../sass/layouts/post.sass */
 .js {
   padding-top: 90em;
 }
 
-/* line 10, ../../sass/layouts/post.sass */
+/* line 11, ../../sass/layouts/post.sass */
 .post h1 {
   font-size: 4.125em;
   line-height: 5.45455em;
@@ -21,7 +22,7 @@
   color: #bb5400;
 }
 
-/* line 19, ../../sass/layouts/post.sass */
+/* line 20, ../../sass/layouts/post.sass */
 .post h2 {
   font-size: 1.375em;
   line-height: 5.45455em;
@@ -34,7 +35,7 @@
   font-style: normal;
 }
 
-/* line 29, ../../sass/layouts/post.sass */
+/* line 30, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -44,7 +45,7 @@
   font-style: normal;
 }
 
-/* line 37, ../../sass/layouts/post.sass */
+/* line 38, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 7.5em;
   font-size: 1.25em;
@@ -56,7 +57,7 @@
   font-style: italic;
 }
 
-/* line 46, ../../sass/layouts/post.sass */
+/* line 47, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -64,7 +65,7 @@
   font-style: inherit;
 }
 
-/* line 52, ../../sass/layouts/post.sass */
+/* line 53, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
@@ -72,7 +73,7 @@
   margin-bottom: 7.5em;
 }
 
-/* line 58, ../../sass/layouts/post.sass */
+/* line 59, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   font-size: 1.5em;
   line-height: 7em;
