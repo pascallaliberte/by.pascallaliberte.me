@@ -1,8 +1,17 @@
 (function($){
+  jQuery.extend( jQuery.easing, // from http://gsgd.co.uk/sandbox/jquery/easing/
+  {
+		easeOutQuart: function (x, t, b, c, d) {
+			return -c * ((t=t/d-1)*t*t*t - 1) + b;
+		}
+  });
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
     
-    $(".intro-more,.to-top").smoothScroll();
+    $(".intro-more,.to-top").smoothScroll({
+      easing: 'easeOutQuart',
+      speed: 600
+    });
 
     topGutterHeight = parseInt($("body").eq(0).css("padding-top"))
 
