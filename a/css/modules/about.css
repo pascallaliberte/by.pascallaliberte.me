@@ -1,77 +1,90 @@
-/*
-Syntax error: Undefined mixin 'rem'.
-        on line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `rem'
-        from line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass
+/* line 5, ../../sass/modules/about.sass */
+.js .about {
+  position: absolute;
+  height: 308px;
+  height: 30.8rem;
+  background: #bb5400;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  z-index: 2;
+}
 
-1: /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass
+/* line 15, ../../sass/modules/about.sass */
+.js .about-details {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
 
-Backtrace:
-/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:3:in `rem'
-/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:3
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:18:in `block in generate'
-/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:17:in `chdir'
-/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:17:in `generate'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/site.rb:195:in `block in generate'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/site.rb:194:in `each'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/site.rb:194:in `generate'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/site.rb:35:in `process'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/command.rb:18:in `process_site'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.2.1/lib/jekyll/commands/build.rb:47:in `block in watch'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher.rb:580:in `call'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher.rb:580:in `block in notify_observers'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher.rb:579:in `each'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher.rb:579:in `notify_observers'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher.rb:334:in `block in initialize'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher/scanner.rb:224:in `call'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher/scanner.rb:224:in `notify'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher/scanner.rb:102:in `run_once'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher/scanner.rb:150:in `run_loop'
-/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/directory_watcher-1.4.1/lib/directory_watcher/scanner.rb:45:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'rem'.\A         on line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `rem'\A         from line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass\A \A 1: /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass"; }
+/* line 20, ../../sass/modules/about.sass */
+.js .about-details {
+  max-width: 30em;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+/* line 25, ../../sass/modules/about.sass */
+.is-top-gutter-shown .about-details {
+  opacity: 1;
+}
+
+/* line 28, ../../sass/modules/about.sass */
+.about-name {
+  font-size: 35px;
+  font-size: 3.5rem;
+  line-height: 40px;
+  line-height: 4rem;
+  margin-top: 30px;
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  width: 10em;
+  font-family: adelle;
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (min-width: 32em) {
+  /* line 28, ../../sass/modules/about.sass */
+  .about-name {
+    font-size: 43px;
+    font-size: 4.3rem;
+    line-height: 50px;
+    line-height: 5rem;
+    margin-top: 30px;
+    margin-top: 3rem;
+  }
+}
+
+/* line 42, ../../sass/modules/about.sass */
+.about-title {
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  margin-top: 20px;
+  margin-top: 2rem;
+  width: 10em;
+  font-family: adelle-sans;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+@media only screen and (min-width: 32em) {
+  /* line 42, ../../sass/modules/about.sass */
+  .about-title {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 32px;
+    line-height: 3.2rem;
+    margin-top: 20px;
+    margin-top: 2rem;
+  }
+}

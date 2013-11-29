@@ -1,4 +1,5 @@
 @import "compass/css3"
+@import "site-settings"
 @import "mixins"
 
 .blog-nav-container
@@ -27,7 +28,7 @@
 
 .blog-nav-previous, .blog-nav-next
   position: absolute
-  +rem(bottom, 100px)
+  +rem(bottom, 60px)
   font-family: adelle
   font-weight: 400
   +rem(font-size, 25px)
@@ -35,18 +36,21 @@
   text-decoration: none
   width: 25%
   background: rgba(87,55,29,0.4)
-  +rem(padding, 30px)
-  padding: 30px
+  +rem(padding, 20px)
   +transition-property(background)
   +transition-duration(0.5s)
   z-index: 3
+  +min-width($medium-width)
+    +rem(padding, 30px)
+    +rem(bottom, 100px)
 
 .blog-nav-previous:hover, .blog-nav-next:hover
   background: rgba(87,55,29,0.6)
   color: white
 
 .blog-nav-previous:active, .blog-nav-next:active
-  +rem(bottom, 99px)
+  +transition-property(none)
+  background: rgba(87,55,29,0.8)
 
 .is-top .blog-nav-previous, .is-top .blog-nav-next
   color: white
@@ -63,8 +67,15 @@
   text-transform: uppercase
   margin: 0
   +rem(font-size, 15px)
-  
+  +rem(line-height, 20px)
+
+.blog-nav-label .separator
+  display: none
+
 .blog-nav-post-title
   font-family: adelle
   font-weight: 400
   margin: 0
+  display: none
+  +min-width($medium-width)
+    display: block

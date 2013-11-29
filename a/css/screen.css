@@ -359,7 +359,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 3, ../sass/_base.sass */
+/* line 5, ../sass/_base.sass */
 html {
   font-size: 62.5%;
   font-family: adelle-sans, sans-serif;
@@ -367,7 +367,7 @@ html {
   font-style: normal;
 }
 
-/* line 9, ../sass/_base.sass */
+/* line 11, ../sass/_base.sass */
 body {
   font-size: 16px;
   font-size: 1.6rem;
@@ -375,7 +375,7 @@ body {
   line-height: 2.5rem;
 }
 
-/* line 13, ../sass/_base.sass */
+/* line 15, ../sass/_base.sass */
 div.intro {
   font-family: adelle, serif;
   padding-top: 20px;
@@ -383,27 +383,27 @@ div.intro {
   color: #bcafa5;
 }
 
-/* line 3, ../sass/layouts/post.sass */
+/* line 4, ../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 8, ../sass/layouts/post.sass */
+/* line 9, ../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 11, ../sass/layouts/post.sass */
+/* line 12, ../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
   line-height: 50px;
   line-height: 5rem;
-  margin-top: 70px;
-  margin-top: 7rem;
+  margin-top: 50px;
+  margin-top: 5rem;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
   font-family: adelle;
@@ -411,9 +411,8 @@ div.intro {
   font-style: normal;
   color: #bb5400;
 }
-
 @media only screen and (min-width: 32em) {
-  /* line 22, ../sass/layouts/post.sass */
+  /* line 12, ../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -421,15 +420,10 @@ div.intro {
     line-height: 7.5rem;
     margin-top: 120px;
     margin-top: 12rem;
-    margin-bottom: 25px;
-    margin-bottom: 2.5rem;
-    font-family: adelle;
-    font-weight: 400;
-    font-style: normal;
-    color: #bb5400;
   }
 }
-/* line 32, ../sass/layouts/post.sass */
+
+/* line 26, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -445,7 +439,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 42, ../sass/layouts/post.sass */
+/* line 36, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -456,7 +450,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 50, ../sass/layouts/post.sass */
+/* line 44, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -473,7 +467,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 60, ../sass/layouts/post.sass */
+/* line 54, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -481,13 +475,13 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 66, ../sass/layouts/post.sass */
+/* line 60, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
 }
 
-/* line 70, ../sass/layouts/post.sass */
+/* line 64, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -501,7 +495,7 @@ div.intro {
   font-style: normal;
 }
 @media only screen and (min-width: 32em) {
-  /* line 70, ../sass/layouts/post.sass */
+  /* line 64, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -539,7 +533,7 @@ a.intro-more:hover, a.intro-more:active {
   text-decoration: underline;
 }
 
-/* line 1, ../sass/modules/about.sass */
+/* line 5, ../sass/modules/about.sass */
 .js .about {
   position: absolute;
   height: 308px;
@@ -552,7 +546,7 @@ a.intro-more:hover, a.intro-more:active {
   z-index: 2;
 }
 
-/* line 11, ../sass/modules/about.sass */
+/* line 15, ../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -565,38 +559,51 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
 }
 
-/* line 16, ../sass/modules/about.sass */
+/* line 20, ../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 21, ../sass/modules/about.sass */
+/* line 25, ../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 24, ../sass/modules/about.sass */
+/* line 28, ../sass/modules/about.sass */
 .about-name {
-  font-size: 43px;
-  font-size: 4.3rem;
-  line-height: 50px;
-  line-height: 5rem;
+  font-size: 35px;
+  font-size: 3.5rem;
+  line-height: 40px;
+  line-height: 4rem;
   margin-top: 30px;
   margin-top: 3rem;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
   width: 10em;
   font-family: adelle;
   font-weight: 400;
   font-style: normal;
 }
+@media only screen and (min-width: 32em) {
+  /* line 28, ../sass/modules/about.sass */
+  .about-name {
+    font-size: 43px;
+    font-size: 4.3rem;
+    line-height: 50px;
+    line-height: 5rem;
+    margin-top: 30px;
+    margin-top: 3rem;
+  }
+}
 
-/* line 33, ../sass/modules/about.sass */
+/* line 42, ../sass/modules/about.sass */
 .about-title {
-  font-size: 30px;
-  font-size: 3rem;
-  line-height: 32px;
-  line-height: 3.2rem;
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 25px;
+  line-height: 2.5rem;
   margin-top: 20px;
   margin-top: 2rem;
   width: 10em;
@@ -605,14 +612,25 @@ a.intro-more:hover, a.intro-more:active {
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
+@media only screen and (min-width: 32em) {
+  /* line 42, ../sass/modules/about.sass */
+  .about-title {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 32px;
+    line-height: 3.2rem;
+    margin-top: 20px;
+    margin-top: 2rem;
+  }
+}
 
-/* line 4, ../sass/modules/blog-nav.sass */
+/* line 5, ../sass/modules/blog-nav.sass */
 .blog-nav-container {
   height: 300px;
   height: 30rem;
 }
 
-/* line 7, ../sass/modules/blog-nav.sass */
+/* line 8, ../sass/modules/blog-nav.sass */
 .blog-nav {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -629,17 +647,17 @@ a.intro-more:hover, a.intro-more:active {
   width: 100%;
 }
 
-/* line 15, ../sass/modules/blog-nav.sass */
+/* line 16, ../sass/modules/blog-nav.sass */
 .js .blog-nav {
   opacity: 0;
 }
 
-/* line 18, ../sass/modules/blog-nav.sass */
+/* line 19, ../sass/modules/blog-nav.sass */
 .is-not-top-gutter-shown .blog-nav {
   opacity: 1;
 }
 
-/* line 21, ../sass/modules/blog-nav.sass */
+/* line 22, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav {
   opacity: 1;
   height: 100%;
@@ -648,11 +666,11 @@ a.intro-more:hover, a.intro-more:active {
   left: 0;
 }
 
-/* line 28, ../sass/modules/blog-nav.sass */
+/* line 29, ../sass/modules/blog-nav.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
-  bottom: 100px;
-  bottom: 10rem;
+  bottom: 60px;
+  bottom: 6rem;
   font-family: adelle;
   font-weight: 400;
   font-size: 25px;
@@ -661,9 +679,8 @@ a.intro-more:hover, a.intro-more:active {
   text-decoration: none;
   width: 25%;
   background: rgba(87, 55, 29, 0.4);
-  padding: 30px;
-  padding: 3rem;
-  padding: 30px;
+  padding: 20px;
+  padding: 2rem;
   -webkit-transition-property: background;
   -moz-transition-property: background;
   -o-transition-property: background;
@@ -674,49 +691,75 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
   z-index: 3;
 }
+@media only screen and (min-width: 32em) {
+  /* line 29, ../sass/modules/blog-nav.sass */
+  .blog-nav-previous, .blog-nav-next {
+    padding: 30px;
+    padding: 3rem;
+    bottom: 100px;
+    bottom: 10rem;
+  }
+}
 
-/* line 44, ../sass/modules/blog-nav.sass */
+/* line 47, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.6);
   color: white;
 }
 
-/* line 48, ../sass/modules/blog-nav.sass */
+/* line 51, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
-  bottom: 99px;
-  bottom: 9.9rem;
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  background: rgba(87, 55, 29, 0.8);
 }
 
-/* line 51, ../sass/modules/blog-nav.sass */
+/* line 55, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   color: white;
 }
 
-/* line 54, ../sass/modules/blog-nav.sass */
+/* line 58, ../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 57, ../sass/modules/blog-nav.sass */
+/* line 61, ../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 61, ../sass/modules/blog-nav.sass */
+/* line 65, ../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
   margin: 0;
   font-size: 15px;
   font-size: 1.5rem;
+  line-height: 20px;
+  line-height: 2rem;
 }
 
-/* line 67, ../sass/modules/blog-nav.sass */
+/* line 72, ../sass/modules/blog-nav.sass */
+.blog-nav-label .separator {
+  display: none;
+}
+
+/* line 75, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
+  display: none;
+}
+@media only screen and (min-width: 32em) {
+  /* line 75, ../sass/modules/blog-nav.sass */
+  .blog-nav-post-title {
+    display: block;
+  }
 }
 
 /* line 3, ../sass/modules/to-top.sass */

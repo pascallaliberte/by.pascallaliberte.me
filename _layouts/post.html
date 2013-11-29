@@ -32,7 +32,7 @@ layout: default
   <nav class="blog-nav">
     {% if page.previous.url %} 
     <a href="{{page.previous.url}}" class="blog-nav-previous">
-      <h3 class="blog-nav-label">Previous post:</h3>
+      <h3 class="blog-nav-label">Previous post<span class="separator">:</span></h3>
       <p class="blog-nav-post-title">
       {{page.previous.title}}
       </p>
@@ -40,7 +40,7 @@ layout: default
     {% endif %} 
     {% if page.next.url %} 
     <a href="{{page.next.url}}" class="blog-nav-next">
-      <h3 class="blog-nav-label">Next post:</h3>
+      <h3 class="blog-nav-label">Next post<span class="separator">:</span></h3>
       <p class="blog-nav-post-title">
       {{page.next.title}}
       </p>

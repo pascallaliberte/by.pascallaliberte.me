@@ -1,3 +1,4 @@
+@import "site-settings"
 @import "mixins"
 
 .post, .intro, .about-details
@@ -11,23 +12,16 @@
 .post h1
   +rem(font-size, 43px)
   +rem(line-height, 50px)
-  +rem(margin-top, 70px)
+  +rem(margin-top, 50px)
   +rem(margin-bottom, 25px)
   font-family: adelle
   font-weight: 400
   font-style: normal
   color: #BB5400
-
-+min-width(32em)
-  .post h1
+  +min-width($medium-width)
     +rem(font-size, 66px)
     +rem(line-height, 75px)
     +rem(margin-top, 120px)
-    +rem(margin-bottom, 25px)
-    font-family: adelle
-    font-weight: 400
-    font-style: normal
-    color: #BB5400
 
 .post h2
   +rem(font-size, 22px)
@@ -75,7 +69,7 @@
   font-family: adelle-sans, sans-serif
   font-weight: 400
   font-style: normal
-  +min-width(32em)
+  +min-width($medium-width)
     +rem(line-height, 36px)
     +rem(margin-bottom, 15px)
   

@@ -1,24 +1,24 @@
-/* line 3, ../../sass/layouts/post.sass */
+/* line 4, ../../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 8, ../../sass/layouts/post.sass */
+/* line 9, ../../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 11, ../../sass/layouts/post.sass */
+/* line 12, ../../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
   line-height: 50px;
   line-height: 5rem;
-  margin-top: 70px;
-  margin-top: 7rem;
+  margin-top: 50px;
+  margin-top: 5rem;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
   font-family: adelle;
@@ -26,9 +26,8 @@
   font-style: normal;
   color: #bb5400;
 }
-
 @media only screen and (min-width: 32em) {
-  /* line 22, ../../sass/layouts/post.sass */
+  /* line 12, ../../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -36,15 +35,10 @@
     line-height: 7.5rem;
     margin-top: 120px;
     margin-top: 12rem;
-    margin-bottom: 25px;
-    margin-bottom: 2.5rem;
-    font-family: adelle;
-    font-weight: 400;
-    font-style: normal;
-    color: #bb5400;
   }
 }
-/* line 32, ../../sass/layouts/post.sass */
+
+/* line 26, ../../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -60,7 +54,7 @@
   font-style: normal;
 }
 
-/* line 42, ../../sass/layouts/post.sass */
+/* line 36, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -71,7 +65,7 @@
   font-style: normal;
 }
 
-/* line 50, ../../sass/layouts/post.sass */
+/* line 44, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -88,7 +82,7 @@
   font-style: italic;
 }
 
-/* line 60, ../../sass/layouts/post.sass */
+/* line 54, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -96,13 +90,13 @@
   font-style: inherit;
 }
 
-/* line 66, ../../sass/layouts/post.sass */
+/* line 60, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
 }
 
-/* line 70, ../../sass/layouts/post.sass */
+/* line 64, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -116,7 +110,7 @@
   font-style: normal;
 }
 @media only screen and (min-width: 32em) {
-  /* line 70, ../../sass/layouts/post.sass */
+  /* line 64, ../../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
