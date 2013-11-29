@@ -1,4 +1,3 @@
-@import "compass/typography/vertical_rhythm"
 @import "mixins"
 
 .post, .intro, .about-details
@@ -7,12 +6,13 @@
   padding: 0 1em
   
 .js
-  +padding-leader(60)
+  +rem(padding-top, 300px)
 
 .post h1
-  +adjust-font-size-to(43px, 10)
-  +leader(20, 43px)
-  +trailer(5, 66px)
+  +rem(font-size, 43px)
+  +rem(line-height, 50px)
+  +rem(margin-top, 70px)
+  +rem(margin-bottom, 25px)
   font-family: adelle
   font-weight: 400
   font-style: normal
@@ -20,19 +20,20 @@
 
 +min-width(30em)
   .post h1
-    +adjust-font-size-to(66px, 15)
-    +leader(24, 66px)
-    +trailer(5, 66px)
+    +rem(font-size, 66px)
+    +rem(line-height, 75px)
+    +rem(margin-top, 120px)
+    +rem(margin-bottom, 25px)
     font-family: adelle
     font-weight: 400
     font-style: normal
     color: #BB5400
 
 .post h2
-  +adjust-font-size-to(22px, 5)
-  +leader(9, 22px)
-  +trailer(6, 22px)
-  letter-spacing: 1px
+  +rem(font-size, 22px)
+  +rem(line-height, 28px)
+  +rem(margin, 40px 0px 20px)
+  +rem(letter-spacing, 1px)
   text-transform: uppercase
   font-family: adelle, serif
   font-weight: 100
@@ -41,16 +42,17 @@
 .post p
   text-indent: 0em
   margin-top: 0
-  +trailer(5)
+  +rem(margin-bottom, 25px)
   font-family: adelle-sans, sans-serif
   font-weight: 400
   font-style: normal
 
 .post blockquote
-  +trailer(5)
-  +adjust-font-size-to(20px, 5)
-  margin-left: (20/16)+em
-  margin-right: (20/16)+em
+  +rem(margin-bottom, 25px)
+  +rem(font-size, 20px)
+  +rem(line-height, 25px)
+  +rem(margin-left, 20px)
+  +rem(margin-right, 20px)
   font-family: adelle, serif
   font-weight: 100
   font-style: italic
@@ -64,12 +66,12 @@
 .post p.meta
   font-family: adelle, serif
   color: #BCAFA5
-  +leader(2.5)
-  +trailer(5)
 
 .post-details > p:first-of-type
-  +adjust-font-size-to(24px, 7)
-  +trailer(5, 24px)
+  text-indent: 0
+  +rem(font-size, 24px)
+  +rem(line-height, 37px)
+  +rem(margin-bottom, 15px)
   font-family: adelle-sans, sans-serif
   font-weight: 400
   font-style: normal

@@ -1,21 +1,26 @@
-/* line 4, ../../sass/layouts/post.sass */
+/* line 3, ../../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 9, ../../sass/layouts/post.sass */
+/* line 8, ../../sass/layouts/post.sass */
 .js {
-  padding-top: 90em;
+  padding-top: 300px;
+  padding-top: 30rem;
 }
 
-/* line 12, ../../sass/layouts/post.sass */
+/* line 11, ../../sass/layouts/post.sass */
 .post h1 {
-  font-size: 2.6875em;
-  line-height: 5.5814em;
-  margin-top: 11.16279em;
-  margin-bottom: 1.81818em;
+  font-size: 43px;
+  font-size: 4.3rem;
+  line-height: 50px;
+  line-height: 5rem;
+  margin-top: 70px;
+  margin-top: 7rem;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   font-family: adelle;
   font-weight: 400;
   font-style: normal;
@@ -25,52 +30,65 @@
 @media only screen and (min-width: 30em) {
   /* line 22, ../../sass/layouts/post.sass */
   .post h1 {
-    font-size: 4.125em;
-    line-height: 5.45455em;
-    margin-top: 8.72727em;
-    margin-bottom: 1.81818em;
+    font-size: 66px;
+    font-size: 6.6rem;
+    line-height: 75px;
+    line-height: 7.5rem;
+    margin-top: 120px;
+    margin-top: 12rem;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     font-family: adelle;
     font-weight: 400;
     font-style: normal;
     color: #bb5400;
   }
 }
-/* line 31, ../../sass/layouts/post.sass */
+/* line 32, ../../sass/layouts/post.sass */
 .post h2 {
-  font-size: 1.375em;
-  line-height: 5.45455em;
-  margin-top: 9.81818em;
-  margin-bottom: 6.54545em;
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  margin: 40px 0px 20px;
+  margin: 4rem 0px 2rem;
   letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   font-family: adelle, serif;
   font-weight: 100;
   font-style: normal;
 }
 
-/* line 41, ../../sass/layouts/post.sass */
+/* line 42, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
-  margin-bottom: 7.5em;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   font-family: adelle-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 49, ../../sass/layouts/post.sass */
+/* line 50, ../../sass/layouts/post.sass */
 .post blockquote {
-  margin-bottom: 7.5em;
-  font-size: 1.25em;
-  line-height: 6em;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  margin-left: 20px;
+  margin-left: 2rem;
+  margin-right: 20px;
+  margin-right: 2rem;
   font-family: adelle, serif;
   font-weight: 100;
   font-style: italic;
 }
 
-/* line 58, ../../sass/layouts/post.sass */
+/* line 60, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -78,19 +96,21 @@
   font-style: inherit;
 }
 
-/* line 64, ../../sass/layouts/post.sass */
+/* line 66, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
-  margin-top: 3.75em;
-  margin-bottom: 7.5em;
 }
 
 /* line 70, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
-  font-size: 1.5em;
-  line-height: 7em;
-  margin-bottom: 5em;
+  text-indent: 0;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 37px;
+  line-height: 3.7rem;
+  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   font-family: adelle-sans, sans-serif;
   font-weight: 400;
   font-style: normal;

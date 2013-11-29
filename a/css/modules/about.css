@@ -1,11 +1,13 @@
 /*
-Syntax error: Undefined mixin 'transition-property'.
-        on line 13 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `transition-property'
-        from line 13 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass
+Syntax error: Undefined mixin 'rem'.
+        on line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `rem'
+        from line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass
+
+1: /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass
 
 Backtrace:
-/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:13:in `transition-property'
-/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:13
+/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:3:in `rem'
+/Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass:3
 /Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -72,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'transition-property'.\A         on line 13 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `transition-property'\A         from line 13 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass"; }
+  content: "Syntax error: Undefined mixin 'rem'.\A         on line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass, in `rem'\A         from line 3 of /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass\A \A 1: /Users/work/Desktop/Blogue/prototype/a/sass/modules/about.sass"; }
