@@ -385,23 +385,23 @@ div.intro {
   color: #bcafa5;
 }
 
-/* line 3, ../sass/layouts/post.sass */
+/* line 4, ../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 8, ../sass/layouts/post.sass */
+/* line 9, ../sass/layouts/post.sass */
 .js {
   padding-top: 18.75em;
 }
 
-/* line 11, ../sass/layouts/post.sass */
+/* line 12, ../sass/layouts/post.sass */
 .post h1 {
-  font-size: 4.125em;
-  line-height: 1.13636em;
-  margin-top: 1.81818em;
+  font-size: 2.6875em;
+  line-height: 1.16279em;
+  margin-top: 2.32558em;
   margin-bottom: 0.37879em;
   font-family: adelle;
   font-weight: 400;
@@ -409,7 +409,20 @@ div.intro {
   color: #bb5400;
 }
 
-/* line 20, ../sass/layouts/post.sass */
+@media only screen and (min-width: 30em) {
+  /* line 22, ../sass/layouts/post.sass */
+  .post h1 {
+    font-size: 4.125em;
+    line-height: 1.13636em;
+    margin-top: 1.81818em;
+    margin-bottom: 0.37879em;
+    font-family: adelle;
+    font-weight: 400;
+    font-style: normal;
+    color: #bb5400;
+  }
+}
+/* line 31, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 1.375em;
   line-height: 1.13636em;
@@ -422,7 +435,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 30, ../sass/layouts/post.sass */
+/* line 41, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -432,7 +445,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 38, ../sass/layouts/post.sass */
+/* line 49, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 1.5625em;
   font-size: 1.25em;
@@ -444,7 +457,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 47, ../sass/layouts/post.sass */
+/* line 58, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -452,7 +465,7 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 53, ../sass/layouts/post.sass */
+/* line 64, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
@@ -460,7 +473,7 @@ div.intro {
   margin-bottom: 1.5625em;
 }
 
-/* line 59, ../sass/layouts/post.sass */
+/* line 70, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   font-size: 1.5em;
   line-height: 1.45833em;
