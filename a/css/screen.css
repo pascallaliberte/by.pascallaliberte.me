@@ -771,7 +771,7 @@ a.intro-more:hover, a.intro-more:active {
 
 /* line 3, ../sass/modules/to-top.sass */
 .js .to-top {
-  display: block;
+  display: none;
   opacity: 0;
   z-index: 1;
   -webkit-transition-property: opacity;
@@ -786,6 +786,7 @@ a.intro-more:hover, a.intro-more:active {
 
 /* line 10, ../sass/modules/to-top.sass */
 .is-top .to-top {
+  display: block;
   opacity: 1;
   height: 100%;
   width: 100%;
@@ -795,12 +796,12 @@ a.intro-more:hover, a.intro-more:active {
   background: rgba(87, 55, 29, 0.5);
 }
 
-/* line 19, ../sass/modules/to-top.sass */
+/* line 20, ../sass/modules/to-top.sass */
 .is-top .to-top:hover, .is-top .to-top:active {
   opacity: 0.7;
 }
 
-/* line 22, ../sass/modules/to-top.sass */
-a.to-top {
+/* line 23, ../sass/modules/to-top.sass */
+.js a.to-top {
   text-indent: -1000em;
 }
