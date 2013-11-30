@@ -32,7 +32,8 @@
   +rem(bottom, 60px)
   font-family: adelle
   font-weight: 400
-  +rem(font-size, 25px)
+  +rem(font-size, 20px)
+  +rem(line-height, 22px)
   color: black
   text-decoration: none
   width: 25%
@@ -44,6 +45,9 @@
   +breakpoint((min-width $medium-width) (min-height $small-height))
     +rem(padding, 30px)
     +rem(bottom, 100px)
+  +breakpoint(min-height $medium-height)
+    +rem(font-size, 25px)
+    +rem(line-height, 30px)
 
 .blog-nav-previous:hover, .blog-nav-next:hover
   background: rgba(87,55,29,0.6)
@@ -58,6 +62,11 @@
   color: white
   +breakpoint(min-height $small-height)
     display: block
+    +rem(bottom, 30px)
+  +breakpoint(min-height $medium-height)    
+    +rem(bottom, 50px)
+  +breakpoint(min-height $tall-height)
+    +rem(bottom, 100px)
 
 .blog-nav-previous
   left: 0
@@ -70,8 +79,11 @@
   font-family: adelle-sans
   text-transform: uppercase
   margin: 0
-  +rem(font-size, 15px)
-  +rem(line-height, 20px)
+  +rem(font-size, 12px)
+  +rem(line-height, 15px)
+  +breakpoint(min-height $medium-height)
+    +rem(font-size, 15px)
+    +rem(line-height, 20px)
 
 .blog-nav-label .separator
   display: none

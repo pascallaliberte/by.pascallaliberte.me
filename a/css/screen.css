@@ -407,38 +407,26 @@ div.intro {
   margin: 0 auto;
   padding: 0 1em;
 }
-@media (min-width: 880px) {
-  /* line 5, ../sass/layouts/post.sass */
-  .post, .intro, .about-details {
-    max-width: 576px;
-  }
-}
-@media (min-width: 1100px) {
-  /* line 5, ../sass/layouts/post.sass */
-  .post, .intro, .about-details {
-    max-width: 720px;
-  }
-}
 
 @media (min-width: 880px) {
-  /* line 15, ../sass/layouts/post.sass */
+  /* line 11, ../sass/layouts/post.sass */
   html {
     font-size: 75%;
   }
 }
 @media (min-width: 1100px) {
-  /* line 19, ../sass/layouts/post.sass */
+  /* line 15, ../sass/layouts/post.sass */
   html {
     font-size: 93.75%;
   }
 }
-/* line 22, ../sass/layouts/post.sass */
+/* line 18, ../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 25, ../sass/layouts/post.sass */
+/* line 21, ../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
@@ -453,8 +441,8 @@ div.intro {
   font-style: normal;
   color: #bb5400;
 }
-@media (min-width: 512px) and (min-height: 400px) {
-  /* line 25, ../sass/layouts/post.sass */
+@media (min-width: 512px) and (min-height: 25em) {
+  /* line 21, ../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -465,7 +453,7 @@ div.intro {
   }
 }
 
-/* line 39, ../sass/layouts/post.sass */
+/* line 35, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -481,7 +469,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 49, ../sass/layouts/post.sass */
+/* line 45, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -492,7 +480,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 57, ../sass/layouts/post.sass */
+/* line 53, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -505,8 +493,8 @@ div.intro {
   font-weight: 400;
   font-style: normal;
 }
-@media (min-width: 512px) and (min-height: 400px) {
-  /* line 57, ../sass/layouts/post.sass */
+@media (min-width: 512px) and (min-height: 25em) {
+  /* line 53, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -515,7 +503,7 @@ div.intro {
   }
 }
 
-/* line 69, ../sass/layouts/post.sass */
+/* line 65, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -532,7 +520,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 79, ../sass/layouts/post.sass */
+/* line 75, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -540,7 +528,7 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 85, ../sass/layouts/post.sass */
+/* line 81, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
@@ -715,8 +703,10 @@ a.intro-more:hover, a.intro-more:active {
   bottom: 6rem;
   font-family: adelle;
   font-weight: 400;
-  font-size: 25px;
-  font-size: 2.5rem;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 22px;
+  line-height: 2.2rem;
   color: black;
   text-decoration: none;
   width: 25%;
@@ -733,7 +723,7 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
   z-index: 3;
 }
-@media (min-width: 512px) and (min-height: 400px) {
+@media (min-width: 512px) and (min-height: 25em) {
   /* line 30, ../sass/modules/blog-nav.sass */
   .blog-nav-previous, .blog-nav-next {
     padding: 30px;
@@ -742,14 +732,23 @@ a.intro-more:hover, a.intro-more:active {
     bottom: 10rem;
   }
 }
+@media (min-height: 40em) {
+  /* line 30, ../sass/modules/blog-nav.sass */
+  .blog-nav-previous, .blog-nav-next {
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 30px;
+    line-height: 3rem;
+  }
+}
 
-/* line 48, ../sass/modules/blog-nav.sass */
+/* line 52, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.6);
   color: white;
 }
 
-/* line 52, ../sass/modules/blog-nav.sass */
+/* line 56, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   -webkit-transition-property: none;
   -moz-transition-property: none;
@@ -758,54 +757,79 @@ a.intro-more:hover, a.intro-more:active {
   background: rgba(87, 55, 29, 0.8);
 }
 
-/* line 56, ../sass/modules/blog-nav.sass */
+/* line 60, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   display: none;
   color: white;
 }
-@media (min-height: 400px) {
-  /* line 56, ../sass/modules/blog-nav.sass */
+@media (min-height: 25em) {
+  /* line 60, ../sass/modules/blog-nav.sass */
   .is-top .blog-nav-previous, .is-top .blog-nav-next {
     display: block;
+    bottom: 30px;
+    bottom: 3rem;
+  }
+}
+@media (min-height: 40em) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 50px;
+    bottom: 5rem;
+  }
+}
+@media (min-height: 60em) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 100px;
+    bottom: 10rem;
   }
 }
 
-/* line 62, ../sass/modules/blog-nav.sass */
+/* line 71, ../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 65, ../sass/modules/blog-nav.sass */
+/* line 74, ../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 69, ../sass/modules/blog-nav.sass */
+/* line 78, ../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
   margin: 0;
-  font-size: 15px;
-  font-size: 1.5rem;
-  line-height: 20px;
-  line-height: 2rem;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+}
+@media (min-height: 40em) {
+  /* line 78, ../sass/modules/blog-nav.sass */
+  .blog-nav-label {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 20px;
+    line-height: 2rem;
+  }
 }
 
-/* line 76, ../sass/modules/blog-nav.sass */
+/* line 88, ../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 79, ../sass/modules/blog-nav.sass */
+/* line 91, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
   display: none;
 }
-@media (min-width: 512px) and (min-height: 400px) {
-  /* line 79, ../sass/modules/blog-nav.sass */
+@media (min-width: 512px) and (min-height: 25em) {
+  /* line 91, ../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }
