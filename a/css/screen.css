@@ -359,7 +359,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 5, ../sass/_base.sass */
+/* line 6, ../sass/_base.sass */
 html {
   font-size: 62.5%;
   font-family: adelle-sans, sans-serif;
@@ -367,7 +367,7 @@ html {
   font-style: normal;
 }
 
-/* line 11, ../sass/_base.sass */
+/* line 12, ../sass/_base.sass */
 body {
   font-size: 16px;
   font-size: 1.6rem;
@@ -375,7 +375,7 @@ body {
   line-height: 2.5rem;
 }
 
-/* line 15, ../sass/_base.sass */
+/* line 16, ../sass/_base.sass */
 div.intro {
   font-family: adelle, serif;
   padding-top: 20px;
@@ -383,20 +383,20 @@ div.intro {
   color: #bcafa5;
 }
 
-/* line 4, ../sass/layouts/post.sass */
+/* line 5, ../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 9, ../sass/layouts/post.sass */
+/* line 10, ../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 12, ../sass/layouts/post.sass */
+/* line 13, ../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
@@ -411,8 +411,8 @@ div.intro {
   font-style: normal;
   color: #bb5400;
 }
-@media only screen and (min-width: 32em) {
-  /* line 12, ../sass/layouts/post.sass */
+@media (min-width: 32em) {
+  /* line 13, ../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -423,7 +423,7 @@ div.intro {
   }
 }
 
-/* line 26, ../sass/layouts/post.sass */
+/* line 27, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -439,7 +439,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 36, ../sass/layouts/post.sass */
+/* line 37, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -450,7 +450,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 44, ../sass/layouts/post.sass */
+/* line 45, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -467,7 +467,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 54, ../sass/layouts/post.sass */
+/* line 55, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -475,13 +475,13 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 60, ../sass/layouts/post.sass */
+/* line 61, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
 }
 
-/* line 64, ../sass/layouts/post.sass */
+/* line 65, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -494,8 +494,8 @@ div.intro {
   font-weight: 400;
   font-style: normal;
 }
-@media only screen and (min-width: 32em) {
-  /* line 64, ../sass/layouts/post.sass */
+@media (min-width: 32em) {
+  /* line 65, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -533,7 +533,7 @@ a.intro-more:hover, a.intro-more:active {
   text-decoration: underline;
 }
 
-/* line 5, ../sass/modules/about.sass */
+/* line 6, ../sass/modules/about.sass */
 .js .about {
   position: absolute;
   height: 308px;
@@ -546,7 +546,7 @@ a.intro-more:hover, a.intro-more:active {
   z-index: 2;
 }
 
-/* line 15, ../sass/modules/about.sass */
+/* line 16, ../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -559,19 +559,19 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
 }
 
-/* line 20, ../sass/modules/about.sass */
+/* line 21, ../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 25, ../sass/modules/about.sass */
+/* line 26, ../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 28, ../sass/modules/about.sass */
+/* line 29, ../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -586,8 +586,8 @@ a.intro-more:hover, a.intro-more:active {
   font-weight: 400;
   font-style: normal;
 }
-@media only screen and (min-width: 32em) {
-  /* line 28, ../sass/modules/about.sass */
+@media (min-width: 32em) {
+  /* line 29, ../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -598,7 +598,7 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 42, ../sass/modules/about.sass */
+/* line 43, ../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
@@ -612,8 +612,8 @@ a.intro-more:hover, a.intro-more:active {
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (min-width: 32em) {
-  /* line 42, ../sass/modules/about.sass */
+@media (min-width: 32em) {
+  /* line 43, ../sass/modules/about.sass */
   .about-title {
     font-size: 30px;
     font-size: 3rem;
@@ -624,13 +624,13 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 5, ../sass/modules/blog-nav.sass */
+/* line 6, ../sass/modules/blog-nav.sass */
 .blog-nav-container {
   height: 300px;
   height: 30rem;
 }
 
-/* line 8, ../sass/modules/blog-nav.sass */
+/* line 9, ../sass/modules/blog-nav.sass */
 .blog-nav {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -647,17 +647,17 @@ a.intro-more:hover, a.intro-more:active {
   width: 100%;
 }
 
-/* line 16, ../sass/modules/blog-nav.sass */
+/* line 17, ../sass/modules/blog-nav.sass */
 .js .blog-nav {
   opacity: 0;
 }
 
-/* line 19, ../sass/modules/blog-nav.sass */
+/* line 20, ../sass/modules/blog-nav.sass */
 .is-not-top-gutter-shown .blog-nav {
   opacity: 1;
 }
 
-/* line 22, ../sass/modules/blog-nav.sass */
+/* line 23, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav {
   opacity: 1;
   height: 100%;
@@ -666,7 +666,7 @@ a.intro-more:hover, a.intro-more:active {
   left: 0;
 }
 
-/* line 29, ../sass/modules/blog-nav.sass */
+/* line 30, ../sass/modules/blog-nav.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
   bottom: 60px;
@@ -691,8 +691,8 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
   z-index: 3;
 }
-@media only screen and (min-width: 32em) {
-  /* line 29, ../sass/modules/blog-nav.sass */
+@media (min-width: 32em) {
+  /* line 30, ../sass/modules/blog-nav.sass */
   .blog-nav-previous, .blog-nav-next {
     padding: 30px;
     padding: 3rem;
@@ -701,13 +701,13 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 47, ../sass/modules/blog-nav.sass */
+/* line 48, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.6);
   color: white;
 }
 
-/* line 51, ../sass/modules/blog-nav.sass */
+/* line 52, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   -webkit-transition-property: none;
   -moz-transition-property: none;
@@ -716,23 +716,23 @@ a.intro-more:hover, a.intro-more:active {
   background: rgba(87, 55, 29, 0.8);
 }
 
-/* line 55, ../sass/modules/blog-nav.sass */
+/* line 56, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   color: white;
 }
 
-/* line 58, ../sass/modules/blog-nav.sass */
+/* line 59, ../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 61, ../sass/modules/blog-nav.sass */
+/* line 62, ../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 65, ../sass/modules/blog-nav.sass */
+/* line 66, ../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -743,20 +743,20 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2rem;
 }
 
-/* line 72, ../sass/modules/blog-nav.sass */
+/* line 73, ../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 75, ../sass/modules/blog-nav.sass */
+/* line 76, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
   display: none;
 }
-@media only screen and (min-width: 32em) {
-  /* line 75, ../sass/modules/blog-nav.sass */
+@media (min-width: 32em) {
+  /* line 76, ../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }

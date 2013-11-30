@@ -1,5 +1,6 @@
 @import "site-settings"
 @import "mixins"
+@import "breakpoint"
 
 .post, .intro, .about-details
   max-width: 30em
@@ -18,7 +19,7 @@
   font-weight: 400
   font-style: normal
   color: #BB5400
-  +min-width($medium-width)
+  +breakpoint($medium-width)
     +rem(font-size, 66px)
     +rem(line-height, 75px)
     +rem(margin-top, 120px)
@@ -69,7 +70,7 @@
   font-family: adelle-sans, sans-serif
   font-weight: 400
   font-style: normal
-  +min-width($medium-width)
+  +breakpoint($medium-width)
     +rem(line-height, 36px)
     +rem(margin-bottom, 15px)
   

@@ -1,6 +1,7 @@
 @import "compass/css3"
 @import "site-settings"
 @import "mixins"
+@import "breakpoint"
 
 .blog-nav-container
   +rem(height, 300px)
@@ -40,7 +41,7 @@
   +transition-property(background)
   +transition-duration(0.5s)
   z-index: 3
-  +min-width($medium-width)
+  +breakpoint($medium-width)
     +rem(padding, 30px)
     +rem(bottom, 100px)
 
@@ -77,5 +78,5 @@
   font-weight: 400
   margin: 0
   display: none
-  +min-width($medium-width)
+  +breakpoint($medium-width)
     display: block

@@ -1,4 +1,4 @@
-/* line 5, ../../sass/modules/about.sass */
+/* line 6, ../../sass/modules/about.sass */
 .js .about {
   position: absolute;
   height: 308px;
@@ -11,7 +11,7 @@
   z-index: 2;
 }
 
-/* line 15, ../../sass/modules/about.sass */
+/* line 16, ../../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -24,19 +24,19 @@
   transition-duration: 0.5s;
 }
 
-/* line 20, ../../sass/modules/about.sass */
+/* line 21, ../../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 25, ../../sass/modules/about.sass */
+/* line 26, ../../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 28, ../../sass/modules/about.sass */
+/* line 29, ../../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -51,8 +51,8 @@
   font-weight: 400;
   font-style: normal;
 }
-@media only screen and (min-width: 32em) {
-  /* line 28, ../../sass/modules/about.sass */
+@media (min-width: 32em) {
+  /* line 29, ../../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -63,7 +63,7 @@
   }
 }
 
-/* line 42, ../../sass/modules/about.sass */
+/* line 43, ../../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
@@ -77,8 +77,8 @@
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (min-width: 32em) {
-  /* line 42, ../../sass/modules/about.sass */
+@media (min-width: 32em) {
+  /* line 43, ../../sass/modules/about.sass */
   .about-title {
     font-size: 30px;
     font-size: 3rem;
