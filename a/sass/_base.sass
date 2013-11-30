@@ -13,6 +13,14 @@ body
   +rem(font-size, 16px)
   +rem(line-height, 25px)
 
+a
+  color: #BB5400
+  +transition-property(color)
+  +transition-duration(0.5s)
+
+a:hover, a:focus
+  color: lighten(#BB5400, 30%)
+
 div.intro
   font-family: adelle, serif
   +rem(padding-top, 20px)
