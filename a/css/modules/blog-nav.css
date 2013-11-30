@@ -65,7 +65,7 @@
   transition-duration: 0.5s;
   z-index: 3;
 }
-@media (min-width: 32em) and (min-height: 25em) {
+@media (min-width: 512px) and (min-height: 400px) {
   /* line 30, ../../sass/modules/blog-nav.sass */
   .blog-nav-previous, .blog-nav-next {
     padding: 30px;
@@ -95,7 +95,7 @@
   display: none;
   color: white;
 }
-@media (min-height: 25em) {
+@media (min-height: 400px) {
   /* line 56, ../../sass/modules/blog-nav.sass */
   .is-top .blog-nav-previous, .is-top .blog-nav-next {
     display: block;
@@ -136,7 +136,7 @@
   margin: 0;
   display: none;
 }
-@media (min-width: 32em) and (min-height: 25em) {
+@media (min-width: 512px) and (min-height: 400px) {
   /* line 79, ../../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;

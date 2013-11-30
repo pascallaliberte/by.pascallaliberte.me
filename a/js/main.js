@@ -5,7 +5,10 @@
 			return -c * ((t=t/d-1)*t*t*t - 1) + b;
 		}
   });
+  
   $(document).ready(function(){
+    debug = true;
+    
     $("body").eq(0).addClass('js');
     
     $(".intro-more,.to-top").smoothScroll({
@@ -48,6 +51,12 @@
     });
     
     $(window).scrollTop(parseInt($("body").eq(0).css("padding-top")));
+    
+    if (debug) {
+      $(window).resize(function(){
+        document.title = window.innerWidth + "px";
+      });
+    }
     
   });
 })(jQuery);

@@ -51,7 +51,7 @@
   font-weight: 400;
   font-style: normal;
 }
-@media (min-width: 32em) {
+@media (min-width: 512px) {
   /* line 29, ../../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
@@ -77,7 +77,7 @@
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
-@media (min-width: 32em) {
+@media (min-width: 512px) {
   /* line 43, ../../sass/modules/about.sass */
   .about-title {
     font-size: 30px;

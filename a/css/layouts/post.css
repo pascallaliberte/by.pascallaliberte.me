@@ -4,14 +4,38 @@
   margin: 0 auto;
   padding: 0 1em;
 }
+@media (min-width: 880px) {
+  /* line 5, ../../sass/layouts/post.sass */
+  .post, .intro, .about-details {
+    max-width: 576px;
+  }
+}
+@media (min-width: 1100px) {
+  /* line 5, ../../sass/layouts/post.sass */
+  .post, .intro, .about-details {
+    max-width: 720px;
+  }
+}
 
-/* line 10, ../../sass/layouts/post.sass */
+@media (min-width: 880px) {
+  /* line 15, ../../sass/layouts/post.sass */
+  html {
+    font-size: 75%;
+  }
+}
+@media (min-width: 1100px) {
+  /* line 19, ../../sass/layouts/post.sass */
+  html {
+    font-size: 93.75%;
+  }
+}
+/* line 22, ../../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 13, ../../sass/layouts/post.sass */
+/* line 25, ../../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
@@ -26,8 +50,8 @@
   font-style: normal;
   color: #bb5400;
 }
-@media (min-width: 32em) and (min-height: 25em) {
-  /* line 13, ../../sass/layouts/post.sass */
+@media (min-width: 512px) and (min-height: 400px) {
+  /* line 25, ../../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -38,7 +62,7 @@
   }
 }
 
-/* line 27, ../../sass/layouts/post.sass */
+/* line 39, ../../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -54,7 +78,7 @@
   font-style: normal;
 }
 
-/* line 37, ../../sass/layouts/post.sass */
+/* line 49, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -65,7 +89,7 @@
   font-style: normal;
 }
 
-/* line 45, ../../sass/layouts/post.sass */
+/* line 57, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -78,8 +102,8 @@
   font-weight: 400;
   font-style: normal;
 }
-@media (min-width: 32em) and (min-height: 25em) {
-  /* line 45, ../../sass/layouts/post.sass */
+@media (min-width: 512px) and (min-height: 400px) {
+  /* line 57, ../../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -88,7 +112,7 @@
   }
 }
 
-/* line 57, ../../sass/layouts/post.sass */
+/* line 69, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -105,7 +129,7 @@
   font-style: italic;
 }
 
-/* line 67, ../../sass/layouts/post.sass */
+/* line 79, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -113,7 +137,7 @@
   font-style: inherit;
 }
 
-/* line 73, ../../sass/layouts/post.sass */
+/* line 85, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
