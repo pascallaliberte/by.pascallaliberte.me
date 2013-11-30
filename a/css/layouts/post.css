@@ -26,7 +26,7 @@
   font-style: normal;
   color: #bb5400;
 }
-@media (min-width: 32em) {
+@media (min-width: 32em) and (min-height: 25em) {
   /* line 13, ../../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
@@ -66,6 +66,29 @@
 }
 
 /* line 45, ../../sass/layouts/post.sass */
+.post-details > p:first-of-type {
+  text-indent: 0;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 30px;
+  line-height: 3rem;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (min-width: 32em) and (min-height: 25em) {
+  /* line 45, ../../sass/layouts/post.sass */
+  .post-details > p:first-of-type {
+    line-height: 36px;
+    line-height: 3.6rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* line 57, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -82,7 +105,7 @@
   font-style: italic;
 }
 
-/* line 55, ../../sass/layouts/post.sass */
+/* line 67, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -90,31 +113,8 @@
   font-style: inherit;
 }
 
-/* line 61, ../../sass/layouts/post.sass */
+/* line 73, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
-}
-
-/* line 65, ../../sass/layouts/post.sass */
-.post-details > p:first-of-type {
-  text-indent: 0;
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 30px;
-  line-height: 3rem;
-  margin-bottom: 25px;
-  margin-bottom: 2.5rem;
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-@media (min-width: 32em) {
-  /* line 65, ../../sass/layouts/post.sass */
-  .post-details > p:first-of-type {
-    line-height: 36px;
-    line-height: 3.6rem;
-    margin-bottom: 15px;
-    margin-bottom: 1.5rem;
-  }
 }

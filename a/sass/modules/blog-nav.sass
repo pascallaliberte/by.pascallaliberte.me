@@ -41,7 +41,7 @@
   +transition-property(background)
   +transition-duration(0.5s)
   z-index: 3
-  +breakpoint($medium-width)
+  +breakpoint((min-width $medium-width) (min-height $small-height))
     +rem(padding, 30px)
     +rem(bottom, 100px)
 
@@ -54,7 +54,10 @@
   background: rgba(87,55,29,0.8)
 
 .is-top .blog-nav-previous, .is-top .blog-nav-next
+  display: none
   color: white
+  +breakpoint(min-height $small-height)
+    display: block
 
 .blog-nav-previous
   left: 0
@@ -78,5 +81,5 @@
   font-weight: 400
   margin: 0
   display: none
-  +breakpoint($medium-width)
+  +breakpoint((min-width $medium-width) (min-height $small-height))
     display: block
