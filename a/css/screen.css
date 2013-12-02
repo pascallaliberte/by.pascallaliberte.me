@@ -703,10 +703,6 @@ a.intro-more:hover, a.intro-more:active {
   bottom: 6rem;
   font-family: adelle;
   font-weight: 400;
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 22px;
-  line-height: 2.2rem;
   color: black;
   text-decoration: none;
   width: 25%;
@@ -722,6 +718,10 @@ a.intro-more:hover, a.intro-more:active {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
   z-index: 3;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 24px;
+  line-height: 2.4rem;
 }
 @media (min-width: 512px) and (min-height: 25em) {
   /* line 30, ../sass/modules/blog-nav.sass */
@@ -732,7 +732,7 @@ a.intro-more:hover, a.intro-more:active {
     bottom: 10rem;
   }
 }
-@media (min-height: 40em) {
+@media (min-height: 30em) {
   /* line 30, ../sass/modules/blog-nav.sass */
   .blog-nav-previous, .blog-nav-next {
     font-size: 25px;
@@ -762,15 +762,71 @@ a.intro-more:hover, a.intro-more:active {
   display: none;
   color: white;
 }
-@media (min-height: 25em) {
+@media (min-height: 25em) and (min-width: 512px) {
   /* line 60, ../sass/modules/blog-nav.sass */
   .is-top .blog-nav-previous, .is-top .blog-nav-next {
     display: block;
-    bottom: 30px;
-    bottom: 3rem;
+    bottom: 15px;
+    bottom: 1.5rem;
   }
 }
-@media (min-height: 40em) {
+@media (min-height: 25em) and (min-width: 880px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    display: none;
+  }
+}
+@media (30em: min-height) and (min-width: 880px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    display: block;
+    bottom: 15px;
+    bottom: 1.5rem;
+  }
+}
+@media (30em: min-height) and (min-width: 1100px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    display: none;
+  }
+}
+@media (37.5em: min-height) and (min-width: 1100px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    display: block;
+    bottom: 15px;
+    bottom: 1.5rem;
+  }
+}
+@media (min-height: 30em) and (min-width: 512px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 50px;
+    bottom: 5rem;
+  }
+}
+@media (min-height: 30em) and (min-width: 880px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 15px;
+    bottom: 1.5rem;
+  }
+}
+@media (36em: min-height) and (min-width: 880px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 50px;
+    bottom: 5rem;
+  }
+}
+@media (36em: min-height) and (min-width: 1100px) {
+  /* line 60, ../sass/modules/blog-nav.sass */
+  .is-top .blog-nav-previous, .is-top .blog-nav-next {
+    bottom: 15px;
+    bottom: 1.5rem;
+  }
+}
+@media (45em: min-height) and (min-width: 1100px) {
   /* line 60, ../sass/modules/blog-nav.sass */
   .is-top .blog-nav-previous, .is-top .blog-nav-next {
     bottom: 50px;
@@ -785,29 +841,29 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 71, ../sass/modules/blog-nav.sass */
+/* line 98, ../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 74, ../sass/modules/blog-nav.sass */
+/* line 101, ../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 78, ../sass/modules/blog-nav.sass */
+/* line 105, ../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
   margin: 0;
   font-size: 12px;
   font-size: 1.2rem;
-  line-height: 15px;
-  line-height: 1.5rem;
+  line-height: 16px;
+  line-height: 1.6rem;
 }
-@media (min-height: 40em) {
-  /* line 78, ../sass/modules/blog-nav.sass */
+@media (min-height: 30em) {
+  /* line 105, ../sass/modules/blog-nav.sass */
   .blog-nav-label {
     font-size: 15px;
     font-size: 1.5rem;
@@ -816,20 +872,20 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 88, ../sass/modules/blog-nav.sass */
+/* line 115, ../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 91, ../sass/modules/blog-nav.sass */
+/* line 118, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
   display: none;
 }
-@media (min-width: 512px) and (min-height: 25em) {
-  /* line 91, ../sass/modules/blog-nav.sass */
+@media (min-width: 512px) and (min-height: 30em) {
+  /* line 118, ../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }

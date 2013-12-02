@@ -32,8 +32,6 @@
   +rem(bottom, 60px)
   font-family: adelle
   font-weight: 400
-  +rem(font-size, 20px)
-  +rem(line-height, 22px)
   color: black
   text-decoration: none
   width: 25%
@@ -42,10 +40,12 @@
   +transition-property(background)
   +transition-duration(0.5s)
   z-index: 3
-  +breakpoint((min-width $medium-width) (min-height $small-height))
+  +rem(font-size, 20px)
+  +rem(line-height, 24px)
+  +breakpoint((min-width $medium-width) (min-height $small-height-at-10px))
     +rem(padding, 30px)
     +rem(bottom, 100px)
-  +breakpoint(min-height $medium-height)
+  +breakpoint(min-height $medium-height-at-10px)
     +rem(font-size, 25px)
     +rem(line-height, 30px)
 
@@ -60,12 +60,39 @@
 .is-top .blog-nav-previous, .is-top .blog-nav-next
   display: none
   color: white
-  +breakpoint(min-height $small-height)
-    display: block
-    +rem(bottom, 30px)
-  +breakpoint(min-height $medium-height)    
-    +rem(bottom, 50px)
-  +breakpoint(min-height $tall-height)
+  //small height
+  +breakpoint(min-height $small-height-at-10px)
+    +breakpoint(min-width $medium-width)
+      display: block
+      +rem(bottom, 15px)
+    +breakpoint(min-width $medium-wide-width)
+      display: none
+  +breakpoint(min-height $small-height-at-12px)
+    +breakpoint(min-width $medium-wide-width)
+      display: block
+      +rem(bottom, 15px)
+    +breakpoint(min-width $wide-width)
+      display: none
+  +breakpoint(min-height $small-height-at-15px)
+    +breakpoint(min-width $wide-width)
+      display: block
+      +rem(bottom, 15px)
+  //medium height
+  +breakpoint(min-height $medium-height-at-10px)
+    +breakpoint(min-width $medium-width)
+      +rem(bottom, 50px)
+    +breakpoint(min-width $medium-wide-width)
+      +rem(bottom, 15px)
+  +breakpoint(min-height $medium-height-at-12px)
+    +breakpoint(min-width $medium-wide-width)
+      +rem(bottom, 50px)
+    +breakpoint(min-width $wide-width)
+      +rem(bottom, 15px)
+  +breakpoint(min-height $medium-height-at-15px)
+    +breakpoint(min-width $wide-width)
+      +rem(bottom, 50px)
+  //tall height
+  +breakpoint(min-height $tall-height-at-10px)
     +rem(bottom, 100px)
 
 .blog-nav-previous
@@ -80,8 +107,8 @@
   text-transform: uppercase
   margin: 0
   +rem(font-size, 12px)
-  +rem(line-height, 15px)
-  +breakpoint(min-height $medium-height)
+  +rem(line-height, 16px)
+  +breakpoint(min-height $medium-height-at-10px)
     +rem(font-size, 15px)
     +rem(line-height, 20px)
 
@@ -93,5 +120,5 @@
   font-weight: 400
   margin: 0
   display: none
-  +breakpoint((min-width $medium-width) (min-height $small-height))
+  +breakpoint((min-width $medium-width) (min-height $medium-height-at-10px))
     display: block
