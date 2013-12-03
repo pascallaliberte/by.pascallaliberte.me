@@ -611,7 +611,7 @@ a.intro-more:hover, a.intro-more:active {
   margin-top: 3rem;
   margin-bottom: 20px;
   margin-bottom: 2rem;
-  width: 10em;
+  max-width: 10em;
   font-family: adelle;
   font-weight: 400;
   font-style: normal;
@@ -636,7 +636,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2.5rem;
   margin-top: 20px;
   margin-top: 2rem;
-  width: 10em;
+  max-width: 10em;
   font-family: adelle-sans;
   font-weight: 400;
   font-style: normal;
