@@ -4,9 +4,7 @@ title: "My system for keeping up with news"
 date:   2013-09-09 09:54:00
 ---
 
-![Illustration showing how overwhelming keeping up with the news can be.](http://media.tumblr.com/e6f695709333cbff98d6ecec968c68cb/tumblr_inline_msv2awUm571qz4rgp.png)
-
-I developed a system for handling the news and updates from people I follow. Let me run through the problems I was experiencing, and I'll step through the solution.
+![Illustration showing how overwhelming keeping up with the news can be.](http://media.tumblr.com/e6f695709333cbff98d6ecec968c68cb/tumblr_inline_msv2awUm571qz4rgp.png) I developed a system for handling the news and updates from people I follow. Let me run through the problems I was experiencing, and I'll step through the solution.
 
 I used to feel overwhelmed with news and updates, tempted to '[unfollow](https://www.google.com/search?q=unfollow)' people and I wanted to reduce the time spent on this habit. Since the new system, I follow everybody I want and all the news sources I want, I check in just a few times a day (it could be less), and I keep up with the updates that matter to me.
 
