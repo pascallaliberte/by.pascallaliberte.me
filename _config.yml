@@ -1,4 +1,4 @@
 name: Pascal Laliberté
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: /:categories/:year-:month-:title/
