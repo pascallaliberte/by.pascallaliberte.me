@@ -534,6 +534,13 @@ div.intro {
   color: #bcafa5;
 }
 
+/* line 84, ../sass/layouts/post.sass */
+.post img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 /* line 3, ../sass/modules/intro.sass */
 .js .intro {
   opacity: 1;
