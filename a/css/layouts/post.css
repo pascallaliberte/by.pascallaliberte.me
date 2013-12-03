@@ -17,13 +17,13 @@
     font-size: 93.75%;
   }
 }
-/* line 18, ../../sass/layouts/post.sass */
+/* line 17, ../../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 21, ../../sass/layouts/post.sass */
+/* line 20, ../../sass/layouts/post.sass */
 .post h1 {
   font-size: 43px;
   font-size: 4.3rem;
@@ -39,7 +39,7 @@
   color: #bb5400;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 21, ../../sass/layouts/post.sass */
+  /* line 20, ../../sass/layouts/post.sass */
   .post h1 {
     font-size: 66px;
     font-size: 6.6rem;
@@ -50,7 +50,7 @@
   }
 }
 
-/* line 35, ../../sass/layouts/post.sass */
+/* line 34, ../../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -66,7 +66,7 @@
   font-style: normal;
 }
 
-/* line 45, ../../sass/layouts/post.sass */
+/* line 44, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -77,7 +77,7 @@
   font-style: normal;
 }
 
-/* line 53, ../../sass/layouts/post.sass */
+/* line 52, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -91,7 +91,7 @@
   font-style: normal;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 53, ../../sass/layouts/post.sass */
+  /* line 52, ../../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -100,7 +100,7 @@
   }
 }
 
-/* line 65, ../../sass/layouts/post.sass */
+/* line 64, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -117,7 +117,7 @@
   font-style: italic;
 }
 
-/* line 75, ../../sass/layouts/post.sass */
+/* line 74, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -125,7 +125,7 @@
   font-style: inherit;
 }
 
-/* line 81, ../../sass/layouts/post.sass */
+/* line 80, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;

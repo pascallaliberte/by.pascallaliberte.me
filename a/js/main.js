@@ -17,6 +17,24 @@
       $("body").eq(0).removeClass('is-top');
       $("body").eq(0).addClass('is-not-top');
     }
+    
+    if (window.innerHeight > topGutterHeight * 1.4) {
+      $("body").eq(0).addClass('is-fits-blog-nav-simple');
+    } else {
+      $("body").eq(0).removeClass('is-fits-blog-nav-simple');
+    }
+
+    if (window.innerHeight > topGutterHeight * 1.75) {
+      $("body").eq(0).addClass('is-fits-blog-nav');
+    } else {
+      $("body").eq(0).removeClass('is-fits-blog-nav');
+    }
+    
+    if (window.innerHeight > topGutterHeight * 2) {
+      $("body").eq(0).addClass('is-fits-blog-nav-large');
+    } else {
+      $("body").eq(0).removeClass('is-fits-blog-nav-large');
+    }
 
     setTimeout(function(){
       scrollPos = $(window).scrollTop();

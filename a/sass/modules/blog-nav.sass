@@ -42,10 +42,11 @@
   z-index: 3
   +rem(font-size, 20px)
   +rem(line-height, 24px)
-  +breakpoint((min-width $medium-width) (min-height $small-height))
+
+.is-fits-blog-nav-large
+  .blog-nav-previous, .blog-nav-next
     +rem(padding, 30px)
     +rem(bottom, 100px)
-  +breakpoint(min-height $medium-height)
     +rem(font-size, 25px)
     +rem(line-height, 30px)
 
@@ -60,14 +61,22 @@
 .is-top .blog-nav-previous, .is-top .blog-nav-next
   display: none
   color: white
-  +breakpoint(min-height $small-height)
+
+.is-fits-blog-nav-simple
+  &.is-top .blog-nav-previous, &.is-top .blog-nav-next
     display: block
     +rem(bottom, 15px)
-  +breakpoint(min-height $medium-height)
-    +rem(bottom, 50px)
-  +breakpoint(min-height $tall-height)
-    +rem(bottom, 100px)
 
+.is-fits-blog-nav
+  &.is-top .blog-nav-previous, &.is-top .blog-nav-next
+    display: block
+    +rem(bottom, 50px)
+
+.is-fits-blog-nav-large
+  &.is-top .blog-nav-previous, &.is-top .blog-nav-next
+    display: block
+    +rem(bottom, 80px)
+    
 .blog-nav-previous
   left: 0
 
@@ -81,9 +90,10 @@
   margin: 0
   +rem(font-size, 12px)
   +rem(line-height, 16px)
-  +breakpoint(min-height $medium-height)
-    +rem(font-size, 15px)
-    +rem(line-height, 20px)
+
+.is-fits-blog-nav-large .blog-nav-label
+  +rem(font-size, 15px)
+  +rem(line-height, 20px)
 
 .blog-nav-label .separator
   display: none
@@ -92,6 +102,9 @@
   font-family: adelle
   font-weight: 400
   margin: 0
+
+.is-top .blog-nav-post-title
   display: none
-  +breakpoint((min-width $medium-width) (min-height $medium-height))
-    display: block
+
+.is-fits-blog-nav.is-top .blog-nav-post-title
+  display: block
