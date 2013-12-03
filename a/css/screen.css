@@ -373,9 +373,16 @@ body {
   font-size: 1.6rem;
   line-height: 25px;
   line-height: 2.5rem;
+  color: #333333;
 }
 
-/* line 16, ../sass/_base.sass */
+/* line 17, ../sass/_base.sass */
+strong {
+  font-weight: 700;
+  color: black;
+}
+
+/* line 21, ../sass/_base.sass */
 a {
   color: #bb5400;
   -webkit-transition-property: color;
@@ -388,12 +395,12 @@ a {
   transition-duration: 0.5s;
 }
 
-/* line 21, ../sass/_base.sass */
+/* line 26, ../sass/_base.sass */
 a:hover, a:focus {
   color: #ffa155;
 }
 
-/* line 24, ../sass/_base.sass */
+/* line 29, ../sass/_base.sass */
 div.intro {
   font-family: adelle, serif;
   padding-top: 20px;
