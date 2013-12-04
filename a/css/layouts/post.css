@@ -137,3 +137,27 @@
   display: block;
   margin: 0 auto;
 }
+
+/* line 89, ../../sass/layouts/post.sass */
+.post-quote {
+  margin-top: 70px;
+  margin-top: 7rem;
+}
+
+/* line 92, ../../sass/layouts/post.sass */
+.post-quote blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 96, ../../sass/layouts/post.sass */
+.post-quote-source p {
+  margin: 0;
+  color: #bcafa5;
+}
+
+/* line 100, ../../sass/layouts/post.sass */
+.post-quote .meta {
+  margin-top: 16px;
+  margin-top: 1.6rem;
+}

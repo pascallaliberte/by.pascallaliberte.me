@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include intro.html %}
+
+<article class="post post-quote">
+
+<div class="post-details post-quote-details">
+  {{ content }}
+  
+  {% if page.source %}
+  <div class="post-quote-source">
+    <p class="post-quote-dash">&mdash;</p>
+    {{ page.source | markdownify }}
+  </div>
+  {% endif %}
+  
+</div>
+
+<p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
+
+</article>
+
+{% include about.html %}
+
+{% include to-top.html %}
+
+{% include blog-nav.html %}
