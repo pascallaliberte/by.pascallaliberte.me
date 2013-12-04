@@ -572,6 +572,31 @@ div.intro {
   margin-top: 1.6rem;
 }
 
+/* line 103, ../sass/layouts/post.sass */
+.post-meta-separator {
+  padding: 0 5px;
+  padding: 0 0.5rem;
+}
+
+/* line 106, ../sass/layouts/post.sass */
+.post-permalink {
+  color: #bcafa5;
+  text-decoration: none;
+}
+
+/* line 110, ../sass/layouts/post.sass */
+.post-permalink-icon {
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding-left: 5px;
+  padding-left: 0.5rem;
+}
+
+/* line 114, ../sass/layouts/post.sass */
+.post-permalink:hover {
+  color: #bb5400;
+}
+
 /* line 3, ../sass/modules/intro.sass */
 .js .intro {
   opacity: 1;

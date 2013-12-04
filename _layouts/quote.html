@@ -18,7 +18,10 @@ layout: default
   
 </div>
 
-<p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
+<p class="meta">
+  {{ page.date | date: "%B %e, %Y" }}
+  <span class="post-meta-separator">&bull;</span>
+  <a class="post-permalink" href="{{page.url}}">Link to this post<i class="post-permalink-icon fa fa-bookmark"></i></a></p>
 
 </article>
 
