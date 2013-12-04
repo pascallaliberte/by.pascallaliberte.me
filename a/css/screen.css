@@ -434,7 +434,7 @@ div.intro {
 }
 
 /* line 20, ../sass/layouts/post.sass */
-.post h1 {
+.post-title {
   font-size: 43px;
   font-size: 4.3rem;
   line-height: 50px;
@@ -450,7 +450,7 @@ div.intro {
 }
 @media (min-width: 512px) and (min-height: 25em) {
   /* line 20, ../sass/layouts/post.sass */
-  .post h1 {
+  .post-title {
     font-size: 66px;
     font-size: 6.6rem;
     line-height: 75px;
@@ -601,6 +601,25 @@ div.intro {
 /* line 118, ../sass/layouts/post.sass */
 .post-permalink:hover {
   color: #bb5400;
+}
+
+/* line 121, ../sass/layouts/post.sass */
+.post-link-title {
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 32px;
+  line-height: 3.2rem;
+}
+
+/* line 125, ../sass/layouts/post.sass */
+.post-link-icon {
+  font-size: 16px;
+  font-size: 1.6rem;
+  padding-left: 8px;
+  padding-left: 0.8rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.3rem;
+  vertical-align: middle;
 }
 
 /* line 3, ../sass/modules/intro.sass */

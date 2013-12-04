@@ -1,194 +1,66 @@
-/* line 5, ../../sass/layouts/post.sass */
-.post, .intro, .about-details {
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 0 1em;
-}
+/*
+Syntax error: Invalid CSS after "middle": expected expression (e.g. 1px, bold), was ";"
+        on line 129 of /Users/work/Desktop/Blogue/prototype/a/sass/layouts/post.sass
 
-@media (min-width: 880px) {
-  /* line 11, ../../sass/layouts/post.sass */
-  html {
-    font-size: 75%;
-  }
-}
-@media (min-width: 1100px) {
-  /* line 15, ../../sass/layouts/post.sass */
-  html {
-    font-size: 93.75%;
-  }
-}
-/* line 17, ../../sass/layouts/post.sass */
-.js {
-  padding-top: 300px;
-  padding-top: 30rem;
-}
-
-/* line 20, ../../sass/layouts/post.sass */
-.post h1 {
-  font-size: 43px;
-  font-size: 4.3rem;
-  line-height: 50px;
-  line-height: 5rem;
-  margin-top: 50px;
-  margin-top: 5rem;
-  margin-bottom: 25px;
-  margin-bottom: 2.5rem;
-  font-family: adelle;
-  font-weight: 400;
-  font-style: normal;
-  color: #bb5400;
-}
-@media (min-width: 512px) and (min-height: 25em) {
-  /* line 20, ../../sass/layouts/post.sass */
-  .post h1 {
-    font-size: 66px;
-    font-size: 6.6rem;
-    line-height: 75px;
-    line-height: 7.5rem;
-    margin-top: 120px;
-    margin-top: 12rem;
-  }
-}
-
-/* line 34, ../../sass/layouts/post.sass */
-.is-top .post {
-  filter: blur(6px);
-  -webkit-filter: blur(6px);
-}
-
-/* line 38, ../../sass/layouts/post.sass */
-.post h2 {
-  font-size: 22px;
-  font-size: 2.2rem;
-  line-height: 28px;
-  line-height: 2.8rem;
-  margin: 40px 0px 20px;
-  margin: 4rem 0px 2rem;
-  letter-spacing: 1px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  font-family: adelle, serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-/* line 48, ../../sass/layouts/post.sass */
-.post p {
-  text-indent: 0em;
-  margin-top: 0;
-  margin-bottom: 25px;
-  margin-bottom: 2.5rem;
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* line 56, ../../sass/layouts/post.sass */
-.post-details > p:first-of-type {
-  text-indent: 0;
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 30px;
-  line-height: 3rem;
-  margin-bottom: 25px;
-  margin-bottom: 2.5rem;
-  font-family: adelle-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-@media (min-width: 512px) and (min-height: 25em) {
-  /* line 56, ../../sass/layouts/post.sass */
-  .post-details > p:first-of-type {
-    line-height: 36px;
-    line-height: 3.6rem;
-    margin-bottom: 15px;
-    margin-bottom: 1.5rem;
-  }
-}
-
-/* line 68, ../../sass/layouts/post.sass */
-.post blockquote {
-  margin-bottom: 25px;
-  margin-bottom: 2.5rem;
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 25px;
-  line-height: 2.5rem;
-  margin-left: 20px;
-  margin-left: 2rem;
-  margin-right: 20px;
-  margin-right: 2rem;
-  font-family: adelle, serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-/* line 78, ../../sass/layouts/post.sass */
-.post blockquote p {
-  font-size: 1em;
-  font-family: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-}
-
-/* line 84, ../../sass/layouts/post.sass */
-.post p.meta {
-  font-family: adelle, serif;
-  color: #bcafa5;
-}
-
-/* line 88, ../../sass/layouts/post.sass */
-.post img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-/* line 93, ../../sass/layouts/post.sass */
-.post-quote {
-  margin-top: 70px;
-  margin-top: 7rem;
-}
-
-/* line 96, ../../sass/layouts/post.sass */
-.post-quote blockquote {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 100, ../../sass/layouts/post.sass */
-.post-quote-source p {
-  margin: 0;
-  color: #bcafa5;
-}
-
-/* line 104, ../../sass/layouts/post.sass */
-.post-quote .meta {
-  margin-top: 16px;
-  margin-top: 1.6rem;
-}
-
-/* line 107, ../../sass/layouts/post.sass */
-.post-meta-separator {
-  padding: 0 5px;
-  padding: 0 0.5rem;
-}
-
-/* line 110, ../../sass/layouts/post.sass */
-.post-permalink {
-  color: #bcafa5;
-  text-decoration: none;
-}
-
-/* line 114, ../../sass/layouts/post.sass */
-.post-permalink-icon {
-  font-size: 14px;
-  font-size: 1.4rem;
-  padding-left: 5px;
-  padding-left: 0.5rem;
-}
-
-/* line 118, ../../sass/layouts/post.sass */
-.post-permalink:hover {
-  color: #bb5400;
-}
+Backtrace:
+/Users/work/Desktop/Blogue/prototype/a/sass/layouts/post.sass:129
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/scss/parser.rb:1148:in `expected'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/script/lexer.rb:199:in `expected!'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/script/parser.rb:486:in `assert_done'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/script/parser.rb:50:in `parse'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/script/parser.rb:166:in `parse'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/script.rb:31:in `parse'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:880:in `parse_script'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:608:in `parse_property'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:597:in `parse_property_or_rule'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:578:in `parse_line'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:471:in `build_tree'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:490:in `block in append_children'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:489:in `each'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:489:in `append_children'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:480:in `block in build_tree'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:473:in `each'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:473:in `build_tree'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:490:in `block in append_children'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:489:in `each'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:489:in `append_children'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:345:in `_to_tree'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:18:in `block in generate'
+/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:17:in `chdir'
+/Users/work/Desktop/Blogue/prototype/_plugins/generator_scss.rb:17:in `generate'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/site.rb:229:in `block in generate'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/site.rb:228:in `each'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/site.rb:228:in `generate'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/site.rb:38:in `process'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:53:in `block in watch'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/listener.rb:252:in `call'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/listener.rb:252:in `on_change'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `call'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `report_changes'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/adapter.rb:321:in `poll_changed_directories'
+/Users/work/.rvm/gems/ruby-1.9.3-p392/gems/listen-1.3.1/lib/listen/adapter.rb:297:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"middle\": expected expression (e.g. 1px, bold), was \";\"\A         on line 129 of /Users/work/Desktop/Blogue/prototype/a/sass/layouts/post.sass"; }
