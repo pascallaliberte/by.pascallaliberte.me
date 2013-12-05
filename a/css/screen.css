@@ -461,7 +461,7 @@ div.intro {
 }
 
 /* line 34, ../sass/layouts/post.sass */
-.is-top .post {
+.is-top.is-not-touch .post {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }

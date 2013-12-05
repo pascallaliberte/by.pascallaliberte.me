@@ -7,6 +7,11 @@
     }
   });
   
+  is_touch_device = function() {
+    return 'ontouchstart' in window // works on most browsers 
+        || 'onmsgesturechange' in window; // works on ie10
+  };
+  
   update_page_properties = function(){
     scrollPos = $(window).scrollTop();
     topGutterHeight = parseInt($("body").eq(0).css("padding-top"))
@@ -35,6 +40,12 @@
       $("body").eq(0).addClass('is-fits-blog-nav-large');
     } else {
       $("body").eq(0).removeClass('is-fits-blog-nav-large');
+    }
+    
+    if (is_touch_device()) {
+      $("body").eq(0).addClass('is-touch');
+    } else {
+      $("body").eq(0).addClass('is-not-touch');
     }
   
     setTimeout(function(){
