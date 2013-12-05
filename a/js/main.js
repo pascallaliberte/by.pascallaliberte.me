@@ -49,6 +49,26 @@
     }, 500);
   }
 
+  init_gallery = function() {
+    $(".gallery-2-3 li").each(function(i){
+      if (i < 2) {
+        $(this).addClass("gallery-1of2");
+        if (i == 1) {
+          $(this).addClass("gallery-last");      
+        }
+      }
+      if (i >= 2) {
+        $(this).addClass("gallery-1of3");
+        if ((i + 2) % 3 == 0) {
+          $(this).addClass("gallery-last");
+        }
+      }
+    });
+    
+    $(".gallery").each(function(){
+      $(this).addClass("gallery-enhanced");
+    });
+  }
   
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
@@ -71,5 +91,6 @@
       update_page_properties()
     });
         
+    init_gallery();
   });
 })(jQuery);

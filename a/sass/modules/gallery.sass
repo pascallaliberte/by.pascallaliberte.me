@@ -1,0 +1,31 @@
+@import "compass/css3"
+@import "site-settings"
+@import "mixins"
+@import "breakpoint"
+@import "compass/utilities/general/clearfix"
+
+.gallery
+  padding: 0
+  margin: 0
+  +clearfix
+
+.gallery li
+  list-style-type: none
+  margin: 0
+  padding: 0
+  padding-bottom: 1%
+  +breakpoint(min-width $medium-width)
+
++breakpoint(min-width $medium-width)
+  .gallery li
+    float: left
+    max-width: 49%
+    margin-right: 1%
+  .gallery-enhanced li
+    max-width: 49.5%
+  .gallery-enhanced li.gallery-last
+    margin-right: 0
+  .gallery-2-3 .gallery-1of3
+    max-width: 32.66666666666667%
+    margin-right: 1%
+  
