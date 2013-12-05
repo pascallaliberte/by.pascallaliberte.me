@@ -13,6 +13,10 @@
   color: white
   z-index: 2
 
+.js .about a 
+  color: inherit
+  text-decoration: underline
+
 .js .about-details
   opacity: 1
   +transition-property(opacity)
@@ -30,7 +34,7 @@
   +rem(font-size, 35px)
   +rem(line-height, 40px)
   +rem(margin-top, 30px)
-  +rem(margin-bottom, 20px)
+  +rem(margin-bottom, 15px)
   max-width: 10em
   font-family: adelle
   font-weight: 400
@@ -43,7 +47,7 @@
 .about-title
   +rem(font-size, 22px)
   +rem(line-height, 25px)
-  +rem(margin-top, 20px)
+  +rem(margin-top, -10px)
   max-width: 10em
   font-family: adelle-sans
   font-weight: 400
@@ -52,4 +56,7 @@
   +breakpoint($medium-width)
     +rem(font-size, 30px)
     +rem(line-height, 32px)
-    +rem(margin-top, 20px)
+
+.about .fa //icon
+  +rem(font-size, 25px)
+  +rem(padding-left, 10px)

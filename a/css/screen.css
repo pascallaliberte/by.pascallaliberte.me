@@ -408,6 +408,11 @@ div.intro {
   color: #bcafa5;
 }
 
+/* line 1, ../sass/_states.sass */
+.is-hidden {
+  display: none;
+}
+
 /* line 5, ../sass/layouts/post.sass */
 .post, .intro, .about-details {
   max-width: 30em;
@@ -665,6 +670,12 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 /* line 16, ../sass/modules/about.sass */
+.js .about a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* line 20, ../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -677,19 +688,19 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
 }
 
-/* line 21, ../sass/modules/about.sass */
+/* line 25, ../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 26, ../sass/modules/about.sass */
+/* line 30, ../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 29, ../sass/modules/about.sass */
+/* line 33, ../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -697,15 +708,15 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 4rem;
   margin-top: 30px;
   margin-top: 3rem;
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   max-width: 10em;
   font-family: adelle;
   font-weight: 400;
   font-style: normal;
 }
 @media (min-width: 512px) {
-  /* line 29, ../sass/modules/about.sass */
+  /* line 33, ../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -716,14 +727,14 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 43, ../sass/modules/about.sass */
+/* line 47, ../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
   line-height: 25px;
   line-height: 2.5rem;
-  margin-top: 20px;
-  margin-top: 2rem;
+  margin-top: -10px;
+  margin-top: -1rem;
   max-width: 10em;
   font-family: adelle-sans;
   font-weight: 400;
@@ -731,15 +742,21 @@ a.intro-more:hover, a.intro-more:active {
   color: rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 512px) {
-  /* line 43, ../sass/modules/about.sass */
+  /* line 47, ../sass/modules/about.sass */
   .about-title {
     font-size: 30px;
     font-size: 3rem;
     line-height: 32px;
     line-height: 3.2rem;
-    margin-top: 20px;
-    margin-top: 2rem;
   }
+}
+
+/* line 60, ../sass/modules/about.sass */
+.about .fa {
+  font-size: 25px;
+  font-size: 2.5rem;
+  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 /* line 6, ../sass/modules/blog-nav.sass */
