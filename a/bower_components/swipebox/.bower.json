@@ -1,0 +1,15 @@
+{
+  "name": "swipebox",
+  "main": "source/jquery.swipebox.js",
+  "homepage": "https://github.com/brutaldesign/swipebox",
+  "_release": "4e8338ec27",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4e8338ec2740ca75eb8a39247c275f1a1b3d7539"
+  },
+  "_source": "git://github.com/brutaldesign/swipebox.git",
+  "_target": "*",
+  "_originalSource": "swipebox",
+  "_direct": true
+}
