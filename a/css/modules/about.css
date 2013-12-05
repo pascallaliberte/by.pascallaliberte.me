@@ -77,6 +77,8 @@
   line-height: 2.5rem;
   margin-top: -10px;
   margin-top: -1rem;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   max-width: 10em;
   font-family: adelle-sans;
   font-weight: 400;
@@ -93,10 +95,31 @@
   }
 }
 
-/* line 60, ../../sass/modules/about.sass */
+/* line 61, ../../sass/modules/about.sass */
 .about .fa {
   font-size: 25px;
   font-size: 2.5rem;
   padding-left: 10px;
   padding-left: 1rem;
+}
+
+/* line 65, ../../sass/modules/about.sass */
+.about-separator {
+  padding: 0 5px;
+  padding: 0 0.5rem;
+}
+
+/* line 68, ../../sass/modules/about.sass */
+.js .about-links {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 71, ../../sass/modules/about.sass */
+.js .about-links a {
+  text-decoration: none;
+}
+
+/* line 74, ../../sass/modules/about.sass */
+.js .about-links a:hover {
+  color: white;
 }
