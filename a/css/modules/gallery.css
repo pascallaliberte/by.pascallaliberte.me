@@ -4,9 +4,11 @@
   margin: 0;
   overflow: hidden;
   *zoom: 1;
+  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 
-/* line 12, ../../sass/modules/gallery.sass */
+/* line 13, ../../sass/modules/gallery.sass */
 .gallery li {
   list-style-type: none;
   margin: 0;
@@ -15,24 +17,24 @@
 }
 
 @media (min-width: 512px) {
-  /* line 20, ../../sass/modules/gallery.sass */
+  /* line 21, ../../sass/modules/gallery.sass */
   .gallery li {
     float: left;
     max-width: 49%;
     margin-right: 1%;
   }
 
-  /* line 24, ../../sass/modules/gallery.sass */
+  /* line 25, ../../sass/modules/gallery.sass */
   .gallery-enhanced li {
     max-width: 49.5%;
   }
 
-  /* line 26, ../../sass/modules/gallery.sass */
+  /* line 27, ../../sass/modules/gallery.sass */
   .gallery-enhanced li.gallery-last {
     margin-right: 0;
   }
 
-  /* line 28, ../../sass/modules/gallery.sass */
+  /* line 29, ../../sass/modules/gallery.sass */
   .gallery-2-3 .gallery-1of3 {
     max-width: 32.66667%;
     margin-right: 1%;
