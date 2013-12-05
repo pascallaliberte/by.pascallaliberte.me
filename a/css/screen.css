@@ -659,6 +659,10 @@ a.intro-more:hover, a.intro-more:active {
 /* line 6, ../sass/modules/about.sass */
 .js .about {
   position: absolute;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 20px;
+  line-height: 2rem;
   height: 308px;
   height: 30.8rem;
   background: #bb5400;
@@ -667,15 +671,25 @@ a.intro-more:hover, a.intro-more:active {
   left: 0;
   color: white;
   z-index: 2;
+  overflow: hidden;
+}
+@media (min-width: 512px) {
+  /* line 6, ../sass/modules/about.sass */
+  .js .about {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+  }
 }
 
-/* line 16, ../sass/modules/about.sass */
+/* line 22, ../sass/modules/about.sass */
 .js .about a {
   color: inherit;
   text-decoration: underline;
 }
 
-/* line 20, ../sass/modules/about.sass */
+/* line 26, ../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -688,19 +702,19 @@ a.intro-more:hover, a.intro-more:active {
   transition-duration: 0.5s;
 }
 
-/* line 25, ../sass/modules/about.sass */
+/* line 31, ../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 30, ../sass/modules/about.sass */
+/* line 36, ../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 33, ../sass/modules/about.sass */
+/* line 39, ../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -716,7 +730,7 @@ a.intro-more:hover, a.intro-more:active {
   font-style: normal;
 }
 @media (min-width: 512px) {
-  /* line 33, ../sass/modules/about.sass */
+  /* line 39, ../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -727,7 +741,7 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 47, ../sass/modules/about.sass */
+/* line 53, ../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
@@ -744,7 +758,7 @@ a.intro-more:hover, a.intro-more:active {
   color: rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 512px) {
-  /* line 47, ../sass/modules/about.sass */
+  /* line 53, ../sass/modules/about.sass */
   .about-title {
     font-size: 30px;
     font-size: 3rem;
@@ -753,7 +767,7 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 61, ../sass/modules/about.sass */
+/* line 67, ../sass/modules/about.sass */
 .about .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -761,23 +775,36 @@ a.intro-more:hover, a.intro-more:active {
   padding-left: 1rem;
 }
 
-/* line 65, ../sass/modules/about.sass */
+/* line 71, ../sass/modules/about.sass */
 .about-separator {
   padding: 0 5px;
   padding: 0 0.5rem;
 }
 
-/* line 68, ../sass/modules/about.sass */
+/* line 74, ../sass/modules/about.sass */
 .js .about-links {
   color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+}
+@media (min-width: 512px) {
+  /* line 74, ../sass/modules/about.sass */
+  .js .about-links {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+  }
 }
 
-/* line 71, ../sass/modules/about.sass */
+/* line 83, ../sass/modules/about.sass */
 .js .about-links a {
   text-decoration: none;
 }
 
-/* line 74, ../sass/modules/about.sass */
+/* line 86, ../sass/modules/about.sass */
 .js .about-links a:hover {
   color: white;
 }
