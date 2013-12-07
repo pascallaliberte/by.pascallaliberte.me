@@ -7,8 +7,8 @@
 
 /* line 10, ../../sass/layouts/post.sass */
 .copyright {
-  padding-bottom: 20px;
-  padding-bottom: 2rem;
+  margin-top: -30px;
+  margin-top: -3rem;
 }
 
 @media (min-width: 880px) {
