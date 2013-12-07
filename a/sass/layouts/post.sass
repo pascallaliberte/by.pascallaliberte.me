@@ -2,10 +2,13 @@
 @import "mixins"
 @import "breakpoint"
 
-.post, .intro, .about-details
+.post, .intro, .about-details, .copyright
   max-width: 30em
   margin: 0 auto
   padding: 0 1em
+
+.copyright
+  +rem(padding-bottom, 20px)
 
 +breakpoint($medium-wide-width)
   html

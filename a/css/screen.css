@@ -408,37 +408,49 @@ div.intro {
   color: #bcafa5;
 }
 
+/* line 34, ../sass/_base.sass */
+.copyright {
+  font-family: adelle, serif;
+  color: #bcafa5;
+}
+
 /* line 1, ../sass/_states.sass */
 .is-hidden {
   display: none;
 }
 
 /* line 5, ../sass/layouts/post.sass */
-.post, .intro, .about-details {
+.post, .intro, .about-details, .copyright {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
+/* line 10, ../sass/layouts/post.sass */
+.copyright {
+  padding-bottom: 20px;
+  padding-bottom: 2rem;
+}
+
 @media (min-width: 880px) {
-  /* line 11, ../sass/layouts/post.sass */
+  /* line 14, ../sass/layouts/post.sass */
   html {
     font-size: 75%;
   }
 }
 @media (min-width: 1100px) {
-  /* line 15, ../sass/layouts/post.sass */
+  /* line 18, ../sass/layouts/post.sass */
   html {
     font-size: 93.75%;
   }
 }
-/* line 17, ../sass/layouts/post.sass */
+/* line 20, ../sass/layouts/post.sass */
 .js {
   padding-top: 300px;
   padding-top: 30rem;
 }
 
-/* line 20, ../sass/layouts/post.sass */
+/* line 23, ../sass/layouts/post.sass */
 .post-title {
   font-size: 43px;
   font-size: 4.3rem;
@@ -454,7 +466,7 @@ div.intro {
   color: #bb5400;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 20, ../sass/layouts/post.sass */
+  /* line 23, ../sass/layouts/post.sass */
   .post-title {
     font-size: 66px;
     font-size: 6.6rem;
@@ -465,13 +477,13 @@ div.intro {
   }
 }
 
-/* line 34, ../sass/layouts/post.sass */
+/* line 37, ../sass/layouts/post.sass */
 .is-top.is-not-touch .post {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }
 
-/* line 38, ../sass/layouts/post.sass */
+/* line 41, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -487,7 +499,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 48, ../sass/layouts/post.sass */
+/* line 51, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -498,7 +510,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 56, ../sass/layouts/post.sass */
+/* line 59, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -512,7 +524,7 @@ div.intro {
   font-style: normal;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 56, ../sass/layouts/post.sass */
+  /* line 59, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -521,7 +533,7 @@ div.intro {
   }
 }
 
-/* line 68, ../sass/layouts/post.sass */
+/* line 71, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -538,7 +550,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 78, ../sass/layouts/post.sass */
+/* line 81, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -546,56 +558,56 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 84, ../sass/layouts/post.sass */
+/* line 87, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, serif;
   color: #bcafa5;
 }
 
-/* line 88, ../sass/layouts/post.sass */
+/* line 91, ../sass/layouts/post.sass */
 .post img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-/* line 93, ../sass/layouts/post.sass */
+/* line 96, ../sass/layouts/post.sass */
 .post-quote {
   margin-top: 70px;
   margin-top: 7rem;
 }
 
-/* line 96, ../sass/layouts/post.sass */
+/* line 99, ../sass/layouts/post.sass */
 .post-quote blockquote {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 100, ../sass/layouts/post.sass */
+/* line 103, ../sass/layouts/post.sass */
 .post-quote-source p {
   margin: 0;
   color: #bcafa5;
 }
 
-/* line 104, ../sass/layouts/post.sass */
+/* line 107, ../sass/layouts/post.sass */
 .post-quote .meta {
   margin-top: 16px;
   margin-top: 1.6rem;
 }
 
-/* line 107, ../sass/layouts/post.sass */
+/* line 110, ../sass/layouts/post.sass */
 .post-meta-separator {
   padding: 0 5px;
   padding: 0 0.5rem;
 }
 
-/* line 110, ../sass/layouts/post.sass */
+/* line 113, ../sass/layouts/post.sass */
 .post-permalink {
   color: #bcafa5;
   text-decoration: none;
 }
 
-/* line 114, ../sass/layouts/post.sass */
+/* line 117, ../sass/layouts/post.sass */
 .post-permalink-icon {
   font-size: 14px;
   font-size: 1.4rem;
@@ -603,12 +615,12 @@ div.intro {
   padding-left: 0.5rem;
 }
 
-/* line 118, ../sass/layouts/post.sass */
+/* line 121, ../sass/layouts/post.sass */
 .post-permalink:hover {
   color: #bb5400;
 }
 
-/* line 121, ../sass/layouts/post.sass */
+/* line 124, ../sass/layouts/post.sass */
 .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -616,7 +628,7 @@ div.intro {
   line-height: 3.2rem;
 }
 
-/* line 125, ../sass/layouts/post.sass */
+/* line 128, ../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
