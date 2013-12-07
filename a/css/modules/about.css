@@ -1,4 +1,4 @@
-/* line 6, ../../sass/modules/about.sass */
+/* line 7, ../../sass/modules/about.sass */
 .js .about {
   position: absolute;
   font-size: 16px;
@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 @media (min-width: 512px) {
-  /* line 6, ../../sass/modules/about.sass */
+  /* line 7, ../../sass/modules/about.sass */
   .js .about {
     font-size: 16px;
     font-size: 1.6rem;
@@ -25,13 +25,13 @@
   }
 }
 
-/* line 22, ../../sass/modules/about.sass */
+/* line 23, ../../sass/modules/about.sass */
 .js .about a {
   color: inherit;
   text-decoration: underline;
 }
 
-/* line 26, ../../sass/modules/about.sass */
+/* line 27, ../../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -44,19 +44,19 @@
   transition-duration: 0.5s;
 }
 
-/* line 31, ../../sass/modules/about.sass */
+/* line 32, ../../sass/modules/about.sass */
 .js .about-details {
   max-width: 30em;
   margin: 0 auto;
   opacity: 0;
 }
 
-/* line 36, ../../sass/modules/about.sass */
+/* line 37, ../../sass/modules/about.sass */
 .is-top-gutter-shown .about-details {
   opacity: 1;
 }
 
-/* line 39, ../../sass/modules/about.sass */
+/* line 40, ../../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -72,7 +72,7 @@
   font-style: normal;
 }
 @media (min-width: 512px) {
-  /* line 39, ../../sass/modules/about.sass */
+  /* line 40, ../../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -83,7 +83,7 @@
   }
 }
 
-/* line 53, ../../sass/modules/about.sass */
+/* line 54, ../../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
@@ -91,8 +91,8 @@
   line-height: 2.5rem;
   margin-top: -10px;
   margin-top: -1rem;
-  margin-bottom: 15px;
-  margin-bottom: 1.5rem;
+  margin-bottom: -5px;
+  margin-bottom: -0.5rem;
   max-width: 10em;
   font-family: adelle-sans;
   font-weight: 400;
@@ -100,7 +100,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 512px) {
-  /* line 53, ../../sass/modules/about.sass */
+  /* line 54, ../../sass/modules/about.sass */
   .about-title {
     font-size: 25px;
     font-size: 2.5rem;
@@ -111,22 +111,10 @@
   }
 }
 
-/* line 68, ../../sass/modules/about.sass */
-.about .fa {
-  font-size: 25px;
-  font-size: 2.5rem;
-  padding-left: 10px;
-  padding-left: 1rem;
-}
-
-/* line 72, ../../sass/modules/about.sass */
-.about-separator {
-  padding: 0 5px;
-  padding: 0 0.5rem;
-}
-
-/* line 75, ../../sass/modules/about.sass */
+/* line 69, ../../sass/modules/about.sass */
 .js .about-links {
+  overflow: hidden;
+  *zoom: 1;
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   font-size: 1.4rem;
@@ -134,7 +122,7 @@
   line-height: 1.8rem;
 }
 @media (min-width: 512px) {
-  /* line 75, ../../sass/modules/about.sass */
+  /* line 69, ../../sass/modules/about.sass */
   .js .about-links {
     font-size: 16px;
     font-size: 1.6rem;
@@ -143,12 +131,60 @@
   }
 }
 
-/* line 84, ../../sass/modules/about.sass */
+/* line 78, ../../sass/modules/about.sass */
+.js .about-links-home {
+  float: left;
+  display: inline-block;
+  padding-top: 6px;
+  padding-top: 0.6rem;
+}
+@media (min-width: 512px) {
+  /* line 78, ../../sass/modules/about.sass */
+  .js .about-links-home {
+    padding-top: 2px;
+    padding-top: 0.2rem;
+  }
+}
+@media (min-width: 880px) {
+  /* line 78, ../../sass/modules/about.sass */
+  .js .about-links-home {
+    padding-top: 3px;
+    padding-top: 0.3rem;
+  }
+}
+@media (min-width: 1100px) {
+  /* line 78, ../../sass/modules/about.sass */
+  .js .about-links-home {
+    padding-top: 4px;
+    padding-top: 0.4rem;
+  }
+}
+/* line 88, ../../sass/modules/about.sass */
+.js .about-links-home .fa {
+  padding-right: 2px;
+  padding-right: 0.2rem;
+}
+
+/* line 91, ../../sass/modules/about.sass */
+.js .about-links-follow {
+  float: right;
+  margin: 0;
+}
+
+/* line 95, ../../sass/modules/about.sass */
+.about-links-follow .fa {
+  font-size: 25px;
+  font-size: 2.5rem;
+  padding-left: 10px;
+  padding-left: 1rem;
+}
+
+/* line 99, ../../sass/modules/about.sass */
 .js .about-links a {
   text-decoration: none;
 }
 
-/* line 87, ../../sass/modules/about.sass */
+/* line 102, ../../sass/modules/about.sass */
 .js .about-links a:hover {
   color: white;
 }

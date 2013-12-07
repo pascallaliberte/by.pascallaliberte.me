@@ -2,6 +2,7 @@
 @import "site-settings"
 @import "mixins"
 @import "breakpoint"
+@import "compass/utilities/general/clearfix"
 
 .js .about
   position: absolute
@@ -54,7 +55,7 @@
   +rem(font-size, 22px)
   +rem(line-height, 25px)
   +rem(margin-top, -10px)
-  +rem(margin-bottom, 15px)
+  +rem(margin-bottom, -5px)
   max-width: 10em
   font-family: adelle-sans
   font-weight: 400
@@ -65,24 +66,39 @@
     +rem(line-height, 28px)
     +rem(margin-bottom, -5px)
 
-.about .fa //icon
-  +rem(font-size, 25px)
-  +rem(padding-left, 10px)
-  
-.about-separator
-  +rem(padding, 0 5px)
-  
 .js .about-links
+  +clearfix
   color: rgba(255,255,255,0.7)
   +rem(font-size, 14px)
   +rem(line-height, 18px)
   +breakpoint(min-width $medium-width)
     +rem(font-size, 16px)
     +rem(line-height, 25px)
+
+.js .about-links-home
+  float: left
+  display: inline-block
+  +rem(padding-top, 6px)  
+  +breakpoint(min-width $medium-width)
+    +rem(padding-top, 2px)  
+  +breakpoint(min-width $medium-wide-width)
+    +rem(padding-top, 3px)  
+  +breakpoint(min-width $wide-width)
+    +rem(padding-top, 4px)  
+  .fa //icon
+    +rem(padding-right, 2px)
   
+.js .about-links-follow
+  float: right
+  margin: 0
+  
+.about-links-follow .fa //icon
+  +rem(font-size, 25px)
+  +rem(padding-left, 10px)
   
 .js .about-links a 
   text-decoration: none
   
 .js .about-links a:hover
   color: rgba(255,255,255,1)
+  
