@@ -973,16 +973,25 @@ a.intro-more:hover, a.intro-more:active {
   font-family: adelle;
   font-weight: 400;
   margin: 0;
+  display: none;
+}
+@media (min-width: 512px) {
+  /* line 101, ../sass/modules/blog-nav.sass */
+  .blog-nav-post-title {
+    display: block;
+  }
 }
 
-/* line 106, ../sass/modules/blog-nav.sass */
+/* line 109, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
-/* line 109, ../sass/modules/blog-nav.sass */
-.is-fits-blog-nav.is-top .blog-nav-post-title {
-  display: block;
+@media (min-width: 512px) {
+  /* line 112, ../sass/modules/blog-nav.sass */
+  .is-fits-blog-nav.is-top .blog-nav-post-title {
+    display: block;
+  }
 }
 
 /* line 3, ../sass/modules/to-top.sass */

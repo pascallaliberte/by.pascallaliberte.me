@@ -102,9 +102,13 @@
   font-family: adelle
   font-weight: 400
   margin: 0
+  display: none
+  +breakpoint(min-width $medium-width)
+    display: block
 
 .is-top .blog-nav-post-title
   display: none
 
 .is-fits-blog-nav.is-top .blog-nav-post-title
-  display: block
+  +breakpoint(min-width $medium-width)
+    display: block
