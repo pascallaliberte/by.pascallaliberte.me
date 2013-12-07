@@ -414,6 +414,11 @@ div.intro {
   color: #bcafa5;
 }
 
+/* line 38, ../sass/_base.sass */
+.nowrap {
+  white-space: nowrap;
+}
+
 /* line 1, ../sass/_states.sass */
 .is-hidden {
   display: none;
