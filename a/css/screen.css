@@ -594,24 +594,29 @@ div.intro {
 }
 
 /* line 106, ../sass/layouts/post.sass */
+.post-quote-dash {
+  color: #bcafa5;
+}
+
+/* line 109, ../sass/layouts/post.sass */
 .post-quote .meta {
   margin-top: 16px;
   margin-top: 1.6rem;
 }
 
-/* line 109, ../sass/layouts/post.sass */
+/* line 112, ../sass/layouts/post.sass */
 .post-meta-separator {
   padding: 0 5px;
   padding: 0 0.5rem;
 }
 
-/* line 112, ../sass/layouts/post.sass */
+/* line 115, ../sass/layouts/post.sass */
 .post-permalink {
   color: #bcafa5;
   text-decoration: none;
 }
 
-/* line 116, ../sass/layouts/post.sass */
+/* line 119, ../sass/layouts/post.sass */
 .post-permalink-icon {
   font-size: 14px;
   font-size: 1.4rem;
@@ -619,12 +624,12 @@ div.intro {
   padding-left: 0.5rem;
 }
 
-/* line 120, ../sass/layouts/post.sass */
+/* line 123, ../sass/layouts/post.sass */
 .post-permalink:hover {
   color: #bb5400;
 }
 
-/* line 123, ../sass/layouts/post.sass */
+/* line 126, ../sass/layouts/post.sass */
 .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -632,7 +637,7 @@ div.intro {
   line-height: 3.2rem;
 }
 
-/* line 127, ../sass/layouts/post.sass */
+/* line 130, ../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
