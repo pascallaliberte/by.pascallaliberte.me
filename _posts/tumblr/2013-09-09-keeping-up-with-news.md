@@ -10,6 +10,7 @@ tumblr_url: http://pascallaliberte.me/post/60751996372/keeping-up-with-news
 
 I used to feel overwhelmed with news and updates, tempted to '[unfollow](https://www.google.com/search?q=unfollow)' people and I wanted to reduce the time spent on this habit. Since the new system, I follow everybody I want and all the news sources I want, I check in just a few times a day (it could be less), and I keep up with the updates that matter to me.
 
+<!-- MORE -->
 
 ## Too many sources
 
