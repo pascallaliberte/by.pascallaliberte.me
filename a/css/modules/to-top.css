@@ -14,7 +14,7 @@
 }
 
 /* line 10, ../../sass/modules/to-top.sass */
-.is-top .to-top {
+.is-not-home.is-top .to-top {
   display: block;
   opacity: 1;
   height: 100%;

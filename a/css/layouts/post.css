@@ -59,7 +59,7 @@
 }
 
 /* line 40, ../../sass/layouts/post.sass */
-.is-top.is-not-touch .post {
+.is-top.is-not-touch.is-not-home .post {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }

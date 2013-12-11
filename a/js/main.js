@@ -106,7 +106,9 @@
   
     $(".site").eq(0).css("min-height",$( window ).height());
   
-    $(window).scrollTop(topGutterHeight);
+    if ($("body").eq(0).hasClass("is-not-home")) {
+      $(window).scrollTop(topGutterHeight);
+    }
   
     $(window).scroll(update_page_properties);
   

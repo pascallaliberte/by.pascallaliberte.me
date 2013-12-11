@@ -52,11 +52,21 @@
 }
 
 /* line 37, ../../sass/modules/about.sass */
-.is-top-gutter-shown .about-details {
+.is-home .about-details {
   opacity: 1;
 }
 
 /* line 40, ../../sass/modules/about.sass */
+.is-not-home .about-details {
+  opacity: 0;
+}
+
+/* line 43, ../../sass/modules/about.sass */
+.is-top-gutter-shown .about-details {
+  opacity: 1;
+}
+
+/* line 46, ../../sass/modules/about.sass */
 .about-name {
   font-size: 35px;
   font-size: 3.5rem;
@@ -72,7 +82,7 @@
   font-style: normal;
 }
 @media (min-width: 512px) {
-  /* line 40, ../../sass/modules/about.sass */
+  /* line 46, ../../sass/modules/about.sass */
   .about-name {
     font-size: 43px;
     font-size: 4.3rem;
@@ -83,7 +93,7 @@
   }
 }
 
-/* line 54, ../../sass/modules/about.sass */
+/* line 60, ../../sass/modules/about.sass */
 .about-title {
   font-size: 22px;
   font-size: 2.2rem;
@@ -100,7 +110,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 @media (min-width: 512px) {
-  /* line 54, ../../sass/modules/about.sass */
+  /* line 60, ../../sass/modules/about.sass */
   .about-title {
     font-size: 25px;
     font-size: 2.5rem;
@@ -111,7 +121,7 @@
   }
 }
 
-/* line 69, ../../sass/modules/about.sass */
+/* line 75, ../../sass/modules/about.sass */
 .js .about-links {
   overflow: hidden;
   *zoom: 1;
@@ -122,7 +132,7 @@
   line-height: 1.8rem;
 }
 @media (min-width: 512px) {
-  /* line 69, ../../sass/modules/about.sass */
+  /* line 75, ../../sass/modules/about.sass */
   .js .about-links {
     font-size: 16px;
     font-size: 1.6rem;
@@ -131,7 +141,7 @@
   }
 }
 
-/* line 78, ../../sass/modules/about.sass */
+/* line 84, ../../sass/modules/about.sass */
 .js .about-links-home {
   float: left;
   display: inline-block;
@@ -139,39 +149,39 @@
   padding-top: 0.6rem;
 }
 @media (min-width: 512px) {
-  /* line 78, ../../sass/modules/about.sass */
+  /* line 84, ../../sass/modules/about.sass */
   .js .about-links-home {
     padding-top: 2px;
     padding-top: 0.2rem;
   }
 }
 @media (min-width: 880px) {
-  /* line 78, ../../sass/modules/about.sass */
+  /* line 84, ../../sass/modules/about.sass */
   .js .about-links-home {
     padding-top: 3px;
     padding-top: 0.3rem;
   }
 }
 @media (min-width: 1100px) {
-  /* line 78, ../../sass/modules/about.sass */
+  /* line 84, ../../sass/modules/about.sass */
   .js .about-links-home {
     padding-top: 4px;
     padding-top: 0.4rem;
   }
 }
-/* line 88, ../../sass/modules/about.sass */
+/* line 94, ../../sass/modules/about.sass */
 .js .about-links-home .fa {
   padding-right: 2px;
   padding-right: 0.2rem;
 }
 
-/* line 91, ../../sass/modules/about.sass */
+/* line 97, ../../sass/modules/about.sass */
 .js .about-links-follow {
   float: right;
   margin: 0;
 }
 
-/* line 95, ../../sass/modules/about.sass */
+/* line 101, ../../sass/modules/about.sass */
 .about-links-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -179,12 +189,12 @@
   padding-left: 1rem;
 }
 
-/* line 99, ../../sass/modules/about.sass */
+/* line 105, ../../sass/modules/about.sass */
 .js .about-links a {
   text-decoration: none;
 }
 
-/* line 102, ../../sass/modules/about.sass */
+/* line 108, ../../sass/modules/about.sass */
 .js .about-links a:hover {
   color: white;
 }
