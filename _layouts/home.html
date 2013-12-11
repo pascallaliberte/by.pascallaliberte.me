@@ -3,6 +3,18 @@ layout: default
 key: is-home
 ---
 
-{% include about.html %}
+{% if paginator.page == 1 %}
+  {% include about.html %}
+{% else %}
+  {% include intro.html %}
+{% endif %}
 
 {{ content }}
+
+{% if paginator.page > 1 %}
+  {% include about.html %}
+{% endif %}
+
+{% include to-top.html %}
+
+{% include blog-nav.html %}
