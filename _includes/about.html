@@ -1,17 +1,17 @@
 <div class="about" id="about">
 
   <div class="about-details">
-    {% if page.key == "home" %}
+    {% if page.key == "is-home" %}
     <h1 class="about-name">Pascal Laliberté</h1>
     {% else %}
     <h2 class="about-name">Pascal Laliberté</h2>
     {% endif %}
     <div class="about-title">Interaction designer<br /> Ottawa, Canada</div>
     
-    <p>Design and personal growth: these two things fascinate me most. To me, they're both this organic, incremental process where you move closer to your deep intent. This blog is about this stuff, about usability, and about business.</p>
+    <p>Design and personal growth: these two things fascinate me most. To me, they're both this organic, incremental process where you move closer to your deep intent. This blog is about this stuff, about usability, and about work culture.</p>
     
     <div class="about-links">
-      {% if page.key == null or page.key != "home" %}
+      {% if page.key == null or page.key != "is-home" %}
       <a class="about-links-home" href="/" rel="home">
         <i class="fa fa-chevron-left"></i> All posts
       </a>
