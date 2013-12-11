@@ -101,39 +101,37 @@
   color: white;
 }
 
-/* line 66, ../../sass/modules/blog-nav.sass */
-.is-fits-blog-nav-simple.is-top .blog-nav-previous, .is-fits-blog-nav-simple.is-top .blog-nav-next {
+/* line 67, ../../sass/modules/blog-nav.sass */
+.is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-next {
   display: block;
   bottom: 15px;
   bottom: 1.5rem;
 }
-
-/* line 71, ../../sass/modules/blog-nav.sass */
-.is-fits-blog-nav.is-top .blog-nav-previous, .is-fits-blog-nav.is-top .blog-nav-next {
+/* line 72, ../../sass/modules/blog-nav.sass */
+.is-not-home.is-fits-blog-nav.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav.is-top .blog-nav-next {
   display: block;
   bottom: 50px;
   bottom: 5rem;
 }
-
-/* line 76, ../../sass/modules/blog-nav.sass */
-.is-fits-blog-nav-large.is-top .blog-nav-previous, .is-fits-blog-nav-large.is-top .blog-nav-next {
+/* line 77, ../../sass/modules/blog-nav.sass */
+.is-not-home.is-fits-blog-nav-large.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-large.is-top .blog-nav-next {
   display: block;
   bottom: 80px;
   bottom: 8rem;
 }
 
-/* line 80, ../../sass/modules/blog-nav.sass */
+/* line 81, ../../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 83, ../../sass/modules/blog-nav.sass */
+/* line 84, ../../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 87, ../../sass/modules/blog-nav.sass */
+/* line 88, ../../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -144,7 +142,7 @@
   line-height: 1.6rem;
 }
 
-/* line 94, ../../sass/modules/blog-nav.sass */
+/* line 95, ../../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-label {
   font-size: 15px;
   font-size: 1.5rem;
@@ -152,12 +150,12 @@
   line-height: 2rem;
 }
 
-/* line 98, ../../sass/modules/blog-nav.sass */
+/* line 99, ../../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 101, ../../sass/modules/blog-nav.sass */
+/* line 102, ../../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
@@ -165,19 +163,19 @@
   display: none;
 }
 @media (min-width: 512px) {
-  /* line 101, ../../sass/modules/blog-nav.sass */
+  /* line 102, ../../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }
 }
 
-/* line 109, ../../sass/modules/blog-nav.sass */
+/* line 110, ../../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
 @media (min-width: 512px) {
-  /* line 112, ../../sass/modules/blog-nav.sass */
+  /* line 113, ../../sass/modules/blog-nav.sass */
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }
