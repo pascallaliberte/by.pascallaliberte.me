@@ -18,7 +18,7 @@
           <link href="/a/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
     </head>
-    <body class="{{ page.key }}">
+    <body class="{{ page.key }}{% if page.key != "is-home" or paginator.page > 1 %} is-not-home {% endif %}">
 
         <div class="site">
 
