@@ -11,9 +11,9 @@
     <p>Design and personal growth: these two things fascinate me most. To me, they're both this organic, incremental process where you move closer to your deep intent. This blog is about this stuff, about usability, and about work culture.</p>
     
     <div class="about-links">
-      {% if page.key == null or page.key != "is-home" %}
+      {% if page.key == null or page.key != "is-home" or paginator.page > 1 %}
       <a class="about-links-home" href="/" rel="home">
-        <i class="fa fa-chevron-left"></i> All posts
+        <i class="fa fa-chevron-left"></i> Home
       </a>
       {% endif %}
       <p class="about-links-follow">
