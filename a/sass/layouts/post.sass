@@ -20,7 +20,7 @@
 .js
   +rem(padding-top, 300px)
 
-.post-title
+.post .post-title
   +rem(font-size, 43px)
   +rem(line-height, 50px)
   +rem(margin-top, 50px)
@@ -28,7 +28,10 @@
   font-family: adelle
   font-weight: 400
   font-style: normal
+  text-transform: none
   color: #BB5400
+  
+.is-post .post .post-title
   +breakpoint((min-width $medium-width) (min-height $small-height))
     +rem(font-size, 66px)
     +rem(line-height, 75px)
@@ -123,7 +126,7 @@
 .post-permalink:hover
   color: #BB5400
 
-.post-link-title
+.post .post-link-title
   +rem(font-size, 28px)
   +rem(line-height, 32px)
   
