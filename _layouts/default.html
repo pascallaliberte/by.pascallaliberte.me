@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.source %}Quote: {% endif %}{{ page.title }} - Pascal Laliberté</title>
+        <title>{% if page.source %}Quote: {% endif %}{% if page.title %}{{ page.title }} - {% endif %}Pascal Laliberté</title>
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
