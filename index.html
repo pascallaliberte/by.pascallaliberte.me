@@ -6,8 +6,28 @@ layout: home
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div class="content">
+  
+    {% if post.layout == "post" %}
+    <article class="post {% if page.link %}post-link{% endif %}">
+    
+    {% if post.link %}
+      <h1 class="post-title post-link-title">
+        <a href="{{ post.link }}" class="post-link-link">
+          {{ post.title }}<i class="fa fa-chevron-right post-link-icon"></i>
+        </a>
+      </h1>
+    {% else %}
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {% endif %}
+    
+    <p class="meta">
+      {{ post.date | date: "%B %e, %Y" }}
+      {% if post.link %}
+        {% include permalink.html %}
+      {% endif %}
+    </p>
+    
+    <div class="post-details">
       {% if post.content contains site.excerpt_separator %}
           {{ post.content | split:site.excerpt_separator | first }}
           <a href="{{ post.url }}">Continue reading<i class="fa fa-chevron-right post-link-icon"></i></a>
@@ -15,6 +35,35 @@ layout: home
           {{ post.content }}
       {% endif %}
     </div>
+    
+    </article>
+
+    {% elsif post.layout == "quote" %}
+
+    <article class="post post-quote">
+    
+    <div class="post-details post-quote-details">
+      {{ post.content }}
+      
+      {% if post.source %}
+      <div class="post-quote-source">
+        <p class="post-quote-dash">&mdash;</p>
+        {{ post.source | markdownify }}
+      </div>
+      {% endif %}
+      
+    </div>
+    
+    <p class="meta">
+      {{ post.date | date: "%B %e, %Y" }}
+      
+      {% include permalink.html %}
+      </p>
+    
+    </article>
+    
+    {% endif %}
+      
   {% endfor %}
   
   <!-- Pagination links -->
