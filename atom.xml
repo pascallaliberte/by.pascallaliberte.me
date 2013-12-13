@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Pascal Laliberté</title>
+  <link href="http://pascallaliberte.me/"/>
+  <link type="application/atom+xml" rel="self" href="http://pascallaliberte.me/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://pascallaliberte.me/</id>
+  <author>
+    <name>Pascal Laliberté</name>
+    <email>pascal.laliberte@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://pascallaliberte.me{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://pascallaliberte.me{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Pascal Laliberté</name>
+      <uri>http://pascallaliberte.me/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
