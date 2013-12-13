@@ -1101,12 +1101,28 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 /* line 124, ../sass/modules/blog-nav.sass */
+.blog-nav-post-title.is-long {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 20px;
+  line-height: 2rem;
+}
+
+/* line 127, ../sass/modules/blog-nav.sass */
+.is-fits-blog-nav-large .blog-nav-post-title.is-long {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+}
+
+/* line 131, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
 @media (min-width: 512px) {
-  /* line 127, ../sass/modules/blog-nav.sass */
+  /* line 134, ../sass/modules/blog-nav.sass */
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }
