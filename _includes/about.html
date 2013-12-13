@@ -12,7 +12,7 @@
     
     <div class="about-links">
       {% if page.key == null or page.key != "is-home" or paginator.page > 1 %}
-      <a class="about-links-home" href="/" rel="home">
+      <a class="about-links-home" href="{{ site.baseurl}}/" rel="home">
         <i class="fa fa-chevron-left"></i> Home
       </a>
       {% endif %}

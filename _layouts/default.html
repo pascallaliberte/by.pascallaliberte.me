@@ -10,16 +10,16 @@
         <script type="text/javascript" src="//use.typekit.net/psp8ebh.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-        <link href="/a/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="/a/css/prism.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <link href="/a/css/print.css" media="print" rel="stylesheet" type="text/css" />
+        <link href="{{ site.baseurl}}/a/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{{ site.baseurl}}/a/css/prism.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="{{ site.baseurl}}//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ site.baseurl}}/a/css/print.css" media="print" rel="stylesheet" type="text/css" />
         <!--[if IE]>
-          <link href="/a/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+          <link href="{{ site.baseurl}}/a/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
 
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">        
+        <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">        
     </head>
     <body class="{{ page.key }}{% if page.key != "is-home" or paginator.page > 1 %} is-not-home {% endif %}">
 
@@ -33,9 +33,9 @@
           &copy; Pascal Laliberté
         </div>
         
-        <script src="/a/bower_components/jquery/jquery.min.js"></script>
-        <script src="/a/bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
-        <script src="/a/js/main.js"></script>
-        <script src="/a/js/prism.js"></script>
+        <script src="{{ site.baseurl}}/a/bower_components/jquery/jquery.min.js"></script>
+        <script src="{{ site.baseurl}}/a/bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
+        <script src="{{ site.baseurl}}/a/js/main.js"></script>
+        <script src="{{ site.baseurl}}/a/js/prism.js"></script>
     </body>
 </html>

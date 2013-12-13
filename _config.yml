@@ -5,3 +5,4 @@ permalink: /:categories/:year-:month-:title/
 paginate: 5
 paginate_path: "page:num"
 excerpt_separator: "<!-- MORE -->"
+baseurl: /pascallaliberte.me
