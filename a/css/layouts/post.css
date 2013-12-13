@@ -206,7 +206,7 @@
 }
 
 /* line 129, ../../sass/layouts/post.sass */
-.post .post-link-title {
+.post .post-link-title, .is-post .post .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
   line-height: 32px;
