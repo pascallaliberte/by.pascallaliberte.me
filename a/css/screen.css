@@ -362,7 +362,7 @@ table {
 /* line 6, ../sass/_base.sass */
 html {
   font-size: 62.5%;
-  font-family: adelle-sans, sans-serif;
+  font-family: "adelle-sans, Helvetica Neue, Helvetica, Arial, sans-serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -402,7 +402,7 @@ a:hover, a:focus {
 
 /* line 29, ../sass/_base.sass */
 div.intro {
-  font-family: adelle, serif;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   padding-top: 20px;
   padding-top: 2rem;
   color: #bcafa5;
@@ -410,7 +410,7 @@ div.intro {
 
 /* line 34, ../sass/_base.sass */
 .copyright {
-  font-family: adelle, serif;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   color: #bcafa5;
 }
 
@@ -465,7 +465,7 @@ div.intro {
   margin-top: 5rem;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   font-style: normal;
   text-transform: none;
@@ -501,7 +501,7 @@ div.intro {
   letter-spacing: 1px;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  font-family: adelle, serif;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 100;
   font-style: normal;
 }
@@ -512,7 +512,7 @@ div.intro {
   margin-top: 0;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
-  font-family: adelle-sans, sans-serif;
+  font-family: "adelle-sans, Helvetica Neue, Helvetica, Arial, sans-serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -526,7 +526,7 @@ div.intro {
   line-height: 3rem;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
-  font-family: adelle-sans, sans-serif;
+  font-family: "adelle-sans, Helvetica Neue, Helvetica, Arial, sans-serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -552,7 +552,7 @@ div.intro {
   margin-left: 2rem;
   margin-right: 20px;
   margin-right: 2rem;
-  font-family: adelle, serif;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 100;
   font-style: italic;
 }
@@ -567,7 +567,7 @@ div.intro {
 
 /* line 90, ../sass/layouts/post.sass */
 .post p.meta {
-  font-family: adelle, serif;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   color: #bcafa5;
 }
 
@@ -776,7 +776,7 @@ a.intro-more:hover, a.intro-more:active {
   margin-bottom: 15px;
   margin-bottom: 1.5rem;
   max-width: 10em;
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   font-style: normal;
 }
@@ -803,7 +803,7 @@ a.intro-more:hover, a.intro-more:active {
   margin-bottom: -5px;
   margin-bottom: -0.5rem;
   max-width: 10em;
-  font-family: adelle-sans;
+  font-family: "adelle-sans, Helvetica Neue, Helvetica, Arial, sans-serif";
   font-weight: 400;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
@@ -971,7 +971,7 @@ a.intro-more:hover, a.intro-more:active {
   position: absolute;
   bottom: 60px;
   bottom: 6rem;
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   color: black;
   text-decoration: none;
@@ -1088,7 +1088,7 @@ a.intro-more:hover, a.intro-more:active {
 
 /* line 116, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   margin: 0;
   display: none;
@@ -1108,7 +1108,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2rem;
 }
 
-/* line 127, ../sass/modules/blog-nav.sass */
+/* line 128, ../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-post-title.is-long {
   font-size: 20px;
   font-size: 2rem;
@@ -1116,13 +1116,13 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2.4rem;
 }
 
-/* line 131, ../sass/modules/blog-nav.sass */
+/* line 132, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
 @media (min-width: 512px) {
-  /* line 134, ../sass/modules/blog-nav.sass */
+  /* line 135, ../sass/modules/blog-nav.sass */
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }

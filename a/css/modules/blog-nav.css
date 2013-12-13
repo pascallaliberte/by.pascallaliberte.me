@@ -71,7 +71,7 @@
   position: absolute;
   bottom: 60px;
   bottom: 6rem;
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   color: black;
   text-decoration: none;
@@ -164,7 +164,7 @@
 
 /* line 102, ../../sass/modules/blog-nav.sass */
 .blog-nav-label {
-  font-family: adelle-sans;
+  font-family: "adelle-sans, Helvetica Neue, Helvetica, Arial, sans-serif";
   text-transform: uppercase;
   margin: 0;
   font-size: 12px;
@@ -188,7 +188,7 @@
 
 /* line 116, ../../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
-  font-family: adelle;
+  font-family: "adelle, 'Palatino Linotype', 'Charcoal', 'Georgia', serif";
   font-weight: 400;
   margin: 0;
   display: none;
