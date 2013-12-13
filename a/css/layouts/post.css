@@ -46,8 +46,17 @@
   color: #bb5400;
 }
 
+/* line 35, ../../sass/layouts/post.sass */
+.post .post-title a {
+  text-decoration: none;
+}
+/* line 37, ../../sass/layouts/post.sass */
+.post .post-title a:hover, .post .post-title a:active {
+  text-decoration: underline;
+}
+
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 34, ../../sass/layouts/post.sass */
+  /* line 40, ../../sass/layouts/post.sass */
   .is-post .post .post-title {
     font-size: 66px;
     font-size: 6.6rem;
@@ -58,13 +67,13 @@
   }
 }
 
-/* line 40, ../../sass/layouts/post.sass */
+/* line 46, ../../sass/layouts/post.sass */
 .is-top.is-not-touch.is-not-home .post {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }
 
-/* line 44, ../../sass/layouts/post.sass */
+/* line 50, ../../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -80,7 +89,7 @@
   font-style: normal;
 }
 
-/* line 54, ../../sass/layouts/post.sass */
+/* line 60, ../../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -91,7 +100,7 @@
   font-style: normal;
 }
 
-/* line 62, ../../sass/layouts/post.sass */
+/* line 68, ../../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -105,7 +114,7 @@
   font-style: normal;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 62, ../../sass/layouts/post.sass */
+  /* line 68, ../../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -114,7 +123,7 @@
   }
 }
 
-/* line 74, ../../sass/layouts/post.sass */
+/* line 80, ../../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -131,7 +140,7 @@
   font-style: italic;
 }
 
-/* line 84, ../../sass/layouts/post.sass */
+/* line 90, ../../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -139,60 +148,60 @@
   font-style: inherit;
 }
 
-/* line 90, ../../sass/layouts/post.sass */
+/* line 96, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   color: #bcafa5;
 }
 
-/* line 94, ../../sass/layouts/post.sass */
+/* line 100, ../../sass/layouts/post.sass */
 .post img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-/* line 99, ../../sass/layouts/post.sass */
+/* line 105, ../../sass/layouts/post.sass */
 .post-quote {
   margin-top: 70px;
   margin-top: 7rem;
 }
 
-/* line 102, ../../sass/layouts/post.sass */
+/* line 108, ../../sass/layouts/post.sass */
 .post-quote blockquote {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 106, ../../sass/layouts/post.sass */
+/* line 112, ../../sass/layouts/post.sass */
 .post-quote-source p {
   margin: 0;
 }
 
-/* line 109, ../../sass/layouts/post.sass */
+/* line 115, ../../sass/layouts/post.sass */
 .post-quote-dash {
   color: #bcafa5;
 }
 
-/* line 112, ../../sass/layouts/post.sass */
+/* line 118, ../../sass/layouts/post.sass */
 .post-quote .meta {
   margin-top: 16px;
   margin-top: 1.6rem;
 }
 
-/* line 115, ../../sass/layouts/post.sass */
+/* line 121, ../../sass/layouts/post.sass */
 .post-meta-separator {
   padding: 0 5px;
   padding: 0 0.5rem;
 }
 
-/* line 118, ../../sass/layouts/post.sass */
+/* line 124, ../../sass/layouts/post.sass */
 .post-permalink {
   color: #bcafa5;
   text-decoration: none;
 }
 
-/* line 122, ../../sass/layouts/post.sass */
+/* line 128, ../../sass/layouts/post.sass */
 .post-permalink-icon {
   font-size: 14px;
   font-size: 1.4rem;
@@ -200,12 +209,12 @@
   padding-left: 0.5rem;
 }
 
-/* line 126, ../../sass/layouts/post.sass */
+/* line 132, ../../sass/layouts/post.sass */
 .post-permalink:hover {
   color: #bb5400;
 }
 
-/* line 129, ../../sass/layouts/post.sass */
+/* line 135, ../../sass/layouts/post.sass */
 .post .post-link-title, .is-post .post .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -213,7 +222,7 @@
   line-height: 3.2rem;
 }
 
-/* line 133, ../../sass/layouts/post.sass */
+/* line 139, ../../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
@@ -224,7 +233,7 @@
   vertical-align: middle;
 }
 
-/* line 139, ../../sass/layouts/post.sass */
+/* line 145, ../../sass/layouts/post.sass */
 .is-home .post {
   margin-top: 70px;
   margin-top: 7rem;
@@ -232,7 +241,7 @@
   margin-bottom: 7rem;
 }
 
-/* line 143, ../../sass/layouts/post.sass */
+/* line 149, ../../sass/layouts/post.sass */
 .is-home .post-separator {
   border: 0;
   height: 2px;
