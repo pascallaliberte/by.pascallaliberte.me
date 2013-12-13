@@ -75,7 +75,7 @@
   font-weight: 400;
   color: black;
   text-decoration: none;
-  width: 25%;
+  width: 30%;
   background: rgba(87, 55, 29, 0.4);
   padding: 20px;
   padding: 2rem;
@@ -93,8 +93,14 @@
   line-height: 24px;
   line-height: 2.4rem;
 }
+@media (min-width: 880px) {
+  /* line 40, ../../sass/modules/blog-nav.sass */
+  .blog-nav-previous, .blog-nav-next {
+    width: 25%;
+  }
+}
 
-/* line 57, ../../sass/modules/blog-nav.sass */
+/* line 60, ../../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-previous, .is-fits-blog-nav-large .blog-nav-next {
   padding: 30px;
   padding: 3rem;
@@ -106,18 +112,18 @@
   line-height: 3rem;
 }
 
-/* line 64, ../../sass/modules/blog-nav.sass */
+/* line 67, ../../sass/modules/blog-nav.sass */
 .blog-nav-pagination .blog-nav-previous, .blog-nav-pagination .blog-nav-next {
   width: 15%;
 }
 
-/* line 67, ../../sass/modules/blog-nav.sass */
+/* line 70, ../../sass/modules/blog-nav.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.6);
   color: white;
 }
 
-/* line 71, ../../sass/modules/blog-nav.sass */
+/* line 74, ../../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   -webkit-transition-property: none;
   -moz-transition-property: none;
@@ -126,43 +132,43 @@
   background: rgba(87, 55, 29, 0.8);
 }
 
-/* line 75, ../../sass/modules/blog-nav.sass */
+/* line 78, ../../sass/modules/blog-nav.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   display: none;
   color: white;
 }
 
-/* line 81, ../../sass/modules/blog-nav.sass */
+/* line 84, ../../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-next {
   display: block;
   bottom: 15px;
   bottom: 1.5rem;
 }
-/* line 86, ../../sass/modules/blog-nav.sass */
+/* line 89, ../../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav.is-top .blog-nav-next {
   display: block;
   bottom: 50px;
   bottom: 5rem;
 }
-/* line 91, ../../sass/modules/blog-nav.sass */
+/* line 94, ../../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav-large.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-large.is-top .blog-nav-next {
   display: block;
   bottom: 80px;
   bottom: 8rem;
 }
 
-/* line 95, ../../sass/modules/blog-nav.sass */
+/* line 98, ../../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 98, ../../sass/modules/blog-nav.sass */
+/* line 101, ../../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 102, ../../sass/modules/blog-nav.sass */
+/* line 105, ../../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -173,7 +179,7 @@
   line-height: 1.6rem;
 }
 
-/* line 109, ../../sass/modules/blog-nav.sass */
+/* line 112, ../../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-label {
   font-size: 15px;
   font-size: 1.5rem;
@@ -181,12 +187,12 @@
   line-height: 2rem;
 }
 
-/* line 113, ../../sass/modules/blog-nav.sass */
+/* line 116, ../../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 116, ../../sass/modules/blog-nav.sass */
+/* line 119, ../../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   font-weight: 400;
@@ -194,13 +200,13 @@
   display: none;
 }
 @media (min-width: 512px) {
-  /* line 116, ../../sass/modules/blog-nav.sass */
+  /* line 119, ../../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }
 }
 
-/* line 124, ../../sass/modules/blog-nav.sass */
+/* line 127, ../../sass/modules/blog-nav.sass */
 .blog-nav-post-title.is-long {
   font-size: 15px;
   font-size: 1.5rem;
@@ -208,7 +214,7 @@
   line-height: 2rem;
 }
 
-/* line 128, ../../sass/modules/blog-nav.sass */
+/* line 131, ../../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-post-title.is-long {
   font-size: 20px;
   font-size: 2rem;
@@ -216,13 +222,13 @@
   line-height: 2.4rem;
 }
 
-/* line 132, ../../sass/modules/blog-nav.sass */
+/* line 135, ../../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
 @media (min-width: 512px) {
-  /* line 135, ../../sass/modules/blog-nav.sass */
+  /* line 138, ../../sass/modules/blog-nav.sass */
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }
