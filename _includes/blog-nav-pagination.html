@@ -1,9 +1,9 @@
 <div class="blog-nav-container">
-  <nav class="blog-nav">
+  <nav class="blog-nav blog-nav-pagination">
     {% if paginator.previous_page %}
     {% if paginator.previous_page > 1 %}
     <a href="/page{{ paginator.previous_page }}" class="blog-nav-previous">
-      <h3 class="blog-nav-label">Previous posts</h3>
+      <h3 class="blog-nav-label">Newer posts</h3>
     {% else %}
     <a href="/" class="blog-nav-previous">
       <h3 class="blog-nav-label">Home</h3>
@@ -12,7 +12,7 @@
     {% endif %}
     {% if paginator.next_page %}
     <a href="/page{{ paginator.next_page }}" class="blog-nav-next">
-      <h3 class="blog-nav-label">Next posts</h3>
+      <h3 class="blog-nav-label">Older posts</h3>
     </a> 
     {% endif %}
   </nav>
