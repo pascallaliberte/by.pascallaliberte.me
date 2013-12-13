@@ -905,6 +905,12 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 /* line 9, ../sass/modules/blog-nav.sass */
+.is-home .blog-nav-container {
+  height: 150px;
+  height: 15rem;
+}
+
+/* line 12, ../sass/modules/blog-nav.sass */
 .blog-nav {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -921,18 +927,24 @@ a.intro-more:hover, a.intro-more:active {
   width: 100%;
 }
 
-/* line 17, ../sass/modules/blog-nav.sass */
+/* line 20, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination {
+  height: 150px;
+  height: 15rem;
+}
+
+/* line 23, ../sass/modules/blog-nav.sass */
 .js .blog-nav {
   opacity: 0;
 }
 
-/* line 20, ../sass/modules/blog-nav.sass */
+/* line 26, ../sass/modules/blog-nav.sass */
 .is-not-top-gutter-shown .blog-nav {
   opacity: 1;
 }
 
-/* line 23, ../sass/modules/blog-nav.sass */
-.is-top .blog-nav {
+/* line 29, ../sass/modules/blog-nav.sass */
+.is-not-home.is-top .blog-nav {
   opacity: 1;
   height: 100%;
   position: absolute;
@@ -940,7 +952,7 @@ a.intro-more:hover, a.intro-more:active {
   left: 0;
 }
 
-/* line 30, ../sass/modules/blog-nav.sass */
+/* line 36, ../sass/modules/blog-nav.sass */
 .blog-nav-previous, .blog-nav-next {
   position: absolute;
   bottom: 60px;
@@ -968,7 +980,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2.4rem;
 }
 
-/* line 47, ../sass/modules/blog-nav.sass */
+/* line 53, ../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-previous, .is-fits-blog-nav-large .blog-nav-next {
   padding: 30px;
   padding: 3rem;
@@ -980,18 +992,18 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 3rem;
 }
 
-/* line 54, ../sass/modules/blog-nav.sass */
+/* line 60, ../sass/modules/blog-nav.sass */
 .blog-nav-pagination .blog-nav-previous, .blog-nav-pagination .blog-nav-next {
   width: 15%;
 }
 
-/* line 57, ../sass/modules/blog-nav.sass */
+/* line 63, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:hover, .blog-nav-next:hover {
   background: rgba(87, 55, 29, 0.6);
   color: white;
 }
 
-/* line 61, ../sass/modules/blog-nav.sass */
+/* line 67, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
   -webkit-transition-property: none;
   -moz-transition-property: none;
@@ -1000,43 +1012,43 @@ a.intro-more:hover, a.intro-more:active {
   background: rgba(87, 55, 29, 0.8);
 }
 
-/* line 65, ../sass/modules/blog-nav.sass */
+/* line 71, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-previous, .is-top .blog-nav-next {
   display: none;
   color: white;
 }
 
-/* line 71, ../sass/modules/blog-nav.sass */
+/* line 77, ../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-simple.is-top .blog-nav-next {
   display: block;
   bottom: 15px;
   bottom: 1.5rem;
 }
-/* line 76, ../sass/modules/blog-nav.sass */
+/* line 82, ../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav.is-top .blog-nav-next {
   display: block;
   bottom: 50px;
   bottom: 5rem;
 }
-/* line 81, ../sass/modules/blog-nav.sass */
+/* line 87, ../sass/modules/blog-nav.sass */
 .is-not-home.is-fits-blog-nav-large.is-top .blog-nav-previous, .is-not-home.is-fits-blog-nav-large.is-top .blog-nav-next {
   display: block;
   bottom: 80px;
   bottom: 8rem;
 }
 
-/* line 85, ../sass/modules/blog-nav.sass */
+/* line 91, ../sass/modules/blog-nav.sass */
 .blog-nav-previous {
   left: 0;
 }
 
-/* line 88, ../sass/modules/blog-nav.sass */
+/* line 94, ../sass/modules/blog-nav.sass */
 .blog-nav-next {
   right: 0;
   text-align: right;
 }
 
-/* line 92, ../sass/modules/blog-nav.sass */
+/* line 98, ../sass/modules/blog-nav.sass */
 .blog-nav-label {
   font-family: adelle-sans;
   text-transform: uppercase;
@@ -1047,7 +1059,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 1.6rem;
 }
 
-/* line 99, ../sass/modules/blog-nav.sass */
+/* line 105, ../sass/modules/blog-nav.sass */
 .is-fits-blog-nav-large .blog-nav-label {
   font-size: 15px;
   font-size: 1.5rem;
@@ -1055,12 +1067,12 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 2rem;
 }
 
-/* line 103, ../sass/modules/blog-nav.sass */
+/* line 109, ../sass/modules/blog-nav.sass */
 .blog-nav-label .separator {
   display: none;
 }
 
-/* line 106, ../sass/modules/blog-nav.sass */
+/* line 112, ../sass/modules/blog-nav.sass */
 .blog-nav-post-title {
   font-family: adelle;
   font-weight: 400;
@@ -1068,19 +1080,19 @@ a.intro-more:hover, a.intro-more:active {
   display: none;
 }
 @media (min-width: 512px) {
-  /* line 106, ../sass/modules/blog-nav.sass */
+  /* line 112, ../sass/modules/blog-nav.sass */
   .blog-nav-post-title {
     display: block;
   }
 }
 
-/* line 114, ../sass/modules/blog-nav.sass */
+/* line 120, ../sass/modules/blog-nav.sass */
 .is-top .blog-nav-post-title {
   display: none;
 }
 
 @media (min-width: 512px) {
-  /* line 117, ../sass/modules/blog-nav.sass */
+  /* line 123, ../sass/modules/blog-nav.sass */
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }

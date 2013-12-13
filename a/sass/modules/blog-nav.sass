@@ -6,6 +6,9 @@
 .blog-nav-container
   +rem(height, 300px)
 
+.is-home .blog-nav-container
+  +rem(height, 150px)
+
 .blog-nav
   opacity: 1
   +transition-property(opacity)
@@ -14,13 +17,16 @@
   +rem(height, 300px)
   width: 100%
 
+.blog-nav-pagination
+  +rem(height, 150px)
+
 .js .blog-nav
   opacity: 0
 
 .is-not-top-gutter-shown .blog-nav
   opacity: 1
 
-.is-top .blog-nav
+.is-not-home.is-top .blog-nav
   opacity: 1
   height: 100%
   position: absolute
