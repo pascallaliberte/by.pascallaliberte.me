@@ -6,8 +6,8 @@
 
 .js .about
   position: absolute
-  +rem(font-size, 16px)
-  +rem(line-height, 20px)
+  +rem(font-size, 14px)
+  +rem(line-height, 18px)
   +rem(height, 308px)
   background: #BB5400
   width: 100%
@@ -44,35 +44,19 @@
   opacity: 1  
 
 .about-name
-  +rem(font-size, 35px)
-  +rem(line-height, 40px)
+  +rem(font-size, 18px)
+  +rem(line-height, 25px)
   +rem(margin-top, 30px)
   +rem(margin-bottom, 15px)
-  max-width: 10em
   font-family: $font-secondary
   font-weight: 400
   font-style: normal
-  +breakpoint($medium-width)
-    +rem(font-size, 43px)
-    +rem(line-height, 50px)
-    +rem(margin-top, 30px)
+  +breakpoint(min-width $medium-width)
+    +rem(font-size, 28px)
+    +rem(line-height, 35px)
   
-.about-title
-  +rem(font-size, 22px)
-  +rem(line-height, 25px)
-  +rem(margin-top, -10px)
-  +rem(margin-bottom, -5px)
-  max-width: 10em
-  font-family: $font-anchor
-  font-weight: 400
-  font-style: normal
-  color: rgba(255,255,255,0.7)
-  +breakpoint($medium-width)
-    +rem(font-size, 25px)
-    +rem(line-height, 28px)
-    +rem(margin-bottom, -5px)
 
-.js .about-links
+.js .about-links, .js .about-signature
   +clearfix
   color: rgba(255,255,255,0.7)
   +rem(font-size, 14px)
@@ -81,30 +65,38 @@
     +rem(font-size, 16px)
     +rem(line-height, 25px)
 
+.js .about-links
+  +rem(margin-top, -3px)
+
 .js .about-links-home
   float: left
   display: inline-block
-  +rem(padding-top, 6px)  
-  +breakpoint(min-width $medium-width)
-    +rem(padding-top, 2px)  
-  +breakpoint(min-width $medium-wide-width)
-    +rem(padding-top, 3px)  
-  +breakpoint(min-width $wide-width)
-    +rem(padding-top, 4px)  
   .fa //icon
     +rem(padding-right, 2px)
   
-.js .about-links-follow
-  float: right
+.js .about-signature-follow
   margin: 0
+  white-space: nowrap
+  display: inline-block
+  +rem(margin-top, 5px)
+  +breakpoint(min-width $medium-width)
+    +rem(margin-top, 0)
+
+.js .about-signature-name
+  +rem(padding-right, 10px)
+
+.js .about-signature
+  +rem(margin-top, -5px)  
+  +breakpoint(min-width $medium-width)
+    +rem(margin-top, 0)
   
-.about-links-follow .fa //icon
+.about-signature-follow .fa //icon
   +rem(font-size, 25px)
-  +rem(padding-left, 10px)
+  +rem(padding-right, 10px)
   
-.js .about-links a 
+.js .about-links a, .js .about-signature a
   text-decoration: none
   
-.js .about-links a:hover
+.js .about-links a:hover, .js .about-signature a:hover
   color: rgba(255,255,255,1)
   
