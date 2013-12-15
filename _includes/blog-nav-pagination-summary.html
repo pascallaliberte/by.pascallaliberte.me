@@ -1,0 +1,23 @@
+<div class="blog-nav-pagination-summary">
+{% if paginator.page == 1 %}
+  <h2 class="blog-nav-pagination-summary-page-indicator">
+    Latest posts
+  </h2>
+{% else %}
+  <h2 class="blog-nav-pagination-summary-page-indicator">
+    
+    Posts {{ paginator.page | minus: 1 | times: paginator.per_page | plus: 1 }}
+
+    - 
+    {% assign post_number_of_last_on_page = paginator.page | times: paginator.per_page %}
+    {% if post_number_of_last_on_page < paginator.total_posts %}
+      {{ post_number_of_last_on_page }}
+    {% else %}
+      {{ paginator.total_posts }}
+    {% endif %}
+
+    of 
+    {{ paginator.total_posts }}
+  </h2>
+{% endif %}
+</div>

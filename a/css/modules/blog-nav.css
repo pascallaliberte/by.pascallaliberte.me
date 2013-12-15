@@ -233,3 +233,20 @@
     display: block;
   }
 }
+
+/* line 142, ../../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary {
+  font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
+  padding-top: 40px;
+  padding-top: 4rem;
+  color: #bcafa5;
+}
+
+/* line 147, ../../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-page-indicator {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  font-weight: normal;
+}
