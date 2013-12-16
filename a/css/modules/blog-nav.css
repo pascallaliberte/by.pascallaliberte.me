@@ -240,23 +240,36 @@
   padding-top: 40px;
   padding-top: 4rem;
   color: #bcafa5;
+  text-align: center;
 }
 
-/* line 147, ../../sass/modules/blog-nav.sass */
+/* line 148, ../../sass/modules/blog-nav.sass */
 .blog-nav-pagination-summary-page-indicator {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 20px;
+  font-size: 2rem;
   line-height: 25px;
   line-height: 2.5rem;
   font-weight: normal;
-  display: inline-block;
+  font-style: italic;
 }
 
 /* line 154, ../../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links {
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  margin-top: -10px;
+  margin-top: -1rem;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+/* line 160, ../../sass/modules/blog-nav.sass */
 .blog-nav-pagination-summary-links a {
   color: inherit;
 }
-/* line 156, ../../sass/modules/blog-nav.sass */
+/* line 162, ../../sass/modules/blog-nav.sass */
 .blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
   color: #bb5400;
 }
