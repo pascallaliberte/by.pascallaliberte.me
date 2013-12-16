@@ -15,7 +15,13 @@ layout: home
     <ul>
   {% endif %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">
+      {% if post.layout == "quote" %}
+        &ldquo;{{ post.title }}&rdquo;
+      {% else %}
+        {{ post.title }}
+      {% endif %}
+    </a>
   </li>
 {% endfor %}
 
