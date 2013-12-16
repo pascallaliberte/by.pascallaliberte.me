@@ -426,7 +426,7 @@ div.intro {
 }
 
 /* line 5, ../sass/layouts/post.sass */
-.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary {
+.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
@@ -495,7 +495,7 @@ div.intro {
 }
 
 /* line 47, ../sass/layouts/post.sass */
-.is-top.is-not-touch.is-not-home .post, .is-top.is-not-touch.is-not-home .blog-nav-pagination-summary {
+.is-top.is-not-touch.is-not-home .post, .is-top.is-not-touch.is-not-home .blog-nav-pagination-summary, .is-top.is-not-touch.is-not-home .archives {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }
@@ -1143,6 +1143,16 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 25px;
   line-height: 2.5rem;
   font-weight: normal;
+  display: inline-block;
+}
+
+/* line 154, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a {
+  color: inherit;
+}
+/* line 156, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
+  color: #bb5400;
 }
 
 /* line 3, ../sass/modules/to-top.sass */

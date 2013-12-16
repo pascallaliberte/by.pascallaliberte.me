@@ -249,4 +249,14 @@
   line-height: 25px;
   line-height: 2.5rem;
   font-weight: normal;
+  display: inline-block;
+}
+
+/* line 154, ../../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a {
+  color: inherit;
+}
+/* line 156, ../../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
+  color: #bb5400;
 }

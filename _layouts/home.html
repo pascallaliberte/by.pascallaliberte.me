@@ -13,7 +13,7 @@ key: is-home
 
 {{ content }}
 
-{% if paginator.page > 1 %}
+{% if paginator.page != 1 %}
   {% include about.html %}
 {% endif %}
 

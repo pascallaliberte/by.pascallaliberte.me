@@ -21,7 +21,7 @@
         <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">
         <link rel="icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon">        
     </head>
-    <body class="{{ page.key }}{% if page.key != "is-home" or paginator.page > 1 %} is-not-home {% endif %}">
+    <body class="{{ page.key }}{% if page.key != "is-home" or paginator.page != 1 %} is-not-home {% endif %}">
 
         <div class="site">
 

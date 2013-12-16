@@ -3,7 +3,8 @@
   <h2 class="blog-nav-pagination-summary-page-indicator">
     Latest posts
   </h2>
-{% else %}
+  {% include blog-nav-pagination-summary-links.html %}
+{% elsif paginator.page > 1 %}
   <h2 class="blog-nav-pagination-summary-page-indicator">
     
     Posts {{ paginator.page | minus: 1 | times: paginator.per_page | plus: 1 }}
@@ -18,6 +19,11 @@
 
     of 
     {{ paginator.total_posts }}
+  </h2>
+  {% include blog-nav-pagination-summary-links.html %}
+{% else %}
+  <h2 class="blog-nav-pagination-summary-page-indicator">
+    Browse the archives
   </h2>
 {% endif %}
 </div>
