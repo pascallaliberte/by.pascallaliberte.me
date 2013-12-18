@@ -17,14 +17,26 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <id>http://pascallaliberte.me{{ post.id }}</id>
+    {% if post.link %}
+    <link type="text/html" rel="via" href="{{ post.link }}"/>
+    {% else %}
     <link type="text/html" rel="alternate" href="http://pascallaliberte.me{{ post.url }}"/>
-    <title>{{ post.title | xml_escape }}</title>
+    {% endif %}
+    <title>{{ post.title | xml_escape }}{% if post.link %}→{% endif %}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Pascal Laliberté</name>
       <uri>http://pascallaliberte.me/</uri>
     </author>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <content type="html">
+      {{ post.content | xml_escape }}
+      {% if post.source %}
+      &lt;p&gt;&amp;mdash;&lt;br /&gt;{{ post.source | markdownify | xml_escape }}&lt;/p&gt;
+      {% endif %}
+      {% if post.source or post.link %}
+      &lt;p&gt;&lt;a href="http://pascallaliberte.me{{ post.url }}"&gt;Link to this post&lt;/p&gt;
+      {% endif %}
+    </content>
   </entry>
   {% endfor %}
  
