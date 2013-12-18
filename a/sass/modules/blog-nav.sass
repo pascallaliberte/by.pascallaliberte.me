@@ -138,3 +138,26 @@
 .is-fits-blog-nav.is-top .blog-nav-post-title
   +breakpoint(min-width $medium-width)
     display: block
+
+.blog-nav-pagination-summary
+  font-family: $font-secondary
+  +rem(padding-top, 40px)
+  color: #BCAFA5
+  text-align: center
+
+.blog-nav-pagination-summary-page-indicator
+  +rem(font-size, 20px)
+  +rem(line-height, 25px)
+  font-weight: normal
+  font-style: italic
+  
+.blog-nav-pagination-summary-links
+  display: block
+  +rem(font-size, 14px)
+  +rem(line-height, 18px)
+  +rem(margin-top, -10px)
+  +rem(margin-bottom, 20px)
+  a
+    color: inherit
+  a:hover, a:active
+    color: #BB5400

@@ -409,12 +409,13 @@ div.intro {
 }
 
 /* line 34, ../sass/_base.sass */
-.copyright {
+.site-details {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   color: #bcafa5;
+  text-align: center;
 }
 
-/* line 38, ../sass/_base.sass */
+/* line 39, ../sass/_base.sass */
 .nowrap {
   white-space: nowrap;
 }
@@ -425,14 +426,14 @@ div.intro {
 }
 
 /* line 5, ../sass/layouts/post.sass */
-.post, .intro, .about-details, .copyright {
+.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
 }
 
 /* line 10, ../sass/layouts/post.sass */
-.copyright {
+.site-details {
   margin-top: -30px;
   margin-top: -3rem;
 }
@@ -493,13 +494,13 @@ div.intro {
   }
 }
 
-/* line 46, ../sass/layouts/post.sass */
-.is-top.is-not-touch.is-not-home .post {
+/* line 47, ../sass/layouts/post.sass */
+.is-top.is-not-touch.is-not-home .post, .is-top.is-not-touch.is-not-home .blog-nav-pagination-summary, .is-top.is-not-touch.is-not-home .archives {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }
 
-/* line 50, ../sass/layouts/post.sass */
+/* line 51, ../sass/layouts/post.sass */
 .post h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -515,7 +516,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 60, ../sass/layouts/post.sass */
+/* line 61, ../sass/layouts/post.sass */
 .post p {
   text-indent: 0em;
   margin-top: 0;
@@ -526,7 +527,7 @@ div.intro {
   font-style: normal;
 }
 
-/* line 68, ../sass/layouts/post.sass */
+/* line 69, ../sass/layouts/post.sass */
 .post-details > p:first-of-type {
   text-indent: 0;
   font-size: 20px;
@@ -540,7 +541,7 @@ div.intro {
   font-style: normal;
 }
 @media (min-width: 512px) and (min-height: 25em) {
-  /* line 68, ../sass/layouts/post.sass */
+  /* line 69, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
     line-height: 36px;
     line-height: 3.6rem;
@@ -549,7 +550,7 @@ div.intro {
   }
 }
 
-/* line 80, ../sass/layouts/post.sass */
+/* line 81, ../sass/layouts/post.sass */
 .post blockquote {
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
@@ -566,7 +567,7 @@ div.intro {
   font-style: italic;
 }
 
-/* line 90, ../sass/layouts/post.sass */
+/* line 91, ../sass/layouts/post.sass */
 .post blockquote p {
   font-size: 1em;
   font-family: inherit;
@@ -574,60 +575,60 @@ div.intro {
   font-style: inherit;
 }
 
-/* line 96, ../sass/layouts/post.sass */
+/* line 97, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   color: #bcafa5;
 }
 
-/* line 100, ../sass/layouts/post.sass */
+/* line 101, ../sass/layouts/post.sass */
 .post img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-/* line 105, ../sass/layouts/post.sass */
+/* line 106, ../sass/layouts/post.sass */
 .post-quote {
   margin-top: 70px;
   margin-top: 7rem;
 }
 
-/* line 108, ../sass/layouts/post.sass */
+/* line 109, ../sass/layouts/post.sass */
 .post-quote blockquote {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 112, ../sass/layouts/post.sass */
+/* line 113, ../sass/layouts/post.sass */
 .post-quote-source p {
   margin: 0;
 }
 
-/* line 115, ../sass/layouts/post.sass */
+/* line 116, ../sass/layouts/post.sass */
 .post-quote-dash {
   color: #bcafa5;
 }
 
-/* line 118, ../sass/layouts/post.sass */
+/* line 119, ../sass/layouts/post.sass */
 .post-quote .meta {
   margin-top: 16px;
   margin-top: 1.6rem;
 }
 
-/* line 121, ../sass/layouts/post.sass */
+/* line 122, ../sass/layouts/post.sass */
 .post-meta-separator {
   padding: 0 5px;
   padding: 0 0.5rem;
 }
 
-/* line 124, ../sass/layouts/post.sass */
+/* line 125, ../sass/layouts/post.sass */
 .post-permalink {
   color: #bcafa5;
   text-decoration: none;
 }
 
-/* line 128, ../sass/layouts/post.sass */
+/* line 129, ../sass/layouts/post.sass */
 .post-permalink-icon {
   font-size: 14px;
   font-size: 1.4rem;
@@ -635,12 +636,12 @@ div.intro {
   padding-left: 0.5rem;
 }
 
-/* line 132, ../sass/layouts/post.sass */
+/* line 133, ../sass/layouts/post.sass */
 .post-permalink:hover {
   color: #bb5400;
 }
 
-/* line 135, ../sass/layouts/post.sass */
+/* line 136, ../sass/layouts/post.sass */
 .post .post-link-title, .is-post .post .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -648,7 +649,7 @@ div.intro {
   line-height: 3.2rem;
 }
 
-/* line 139, ../sass/layouts/post.sass */
+/* line 140, ../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
@@ -659,7 +660,7 @@ div.intro {
   vertical-align: middle;
 }
 
-/* line 145, ../sass/layouts/post.sass */
+/* line 146, ../sass/layouts/post.sass */
 .is-home .post {
   margin-top: 70px;
   margin-top: 7rem;
@@ -667,7 +668,7 @@ div.intro {
   margin-bottom: 7rem;
 }
 
-/* line 149, ../sass/layouts/post.sass */
+/* line 150, ../sass/layouts/post.sass */
 .is-home .post-separator {
   border: 0;
   height: 2px;
@@ -700,8 +701,13 @@ a.intro-more {
   text-decoration: none;
   color: inherit;
 }
+/* line 14, ../sass/modules/intro.sass */
+a.intro-more em {
+  text-decoration: underline;
+  font-style: normal;
+}
 
-/* line 15, ../sass/modules/intro.sass */
+/* line 18, ../sass/modules/intro.sass */
 a.intro-more:hover, a.intro-more:active {
   text-decoration: underline;
 }
@@ -709,10 +715,10 @@ a.intro-more:hover, a.intro-more:active {
 /* line 7, ../sass/modules/about.sass */
 .js .about {
   position: absolute;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 20px;
-  line-height: 2rem;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 18px;
+  line-height: 1.8rem;
   height: 308px;
   height: 30.8rem;
   background: #bb5400;
@@ -776,15 +782,14 @@ a.intro-more:hover, a.intro-more:active {
 
 /* line 46, ../sass/modules/about.sass */
 .about-name {
-  font-size: 35px;
-  font-size: 3.5rem;
-  line-height: 40px;
-  line-height: 4rem;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 25px;
+  line-height: 2.5rem;
   margin-top: 30px;
   margin-top: 3rem;
   margin-bottom: 15px;
   margin-bottom: 1.5rem;
-  max-width: 10em;
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   font-weight: 400;
   font-style: normal;
@@ -792,45 +797,15 @@ a.intro-more:hover, a.intro-more:active {
 @media (min-width: 512px) {
   /* line 46, ../sass/modules/about.sass */
   .about-name {
-    font-size: 43px;
-    font-size: 4.3rem;
-    line-height: 50px;
-    line-height: 5rem;
-    margin-top: 30px;
-    margin-top: 3rem;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 35px;
+    line-height: 3.5rem;
   }
 }
 
-/* line 60, ../sass/modules/about.sass */
-.about-title {
-  font-size: 22px;
-  font-size: 2.2rem;
-  line-height: 25px;
-  line-height: 2.5rem;
-  margin-top: -10px;
-  margin-top: -1rem;
-  margin-bottom: -5px;
-  margin-bottom: -0.5rem;
-  max-width: 10em;
-  font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.7);
-}
-@media (min-width: 512px) {
-  /* line 60, ../sass/modules/about.sass */
-  .about-title {
-    font-size: 25px;
-    font-size: 2.5rem;
-    line-height: 28px;
-    line-height: 2.8rem;
-    margin-bottom: -5px;
-    margin-bottom: -0.5rem;
-  }
-}
-
-/* line 75, ../sass/modules/about.sass */
-.js .about-links {
+/* line 59, ../sass/modules/about.sass */
+.js .about-links, .js .about-signature {
   overflow: hidden;
   *zoom: 1;
   color: rgba(255, 255, 255, 0.7);
@@ -840,8 +815,8 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 1.8rem;
 }
 @media (min-width: 512px) {
-  /* line 75, ../sass/modules/about.sass */
-  .js .about-links {
+  /* line 59, ../sass/modules/about.sass */
+  .js .about-links, .js .about-signature {
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 25px;
@@ -849,61 +824,71 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 84, ../sass/modules/about.sass */
+/* line 68, ../sass/modules/about.sass */
+.js .about-links {
+  margin-top: -3px;
+  margin-top: -0.3rem;
+}
+
+/* line 71, ../sass/modules/about.sass */
 .js .about-links-home {
   float: left;
   display: inline-block;
-  padding-top: 6px;
-  padding-top: 0.6rem;
 }
-@media (min-width: 512px) {
-  /* line 84, ../sass/modules/about.sass */
-  .js .about-links-home {
-    padding-top: 2px;
-    padding-top: 0.2rem;
-  }
-}
-@media (min-width: 880px) {
-  /* line 84, ../sass/modules/about.sass */
-  .js .about-links-home {
-    padding-top: 3px;
-    padding-top: 0.3rem;
-  }
-}
-@media (min-width: 1100px) {
-  /* line 84, ../sass/modules/about.sass */
-  .js .about-links-home {
-    padding-top: 4px;
-    padding-top: 0.4rem;
-  }
-}
-/* line 94, ../sass/modules/about.sass */
+/* line 74, ../sass/modules/about.sass */
 .js .about-links-home .fa {
   padding-right: 2px;
   padding-right: 0.2rem;
 }
 
-/* line 97, ../sass/modules/about.sass */
-.js .about-links-follow {
-  float: right;
+/* line 77, ../sass/modules/about.sass */
+.js .about-signature-follow {
   margin: 0;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 5px;
+  margin-top: 0.5rem;
+}
+@media (min-width: 512px) {
+  /* line 77, ../sass/modules/about.sass */
+  .js .about-signature-follow {
+    margin-top: 0;
+  }
 }
 
-/* line 101, ../sass/modules/about.sass */
-.about-links-follow .fa {
+/* line 85, ../sass/modules/about.sass */
+.js .about-signature-name {
+  padding-right: 10px;
+  padding-right: 1rem;
+}
+
+/* line 88, ../sass/modules/about.sass */
+.js .about-signature {
+  margin-top: -5px;
+  margin-top: -0.5rem;
+}
+@media (min-width: 512px) {
+  /* line 88, ../sass/modules/about.sass */
+  .js .about-signature {
+    margin-top: 0;
+  }
+}
+
+/* line 93, ../sass/modules/about.sass */
+.about-signature-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
-  padding-left: 10px;
-  padding-left: 1rem;
+  padding-right: 10px;
+  padding-right: 1rem;
 }
 
-/* line 105, ../sass/modules/about.sass */
-.js .about-links a {
+/* line 97, ../sass/modules/about.sass */
+.js .about-links a, .js .about-signature a {
   text-decoration: none;
 }
 
-/* line 108, ../sass/modules/about.sass */
-.js .about-links a:hover {
+/* line 100, ../sass/modules/about.sass */
+.js .about-links a:hover, .js .about-signature a:hover {
   color: white;
 }
 
@@ -1141,6 +1126,46 @@ a.intro-more:hover, a.intro-more:active {
   .is-fits-blog-nav.is-top .blog-nav-post-title {
     display: block;
   }
+}
+
+/* line 142, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary {
+  font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
+  padding-top: 40px;
+  padding-top: 4rem;
+  color: #bcafa5;
+  text-align: center;
+}
+
+/* line 148, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-page-indicator {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 154, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links {
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  margin-top: -10px;
+  margin-top: -1rem;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+/* line 160, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a {
+  color: inherit;
+}
+/* line 162, ../sass/modules/blog-nav.sass */
+.blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
+  color: #bb5400;
 }
 
 /* line 3, ../sass/modules/to-top.sass */
