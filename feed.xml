@@ -15,6 +15,7 @@ layout: nil
   </author>
 
   {% for post in site.posts %}
+  {% if forloop.index > 20 %}{% break %}{% endif %}
   <entry>
     <id>http://pascallaliberte.me{{ post.id }}</id>
     {% if post.link %}
