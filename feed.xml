@@ -19,7 +19,7 @@ layout: nil
   <entry>
     <id>http://pascallaliberte.me{{ post.id }}</id>
     {% if post.link %}
-    <link type="text/html" rel="via" href="{{ post.link }}"/>
+    <link type="text/html" rel="alternate" href="{{ post.link }}"/>
     {% else %}
     <link type="text/html" rel="alternate" href="http://pascallaliberte.me{{ post.url }}"/>
     {% endif %}
