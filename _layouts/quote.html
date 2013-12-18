@@ -20,7 +20,7 @@ key: is-post is-quote
 </div>
 
 <p class="meta">
-  {{ page.date | date: "%B %e, %Y" }}
+  <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date: "%B %e, %Y" }}</time>
   
   {% include permalink.html %}
   </p>
