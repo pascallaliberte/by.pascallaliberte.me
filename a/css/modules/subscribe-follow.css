@@ -99,19 +99,18 @@ p.about-signature {
   line-height: 2.5rem;
   font-weight: normal;
   font-style: italic;
-  text-transform: lowercase;
 }
-/* line 68, ../../sass/modules/subscribe-follow.sass */
+/* line 67, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow a {
   color: inherit;
   text-decoration: none;
 }
-/* line 71, ../../sass/modules/subscribe-follow.sass */
+/* line 70, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow .fa:hover, .js .subscribe-follow .fa:active {
   color: white;
 }
 
-/* line 75, ../../sass/modules/subscribe-follow.sass */
+/* line 74, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -119,4 +118,8 @@ p.about-signature {
   line-height: 2.5rem;
   margin-right: 10px;
   margin-right: 1rem;
+}
+/* line 78, ../../sass/modules/subscribe-follow.sass */
+.js .subscribe-follow-follow a:last-of-type .fa {
+  margin-right: 0;
 }

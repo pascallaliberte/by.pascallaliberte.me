@@ -421,6 +421,11 @@ div.intro {
 }
 
 /* line 42, ../sass/_base.sass */
+.abbr-acronym {
+  font-size: 0.8em;
+}
+
+/* line 45, ../sass/_base.sass */
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -442,7 +447,7 @@ div.intro {
   user-select: none;
 }
 
-/* line 62, ../sass/_base.sass */
+/* line 65, ../sass/_base.sass */
 .btn-default {
   color: #333333;
   background-color: white;
@@ -1022,19 +1027,18 @@ p.about-signature {
   line-height: 2.5rem;
   font-weight: normal;
   font-style: italic;
-  text-transform: lowercase;
 }
-/* line 68, ../sass/modules/subscribe-follow.sass */
+/* line 67, ../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow a {
   color: inherit;
   text-decoration: none;
 }
-/* line 71, ../sass/modules/subscribe-follow.sass */
+/* line 70, ../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow .fa:hover, .js .subscribe-follow .fa:active {
   color: white;
 }
 
-/* line 75, ../sass/modules/subscribe-follow.sass */
+/* line 74, ../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -1042,6 +1046,10 @@ p.about-signature {
   line-height: 2.5rem;
   margin-right: 10px;
   margin-right: 1rem;
+}
+/* line 78, ../sass/modules/subscribe-follow.sass */
+.js .subscribe-follow-follow a:last-of-type .fa {
+  margin-right: 0;
 }
 
 /* line 6, ../sass/modules/blog-nav.sass */
