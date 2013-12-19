@@ -106,11 +106,17 @@ p.about-signature {
   text-decoration: none;
 }
 /* line 70, ../../sass/modules/subscribe-follow.sass */
-.js .subscribe-follow .fa:hover, .js .subscribe-follow .fa:active {
+.js .subscribe-follow a:hover, .js .subscribe-follow a:active {
   color: white;
 }
 
 /* line 74, ../../sass/modules/subscribe-follow.sass */
+.js .subscribe-follow-subscribe .fa {
+  margin-left: 5px;
+  margin-left: 0.5rem;
+}
+
+/* line 78, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -119,7 +125,7 @@ p.about-signature {
   margin-right: 10px;
   margin-right: 1rem;
 }
-/* line 78, ../../sass/modules/subscribe-follow.sass */
+/* line 82, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow a:last-of-type .fa {
   margin-right: 0;
 }
