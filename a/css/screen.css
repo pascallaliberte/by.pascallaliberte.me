@@ -462,7 +462,7 @@ div.intro {
 }
 
 /* line 5, ../sass/layouts/post.sass */
-.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives {
+.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives, .subscribe-follow {
   max-width: 30em;
   margin: 0 auto;
   padding: 0 1em;
