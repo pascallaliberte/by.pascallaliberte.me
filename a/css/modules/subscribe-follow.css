@@ -1,0 +1,29 @@
+/* line 7, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.7);
+  margin-top: -5px;
+  margin-top: -0.5rem;
+}
+
+/* line 13, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link .fa {
+  margin-left: -2px;
+  margin-left: -0.2rem;
+  margin-right: 2px;
+  margin-right: 0.2rem;
+}
+
+/* line 17, ../../sass/modules/subscribe-follow.sass */
+p.about-signature {
+  padding-top: 1px;
+  padding-top: 0.1rem;
+}
+
+/* line 20, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link:hover, .subscribe-follow-link:active {
+  color: white;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}

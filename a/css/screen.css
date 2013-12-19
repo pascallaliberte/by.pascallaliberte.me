@@ -420,6 +420,35 @@ div.intro {
   white-space: nowrap;
 }
 
+/* line 42, ../sass/_base.sass */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 62, ../sass/_base.sass */
+.btn-default {
+  color: #333333;
+  background-color: white;
+  border-color: #cccccc;
+}
+
 /* line 1, ../sass/_states.sass */
 .is-hidden {
   display: none;
@@ -890,6 +919,36 @@ a.intro-more:hover, a.intro-more:active {
 /* line 100, ../sass/modules/about.sass */
 .js .about-links a:hover, .js .about-signature a:hover {
   color: white;
+}
+
+/* line 7, ../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.7);
+  margin-top: -5px;
+  margin-top: -0.5rem;
+}
+
+/* line 13, ../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link .fa {
+  margin-left: -2px;
+  margin-left: -0.2rem;
+  margin-right: 2px;
+  margin-right: 0.2rem;
+}
+
+/* line 17, ../sass/modules/subscribe-follow.sass */
+p.about-signature {
+  padding-top: 1px;
+  padding-top: 0.1rem;
+}
+
+/* line 20, ../sass/modules/subscribe-follow.sass */
+.subscribe-follow-link:hover, .subscribe-follow-link:active {
+  color: white;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* line 6, ../sass/modules/blog-nav.sass */

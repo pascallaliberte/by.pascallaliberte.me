@@ -1,0 +1,23 @@
+@import "compass/css3"
+@import "site-settings"
+@import "mixins"
+@import "breakpoint"
+@import "compass/utilities/general/clearfix"
+
+.subscribe-follow-link
+  color: rgba(255,255,255,0.7)
+  background-color: rgba(255,255,255,0)
+  border-color: rgba(255,255,255,0.7)
+  +rem(margin-top, -5px)
+
+.subscribe-follow-link .fa
+  +rem(margin-left, -2px)
+  +rem(margin-right, 2px)
+  
+p.about-signature
+  +rem(padding-top, 1px)
+  
+.subscribe-follow-link:hover, .subscribe-follow-link:active
+  color: rgba(255,255,255,1)
+  border-color: rgba(255,255,255,1)
+  background-color: rgba(255,255,255,0.1)
