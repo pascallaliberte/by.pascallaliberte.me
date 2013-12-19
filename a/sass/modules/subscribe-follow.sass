@@ -7,8 +7,8 @@
 .js .subscribe-follow-container
   display: none
   position: absolute
-  +rem(font-size, 16px)
-  +rem(line-height, 25px)
+  +rem(font-size, 14px)
+  +rem(line-height, 18px)
   +rem(height, 200px)
   opacity: 0
   +transition-property(opacity)
@@ -17,11 +17,16 @@
   width: 100%
   top: 0
   left: 0
+  +breakpoint(min-width $medium-width)
+    +rem(font-size, 16px)
+    +rem(line-height, 25px)
+  
 
 .js .subscribe-follow
   max-width: 30em
   margin: 0 auto
-  +rem(margin-top, 35px)
+  +breakpoint(min-width $medium-width)
+    +rem(margin-top, 35px)
   
 .js.is-subscribe-follow .subscribe-follow-container
   display: block
@@ -41,7 +46,6 @@
     color: rgba(255,255,255,0.7)
     background-color: rgba(255,255,255,0)
     border-color: rgba(255,255,255,0.7)
-    +rem(margin-top, -5px)
     position: relative
     z-index: 10
     &:hover, &:active, &:focus
@@ -49,6 +53,8 @@
       border-color: rgba(255,255,255,1)
       background-color: rgba(255,255,255,0.1)
       outline: none
+    +breakpoint(min-width $medium-width)
+      +rem(margin-top, -5px)
 
 .is-subscribe-follow .about
   .btn-default
@@ -65,7 +71,9 @@
   +rem(margin-right, 2px)
   
 p.about-signature
-  +rem(padding-top, 1px)
+  +breakpoint(min-width $medium-width)
+    +rem(padding-top, 5px)
+    +rem(margin-top, -5px)
   
 .js .subscribe-follow
   color: rgba(255,255,255,0.7)
