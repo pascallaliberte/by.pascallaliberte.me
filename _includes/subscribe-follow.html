@@ -4,7 +4,14 @@
 
   <div class="subscribe-follow-subscribe">
     <h2 class="subscribe-follow-title">Subscribe by email</h2>
-    <form action="https://tinyletter.com/pascallaliberte" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/pascallaliberte', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><input type="text" name="email" id="tlemail" placeholder="email address"/><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+    <form class="subscribe-follow-subscribe-email-form"
+      action="https://tinyletter.com/pascallaliberte" method="post" 
+      target="popupwindow"
+      onsubmit="window.open('https://tinyletter.com/pascallaliberte', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input class="subscribe-follow-subscribe-email-address" type="text" name="email" id="tlemail" placeholder="email address"/>
+      <input type="hidden" value="1" name="embed"/>
+      <input class="subscribe-follow-subscribe-email-submit btn btn-default" type="submit" value="Subscribe" />
+    </form>
     
     or via 
     <a href="{{ site.baseurl}}/feed.xml" title="Atom feed">

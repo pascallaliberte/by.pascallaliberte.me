@@ -35,13 +35,19 @@
   .about-name, .about-description
     opacity: 0
 
-.subscribe-follow-link
-  color: rgba(255,255,255,0.7)
-  background-color: rgba(255,255,255,0)
-  border-color: rgba(255,255,255,0.7)
-  +rem(margin-top, -5px)
-  position: relative
-  z-index: 10
+.js .subscribe-follow, .js .about
+  .btn-default
+    color: rgba(255,255,255,0.7)
+    background-color: rgba(255,255,255,0)
+    border-color: rgba(255,255,255,0.7)
+    +rem(margin-top, -5px)
+    position: relative
+    z-index: 10
+    &:hover, &:active, &:focus
+      color: rgba(255,255,255,1)
+      border-color: rgba(255,255,255,1)
+      background-color: rgba(255,255,255,0.1)
+      outline: none
 
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
@@ -50,11 +56,6 @@
 p.about-signature
   +rem(padding-top, 1px)
   
-.subscribe-follow-link:hover, .subscribe-follow-link:active
-  color: rgba(255,255,255,1)
-  border-color: rgba(255,255,255,1)
-  background-color: rgba(255,255,255,0.1)
-
 .js .subscribe-follow
   text-align: center
   color: rgba(255,255,255,0.7)
@@ -81,3 +82,19 @@ p.about-signature
     +rem(margin-right, 10px)
   a:last-of-type .fa
     margin-right: 0
+    
+.js .subscribe-follow-subscribe-email-address
+  background: none
+  border: 1px solid
+  border-color: rgba(255,255,255,0.4)
+  color: rgba(255,255,255,1)
+  font-family: $font-anchor
+  +rem(font-size, 14px)
+  +rem(padding, 3px 7px)
+  +input-placeholder
+    color: rgba(255,255,255,0.4)
+  &:focus
+    background-color: rgba(255,255,255,0.1)
+    color: rgba(255,255,255,1)
+    border-color: rgba(255,255,255,1)
+    outline: none
