@@ -984,7 +984,7 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 /* line 39, ../sass/modules/subscribe-follow.sass */
-.js .subscribe-follow .btn-default, .js .about .btn-default {
+.js .subscribe-follow .btn-default, .js .about .btn-default, .is-home .subscribe-follow .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0.7);
@@ -994,7 +994,7 @@ a.intro-more:hover, a.intro-more:active {
   z-index: 10;
 }
 /* line 46, ../sass/modules/subscribe-follow.sass */
-.js .subscribe-follow .btn-default:hover, .js .subscribe-follow .btn-default:active, .js .subscribe-follow .btn-default:focus, .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus {
+.js .subscribe-follow .btn-default:hover, .js .subscribe-follow .btn-default:active, .js .subscribe-follow .btn-default:focus, .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .subscribe-follow .btn-default:hover, .is-home .subscribe-follow .btn-default:active, .is-home .subscribe-follow .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
   background-color: rgba(255, 255, 255, 0.1);
