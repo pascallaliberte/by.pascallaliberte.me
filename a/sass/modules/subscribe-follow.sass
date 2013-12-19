@@ -9,7 +9,7 @@
   position: absolute
   +rem(font-size, 16px)
   +rem(line-height, 25px)
-  +rem(height, 215px)
+  +rem(height, 200px)
   opacity: 0
   +transition-property(opacity)
   +transition-duration(0.5s)
@@ -21,6 +21,7 @@
 .js .subscribe-follow
   max-width: 30em
   margin: 0 auto
+  +rem(margin-top, 35px)
   
 .js.is-subscribe-follow .subscribe-follow-container
   display: block
@@ -49,6 +50,16 @@
       background-color: rgba(255,255,255,0.1)
       outline: none
 
+.is-subscribe-follow .about
+  .btn-default
+    color: #BB5400
+    background-color: rgba(255,255,255,0.6)
+    border-color: rgba(255,255,255,0.8)
+    &:hover, &:active, &:focus
+      color: #BB5400
+      background-color: rgba(255,255,255,0.8)
+      border-color: rgba(255,255,255,1)
+
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
@@ -59,11 +70,11 @@ p.about-signature
 .js .subscribe-follow
   color: rgba(255,255,255,0.7)
   .subscribe-follow-title
-    font-family: $font-secondary
+    font-family: $font-anchor
     +rem(font-size, 20px)
     +rem(line-height, 25px)
     font-weight: normal
-    font-style: italic
+    color: white
   a
     color: inherit
     text-decoration: none
