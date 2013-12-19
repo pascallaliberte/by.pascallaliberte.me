@@ -6,8 +6,8 @@
   font-size: 1.6rem;
   line-height: 25px;
   line-height: 2.5rem;
-  height: 200px;
-  height: 20rem;
+  height: 215px;
+  height: 21.5rem;
   opacity: 0;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
@@ -21,21 +21,22 @@
   width: 100%;
   top: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 21, ../../sass/modules/subscribe-follow.sass */
+/* line 22, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow {
   max-width: 30em;
   margin: 0 auto;
 }
 
-/* line 25, ../../sass/modules/subscribe-follow.sass */
+/* line 26, ../../sass/modules/subscribe-follow.sass */
 .js.is-subscribe-follow .subscribe-follow-container {
   display: block;
   opacity: 1;
 }
 
-/* line 29, ../../sass/modules/subscribe-follow.sass */
+/* line 30, ../../sass/modules/subscribe-follow.sass */
 .js .about-name, .js .about-description {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -48,12 +49,12 @@
   transition-duration: 0.5s;
 }
 
-/* line 35, ../../sass/modules/subscribe-follow.sass */
+/* line 36, ../../sass/modules/subscribe-follow.sass */
 .js.is-subscribe-follow .about-name, .js.is-subscribe-follow .about-description {
   opacity: 0;
 }
 
-/* line 39, ../../sass/modules/subscribe-follow.sass */
+/* line 40, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow .btn-default, .js .about .btn-default, .is-home .subscribe-follow .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
@@ -63,7 +64,7 @@
   position: relative;
   z-index: 10;
 }
-/* line 46, ../../sass/modules/subscribe-follow.sass */
+/* line 47, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow .btn-default:hover, .js .subscribe-follow .btn-default:active, .js .subscribe-follow .btn-default:focus, .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .subscribe-follow .btn-default:hover, .is-home .subscribe-follow .btn-default:active, .is-home .subscribe-follow .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
@@ -71,7 +72,7 @@
   outline: none;
 }
 
-/* line 52, ../../sass/modules/subscribe-follow.sass */
+/* line 53, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-link .fa {
   margin-left: -2px;
   margin-left: -0.2rem;
@@ -79,18 +80,18 @@
   margin-right: 0.2rem;
 }
 
-/* line 56, ../../sass/modules/subscribe-follow.sass */
+/* line 57, ../../sass/modules/subscribe-follow.sass */
 p.about-signature {
   padding-top: 1px;
   padding-top: 0.1rem;
 }
 
-/* line 59, ../../sass/modules/subscribe-follow.sass */
+/* line 60, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 62, ../../sass/modules/subscribe-follow.sass */
+/* line 63, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow .subscribe-follow-title {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   font-size: 20px;
@@ -100,23 +101,23 @@ p.about-signature {
   font-weight: normal;
   font-style: italic;
 }
-/* line 68, ../../sass/modules/subscribe-follow.sass */
+/* line 69, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow a {
   color: inherit;
   text-decoration: none;
 }
-/* line 71, ../../sass/modules/subscribe-follow.sass */
+/* line 72, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow a:hover, .js .subscribe-follow a:active {
   color: white;
 }
 
-/* line 75, ../../sass/modules/subscribe-follow.sass */
+/* line 76, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-subscribe .fa {
   margin-left: 5px;
   margin-left: 0.5rem;
 }
 
-/* line 79, ../../sass/modules/subscribe-follow.sass */
+/* line 80, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -125,12 +126,12 @@ p.about-signature {
   margin-right: 10px;
   margin-right: 1rem;
 }
-/* line 83, ../../sass/modules/subscribe-follow.sass */
+/* line 84, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-follow a:last-of-type .fa {
   margin-right: 0;
 }
 
-/* line 86, ../../sass/modules/subscribe-follow.sass */
+/* line 87, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-subscribe-email-address {
   background: none;
   border: 1px solid;
@@ -162,7 +163,7 @@ p.about-signature {
 .js .subscribe-follow-subscribe-email-address::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
-/* line 96, ../../sass/modules/subscribe-follow.sass */
+/* line 97, ../../sass/modules/subscribe-follow.sass */
 .js .subscribe-follow-subscribe-email-address:focus {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
