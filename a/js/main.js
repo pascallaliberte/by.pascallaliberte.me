@@ -107,6 +107,13 @@
     $(".subscribe-follow-link").click(function(){
       $("body").eq(0).toggleClass("is-subscribe-follow");
       
+      if ($("body").eq(0).hasClass("is-subscribe-follow")
+        && !is_touch_device()
+        && $(".subscribe-follow-subscribe-email-address").length > 0) {
+        // focus on the email address field
+        $(".subscribe-follow-subscribe-email-address").focus();
+      }
+      
       // toggle the text
       if($(this).data('toggle-text')) {
         current_html = $(this).html();
