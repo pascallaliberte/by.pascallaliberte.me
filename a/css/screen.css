@@ -928,7 +928,7 @@ a.intro-more:hover, a.intro-more:active {
   color: white;
 }
 
-/* line 8, ../sass/modules/subscribe-follow.sass */
+/* line 104, ../sass/modules/about.sass */
 .js .about .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
@@ -936,7 +936,7 @@ a.intro-more:hover, a.intro-more:active {
   position: relative;
   z-index: 10;
 }
-/* line 14, ../sass/modules/subscribe-follow.sass */
+/* line 110, ../sass/modules/about.sass */
 .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
@@ -944,14 +944,14 @@ a.intro-more:hover, a.intro-more:active {
   outline: none;
 }
 @media (min-width: 512px) {
-  /* line 8, ../sass/modules/subscribe-follow.sass */
+  /* line 104, ../sass/modules/about.sass */
   .js .about .btn-default, .is-home .about .btn-default {
     margin-top: -5px;
     margin-top: -0.5rem;
   }
 }
 
-/* line 22, ../sass/modules/subscribe-follow.sass */
+/* line 7, ../sass/modules/subscribe-follow.sass */
 .subscribe-follow-link .fa {
   margin-left: -2px;
   margin-left: -0.2rem;
@@ -960,7 +960,7 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 @media (min-width: 512px) {
-  /* line 26, ../sass/modules/subscribe-follow.sass */
+  /* line 11, ../sass/modules/subscribe-follow.sass */
   p.about-signature {
     padding-top: 5px;
     padding-top: 0.5rem;
@@ -969,7 +969,7 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 31, ../sass/modules/subscribe-follow.sass */
+/* line 16, ../sass/modules/subscribe-follow.sass */
 .subscribe-follow-subscribe-email-address {
   background: none;
   border: 1px solid;
@@ -979,7 +979,7 @@ a.intro-more:hover, a.intro-more:active {
   padding: 3px 7px;
   padding: 0.3rem 0.7rem;
 }
-/* line 38, ../sass/modules/subscribe-follow.sass */
+/* line 23, ../sass/modules/subscribe-follow.sass */
 .subscribe-follow-subscribe-email-address:focus {
   outline: none;
 }

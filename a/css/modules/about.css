@@ -177,3 +177,26 @@
 .js .about-links a:hover, .js .about-signature a:hover {
   color: white;
 }
+
+/* line 104, ../../sass/modules/about.sass */
+.js .about .btn-default, .is-home .about .btn-default {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 10;
+}
+/* line 110, ../../sass/modules/about.sass */
+.js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
+  color: white;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+@media (min-width: 512px) {
+  /* line 104, ../../sass/modules/about.sass */
+  .js .about .btn-default, .is-home .about .btn-default {
+    margin-top: -5px;
+    margin-top: -0.5rem;
+  }
+}

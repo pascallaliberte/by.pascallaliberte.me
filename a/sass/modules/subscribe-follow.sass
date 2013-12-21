@@ -4,21 +4,6 @@
 @import "breakpoint"
 @import "compass/utilities/general/clearfix"
 
-.js .about, .is-home .about
-  .btn-default
-    color: rgba(255,255,255,0.7)
-    background-color: rgba(255,255,255,0)
-    border-color: rgba(255,255,255,0.7)
-    position: relative
-    z-index: 10
-    &:hover, &:active, &:focus
-      color: rgba(255,255,255,1)
-      border-color: rgba(255,255,255,1)
-      background-color: rgba(255,255,255,0.1)
-      outline: none
-    +breakpoint(min-width $medium-width)
-      +rem(margin-top, -5px)
-
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
