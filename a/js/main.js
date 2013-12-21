@@ -94,37 +94,6 @@
         });
   }
   
-  init_subscribe_follow = function() {
-    $(".subscribe-follow-link").each(function(){
-      var width_px = parseInt($(this).width());
-      var font_size_px = parseInt($(this).css('font-size'));
-      var width_em = (width_px / font_size_px) + 'em';
-
-      // lock the width
-      $(this).css("width", width_em);
-    });
-
-    $(".subscribe-follow-link").click(function(){
-      $("body").eq(0).toggleClass("is-subscribe-follow");
-      
-      if ($("body").eq(0).hasClass("is-subscribe-follow")
-        && !is_touch_device()
-        && $(".subscribe-follow-subscribe-email-address").length > 0) {
-        // focus on the email address field
-        $(".subscribe-follow-subscribe-email-address").focus();
-      }
-      
-      // toggle the text
-      if($(this).data('toggle-text')) {
-        current_html = $(this).html();
-        $(this).html($(this).data('toggle-text'));
-        $(this).data('toggle-text', current_html);
-      }
-      
-      event.preventDefault();
-    });    
-  }
-  
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
     
@@ -149,6 +118,5 @@
     });
         
     init_gallery();
-    init_subscribe_follow();
   });
 })(jQuery);
