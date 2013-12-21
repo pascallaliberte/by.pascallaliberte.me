@@ -144,3 +144,24 @@
   font-weight: 100;
   font-style: normal;
 }
+
+/* line 87, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-rss {
+  font-size: 12px;
+  font-size: 1.2rem;
+  display: inline-block;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 1px 6px;
+  padding: 0.1rem 0.6rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 94, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-rss a, .subscribe-follow-rss a:hover, .subscribe-follow-rss a:active {
+  color: #333333;
+  text-decoration: underline;
+}
