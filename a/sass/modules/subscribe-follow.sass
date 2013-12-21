@@ -4,12 +4,83 @@
 @import "breakpoint"
 @import "compass/utilities/general/clearfix"
 
-.subscribe-follow-subscribe-email-address
+.subscribe-follow-email-address
   background: none
-  border: 1px solid
+  border-style: solid
+  +rem(border-width, 1px)
+  border-color: #BCAFA5
   font-family: $font-anchor
-  +rem(font-size, 14px)
-  +rem(padding, 3px 7px)
+  +rem(font-size, 18px)
+  +rem(padding, 3px 8px)
+  width: 100%
+  box-sizing: border-box
+  display: block
+  +rem(margin-bottom, 5px)
+  color: #BB5400
   +input-placeholder
+    color: #BCAFA5
   &:focus
-    outline: none
+    outline-style: solid
+    +rem(outline-width, 2px)
+    outline-color: #BB5400 
+    border-color: #BB5400
+  +breakpoint(min-width $medium-width)
+    +rem(font-size, 22px)
+    width: 70%
+    float: left  
+    display: inline-block
+    margin-bottom: 0
+
+.subscribe-follow-email-submit
+  +rem(font-size, 16px)
+  +rem(padding, 8px 10px)
+  text-transform: uppercase
+  background-color: #BB5400
+  border-color: #BB5400
+  color: white
+  &:hover, &:focus
+    background-color: darken(#BB5400, 5%)
+    border-color: darken(#BB5400, 5%)
+  &:active
+    background-color: darken(#BB5400, 10%)
+    border-color: darken(#BB5400, 10%)
+  +breakpoint(min-width $medium-width)
+    +rem(font-size, 18px)
+    +rem(padding, 10px 8px)
+    width: 28%
+    box-sizing: border-box
+    float: right
+
+.subscribe-follow-email-form
+  +breakpoint(min-width $medium-width)
+    +clearfix
+
+.subscribe-follow-primary
+  h2
+    +rem(font-size, 22px)
+    +rem(line-height, 25px)
+    font-family: $font-secondary
+    font-weight: 400
+    font-style: normal
+    text-transform: none
+    color: #BB5400
+    +breakpoint(min-width $medium-width)
+      +rem(font-size, 35px)
+      +rem(line-height, 40px)
+      text-align: center
+    
+.subscribe-follow-secondary
+  +breakpoint(min-width $medium-width)
+    max-width: 20em
+    margin: 0 auto
+    
+  h2
+    +rem(font-size, 18px)
+    +rem(line-height, 25px)
+    +rem(margin, 40px 0px 20px)
+    +rem(letter-spacing, 1px)
+    text-transform: uppercase
+    font-family: $font-secondary
+    font-weight: 100
+    font-style: normal
+  

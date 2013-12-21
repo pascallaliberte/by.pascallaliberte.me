@@ -1,14 +1,146 @@
 /* line 7, ../../sass/modules/subscribe-follow.sass */
-.subscribe-follow-subscribe-email-address {
+.subscribe-follow-email-address {
   background: none;
-  border: 1px solid;
+  border-style: solid;
+  border-width: 1px;
+  border-width: 0.1rem;
+  border-color: #bcafa5;
   font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 1.4rem;
-  padding: 3px 7px;
-  padding: 0.3rem 0.7rem;
+  font-size: 18px;
+  font-size: 1.8rem;
+  padding: 3px 8px;
+  padding: 0.3rem 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
+  color: #bb5400;
 }
-/* line 14, ../../sass/modules/subscribe-follow.sass */
-.subscribe-follow-subscribe-email-address:focus {
-  outline: none;
+/* line 41, ../../sass/_mixins.scss */
+.subscribe-follow-email-address.placeholder {
+  color: #bcafa5;
+}
+/* line 42, ../../sass/_mixins.scss */
+.subscribe-follow-email-address:-moz-placeholder {
+  color: #bcafa5;
+}
+/* line 43, ../../sass/_mixins.scss */
+.subscribe-follow-email-address::-moz-placeholder {
+  color: #bcafa5;
+}
+/* line 44, ../../sass/_mixins.scss */
+.subscribe-follow-email-address:-ms-input-placeholder {
+  color: #bcafa5;
+}
+/* line 45, ../../sass/_mixins.scss */
+.subscribe-follow-email-address::-webkit-input-placeholder {
+  color: #bcafa5;
+}
+/* line 22, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-email-address:focus {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-width: 0.2rem;
+  outline-color: #bb5400;
+  border-color: #bb5400;
+}
+@media (min-width: 512px) {
+  /* line 7, ../../sass/modules/subscribe-follow.sass */
+  .subscribe-follow-email-address {
+    font-size: 22px;
+    font-size: 2.2rem;
+    width: 70%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+/* line 34, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-email-submit {
+  font-size: 16px;
+  font-size: 1.6rem;
+  padding: 8px 10px;
+  padding: 0.8rem 1rem;
+  text-transform: uppercase;
+  background-color: #bb5400;
+  border-color: #bb5400;
+  color: white;
+}
+/* line 41, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-email-submit:hover, .subscribe-follow-email-submit:focus {
+  background-color: #a24900;
+  border-color: #a24900;
+}
+/* line 44, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-email-submit:active {
+  background-color: #883d00;
+  border-color: #883d00;
+}
+@media (min-width: 512px) {
+  /* line 34, ../../sass/modules/subscribe-follow.sass */
+  .subscribe-follow-email-submit {
+    font-size: 18px;
+    font-size: 1.8rem;
+    padding: 10px 8px;
+    padding: 1rem 0.8rem;
+    width: 28%;
+    box-sizing: border-box;
+    float: right;
+  }
+}
+
+@media (min-width: 512px) {
+  /* line 54, ../../sass/modules/subscribe-follow.sass */
+  .subscribe-follow-email-form {
+    overflow: hidden;
+    *zoom: 1;
+  }
+}
+
+/* line 59, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-primary h2 {
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  color: #bb5400;
+}
+@media (min-width: 512px) {
+  /* line 59, ../../sass/modules/subscribe-follow.sass */
+  .subscribe-follow-primary h2 {
+    font-size: 35px;
+    font-size: 3.5rem;
+    line-height: 40px;
+    line-height: 4rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 512px) {
+  /* line 72, ../../sass/modules/subscribe-follow.sass */
+  .subscribe-follow-secondary {
+    max-width: 20em;
+    margin: 0 auto;
+  }
+}
+/* line 77, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-secondary h2 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  margin: 40px 0px 20px;
+  margin: 4rem 0px 2rem;
+  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
+  font-weight: 100;
+  font-style: normal;
 }
