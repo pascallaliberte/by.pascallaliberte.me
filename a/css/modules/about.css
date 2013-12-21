@@ -200,3 +200,21 @@
     margin-top: -0.5rem;
   }
 }
+
+/* line 118, ../../sass/modules/about.sass */
+.subscribe-follow-link .fa {
+  margin-left: -2px;
+  margin-left: -0.2rem;
+  margin-right: 2px;
+  margin-right: 0.2rem;
+}
+
+@media (min-width: 512px) {
+  /* line 122, ../../sass/modules/about.sass */
+  p.about-signature {
+    padding-top: 5px;
+    padding-top: 0.5rem;
+    margin-top: -5px;
+    margin-top: -0.5rem;
+  }
+}

@@ -1,22 +1,4 @@
 /* line 7, ../../sass/modules/subscribe-follow.sass */
-.subscribe-follow-link .fa {
-  margin-left: -2px;
-  margin-left: -0.2rem;
-  margin-right: 2px;
-  margin-right: 0.2rem;
-}
-
-@media (min-width: 512px) {
-  /* line 11, ../../sass/modules/subscribe-follow.sass */
-  p.about-signature {
-    padding-top: 5px;
-    padding-top: 0.5rem;
-    margin-top: -5px;
-    margin-top: -0.5rem;
-  }
-}
-
-/* line 16, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-subscribe-email-address {
   background: none;
   border: 1px solid;
@@ -26,7 +8,7 @@
   padding: 3px 7px;
   padding: 0.3rem 0.7rem;
 }
-/* line 23, ../../sass/modules/subscribe-follow.sass */
+/* line 14, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-subscribe-email-address:focus {
   outline: none;
 }
