@@ -4,43 +4,6 @@
 @import "breakpoint"
 @import "compass/utilities/general/clearfix"
 
-.js .subscribe-follow-container
-  display: none
-  position: absolute
-  +rem(font-size, 14px)
-  +rem(line-height, 18px)
-  +rem(height, 200px)
-  opacity: 0
-  +transition-property(opacity)
-  +transition-duration(0.5s)
-  z-index: 2
-  width: 100%
-  top: 0
-  left: 0
-  +breakpoint(min-width $medium-width)
-    +rem(font-size, 16px)
-    +rem(line-height, 25px)
-  
-
-.js .subscribe-follow
-  max-width: 30em
-  margin: 0 auto
-  +breakpoint(min-width $medium-width)
-    +rem(margin-top, 35px)
-  
-.js.is-subscribe-follow .subscribe-follow-container
-  display: block
-  opacity: 1
-
-.js .about-name, .js .about-description
-  opacity: 1
-  +transition-property(opacity)
-  +transition-duration(0.5s)
-  
-.js.is-subscribe-follow
-  .about-name, .about-description
-    opacity: 0
-
 .js .about, .is-home .about
   .btn-default
     color: rgba(255,255,255,0.7)
@@ -56,16 +19,6 @@
     +breakpoint(min-width $medium-width)
       +rem(margin-top, -5px)
 
-.is-subscribe-follow .about
-  .btn-default
-    color: #BB5400
-    background-color: rgba(255,255,255,0.6)
-    border-color: rgba(255,255,255,0.8)
-    &:hover, &:active, &:focus
-      color: #BB5400
-      background-color: rgba(255,255,255,0.8)
-      border-color: rgba(255,255,255,1)
-
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
@@ -75,37 +28,12 @@ p.about-signature
     +rem(padding-top, 5px)
     +rem(margin-top, -5px)
   
-.js .subscribe-follow
-  .subscribe-follow-title
-    font-family: $font-anchor
-    +rem(font-size, 20px)
-    +rem(line-height, 25px)
-    font-weight: normal
-
-.js .subscribe-follow-subscribe
-  .fa
-    +rem(margin-left, 5px)
-
-.js .subscribe-follow-follow
-  .fa
-    +rem(font-size, 25px)
-    +rem(line-height, 25px)
-    +rem(margin-right, 10px)
-  a:last-of-type .fa
-    margin-right: 0
-
-.js .subscribe-follow-subscribe-email-address
+.subscribe-follow-subscribe-email-address
   background: none
   border: 1px solid
-//  border-color: rgba(255,255,255,0.4)
-//  color: rgba(255,255,255,1)
   font-family: $font-anchor
   +rem(font-size, 14px)
   +rem(padding, 3px 7px)
   +input-placeholder
-//    color: rgba(255,255,255,0.4)
   &:focus
-//    background-color: rgba(255,255,255,0.1)
-//    color: rgba(255,255,255,1)
-//    border-color: rgba(255,255,255,1)
     outline: none
