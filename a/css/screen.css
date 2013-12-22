@@ -531,7 +531,7 @@ div.intro {
 }
 
 /* line 47, ../sass/layouts/post.sass */
-.is-top.is-not-touch.is-not-home .post, .is-top.is-not-touch.is-not-home .blog-nav-pagination-summary, .is-top.is-not-touch.is-not-home .archives {
+.is-top.is-not-touch.is-not-home .post, .is-top.is-not-touch.is-not-home .blog-nav-pagination-summary, .is-top.is-not-touch.is-not-home .archives, .is-top.is-not-touch.is-not-home .subscribe-follow {
   filter: blur(6px);
   -webkit-filter: blur(6px);
 }
