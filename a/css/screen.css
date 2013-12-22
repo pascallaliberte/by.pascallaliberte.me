@@ -578,8 +578,8 @@ div.intro {
   text-indent: 0;
   font-size: 20px;
   font-size: 2rem;
-  line-height: 30px;
-  line-height: 3rem;
+  line-height: 28px;
+  line-height: 2.8rem;
   margin-bottom: 25px;
   margin-bottom: 2.5rem;
   font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -589,8 +589,8 @@ div.intro {
 @media (min-width: 512px) and (min-height: 25em) {
   /* line 70, ../sass/layouts/post.sass */
   .post-details > p:first-of-type {
-    line-height: 36px;
-    line-height: 3.6rem;
+    line-height: 32px;
+    line-height: 3.2rem;
     margin-bottom: 15px;
     margin-bottom: 1.5rem;
   }
