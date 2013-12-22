@@ -70,10 +70,10 @@
 .about-name {
   font-size: 18px;
   font-size: 1.8rem;
-  line-height: 25px;
-  line-height: 2.5rem;
-  margin-top: 30px;
-  margin-top: 3rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+  margin-top: 20px;
+  margin-top: 2rem;
   margin-bottom: 15px;
   margin-bottom: 1.5rem;
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
@@ -87,10 +87,12 @@
     font-size: 2.8rem;
     line-height: 35px;
     line-height: 3.5rem;
+    margin-top: 30px;
+    margin-top: 3rem;
   }
 }
 
-/* line 59, ../../sass/modules/about.sass */
+/* line 60, ../../sass/modules/about.sass */
 .js .about-links, .js .about-signature {
   overflow: hidden;
   *zoom: 1;
@@ -101,7 +103,7 @@
   line-height: 1.8rem;
 }
 @media (min-width: 512px) {
-  /* line 59, ../../sass/modules/about.sass */
+  /* line 60, ../../sass/modules/about.sass */
   .js .about-links, .js .about-signature {
     font-size: 16px;
     font-size: 1.6rem;
@@ -110,24 +112,24 @@
   }
 }
 
-/* line 68, ../../sass/modules/about.sass */
+/* line 69, ../../sass/modules/about.sass */
 .js .about-links {
   margin-top: -3px;
   margin-top: -0.3rem;
 }
 
-/* line 71, ../../sass/modules/about.sass */
+/* line 72, ../../sass/modules/about.sass */
 .js .about-links-home {
   float: left;
   display: inline-block;
 }
-/* line 74, ../../sass/modules/about.sass */
+/* line 75, ../../sass/modules/about.sass */
 .js .about-links-home .fa {
   padding-right: 2px;
   padding-right: 0.2rem;
 }
 
-/* line 77, ../../sass/modules/about.sass */
+/* line 78, ../../sass/modules/about.sass */
 .js .about-signature-follow {
   margin: 0;
   white-space: nowrap;
@@ -136,31 +138,34 @@
   margin-top: 0.5rem;
 }
 @media (min-width: 512px) {
-  /* line 77, ../../sass/modules/about.sass */
+  /* line 78, ../../sass/modules/about.sass */
   .js .about-signature-follow {
     margin-top: 0;
   }
 }
 
-/* line 85, ../../sass/modules/about.sass */
+/* line 86, ../../sass/modules/about.sass */
 .js .about-signature-name {
   padding-right: 10px;
   padding-right: 1rem;
 }
 
-/* line 88, ../../sass/modules/about.sass */
+/* line 89, ../../sass/modules/about.sass */
 .js .about-signature {
-  margin-top: -5px;
-  margin-top: -0.5rem;
+  margin-top: -3px;
+  margin-top: -0.3rem;
 }
 @media (min-width: 512px) {
-  /* line 88, ../../sass/modules/about.sass */
+  /* line 89, ../../sass/modules/about.sass */
   .js .about-signature {
-    margin-top: 0;
+    padding-top: 5px;
+    padding-top: 0.5rem;
+    margin-top: -5px;
+    margin-top: -0.5rem;
   }
 }
 
-/* line 93, ../../sass/modules/about.sass */
+/* line 95, ../../sass/modules/about.sass */
 .about-signature-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -168,25 +173,27 @@
   padding-right: 1rem;
 }
 
-/* line 97, ../../sass/modules/about.sass */
+/* line 99, ../../sass/modules/about.sass */
 .js .about-links a, .js .about-signature a {
   text-decoration: none;
 }
 
-/* line 100, ../../sass/modules/about.sass */
+/* line 102, ../../sass/modules/about.sass */
 .js .about-links a:hover, .js .about-signature a:hover {
   color: white;
 }
 
-/* line 104, ../../sass/modules/about.sass */
+/* line 106, ../../sass/modules/about.sass */
 .js .about .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0.7);
   position: relative;
   z-index: 10;
+  margin-top: 5px;
+  margin-top: 0.5rem;
 }
-/* line 110, ../../sass/modules/about.sass */
+/* line 113, ../../sass/modules/about.sass */
 .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
@@ -194,27 +201,17 @@
   outline: none;
 }
 @media (min-width: 512px) {
-  /* line 104, ../../sass/modules/about.sass */
+  /* line 106, ../../sass/modules/about.sass */
   .js .about .btn-default, .is-home .about .btn-default {
     margin-top: -5px;
     margin-top: -0.5rem;
   }
 }
 
-/* line 118, ../../sass/modules/about.sass */
+/* line 121, ../../sass/modules/about.sass */
 .subscribe-follow-link .fa {
   margin-left: -2px;
   margin-left: -0.2rem;
   margin-right: 2px;
   margin-right: 0.2rem;
-}
-
-@media (min-width: 512px) {
-  /* line 122, ../../sass/modules/about.sass */
-  p.about-signature {
-    padding-top: 5px;
-    padding-top: 0.5rem;
-    margin-top: -5px;
-    margin-top: -0.5rem;
-  }
 }

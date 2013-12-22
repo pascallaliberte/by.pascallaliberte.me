@@ -45,8 +45,8 @@
 
 .about-name
   +rem(font-size, 18px)
-  +rem(line-height, 25px)
-  +rem(margin-top, 30px)
+  +rem(line-height, 22px)
+  +rem(margin-top, 20px)
   +rem(margin-bottom, 15px)
   font-family: $font-secondary
   font-weight: 400
@@ -54,6 +54,7 @@
   +breakpoint(min-width $medium-width)
     +rem(font-size, 28px)
     +rem(line-height, 35px)
+    +rem(margin-top, 30px)
   
 
 .js .about-links, .js .about-signature
@@ -86,9 +87,10 @@
   +rem(padding-right, 10px)
 
 .js .about-signature
-  +rem(margin-top, -5px)  
+  +rem(margin-top, -3px)  
   +breakpoint(min-width $medium-width)
-    +rem(margin-top, 0)
+    +rem(padding-top, 5px)
+    +rem(margin-top, -5px)
   
 .about-signature-follow .fa //icon
   +rem(font-size, 25px)
@@ -107,6 +109,7 @@
     border-color: rgba(255,255,255,0.7)
     position: relative
     z-index: 10
+    +rem(margin-top, 5px)
     &:hover, &:active, &:focus
       color: rgba(255,255,255,1)
       border-color: rgba(255,255,255,1)
@@ -118,8 +121,3 @@
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
-  
-p.about-signature
-  +breakpoint(min-width $medium-width)
-    +rem(padding-top, 5px)
-    +rem(margin-top, -5px)
