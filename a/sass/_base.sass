@@ -35,6 +35,13 @@ div.intro
   font-family: $font-secondary
   color: #BCAFA5
   text-align: center
+  +rem(margin-top, -30px)
+
+@media print
+  .site-details
+    text-align: left
+    +rem(margin-top, 30px)
+    color: #333
   
 .nowrap
   white-space: nowrap

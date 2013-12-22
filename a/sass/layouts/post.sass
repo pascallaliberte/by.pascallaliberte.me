@@ -7,9 +7,6 @@
   margin: 0 auto
   padding: 0 1em
 
-.site-details
-  +rem(margin-top, -30px)
-
 +breakpoint($medium-wide-width)
   html
     font-size: 75% // * 1.2
@@ -17,8 +14,6 @@
 +breakpoint($wide-width)
   html
     font-size: 93.75% // * 1.5
-.js
-  +rem(padding-top, 300px)
 
 .post .post-title
   +rem(font-size, 43px)
@@ -47,6 +42,12 @@
   .post, .blog-nav-pagination-summary, .archives, .subscribe-follow
     filter: blur(6px) // Blur it
     -webkit-filter: blur(6px) // Blur it
+
+@media print
+  .is-post .post .post-title
+    +rem(font-size, 43px)
+    +rem(line-height, 50px)
+    +rem(margin-top, 50px)
 
 .post h2
   +rem(font-size, 22px)
@@ -153,3 +154,7 @@
   background-color: lighten(#BCAFA5, 20%)
   width: 10%
   margin: 0 auto
+
+@media print
+  .reversefootnote
+    display: none

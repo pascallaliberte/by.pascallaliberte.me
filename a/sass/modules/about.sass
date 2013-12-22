@@ -20,6 +20,9 @@
     +rem(font-size, 16px)
     +rem(line-height, 25px)
 
+.js
+  +rem(padding-top, 300px)
+
 .js .about a 
   color: inherit
   text-decoration: underline
@@ -121,3 +124,9 @@
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
+  
+@media print
+  .js.is-not-home
+    padding-top: 0
+  .js.is-not-home .about
+    display: none

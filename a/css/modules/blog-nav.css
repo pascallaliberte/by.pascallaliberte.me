@@ -273,3 +273,10 @@
 .blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
   color: #bb5400;
 }
+
+@media print {
+  /* line 166, ../../sass/modules/blog-nav.sass */
+  .blog-nav-container {
+    display: none;
+  }
+}
