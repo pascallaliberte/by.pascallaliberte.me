@@ -18,14 +18,16 @@ layout: nil
     <body>
 
         <div class="icons">
-          <canvas id="i_32" class="icons-i" width="32" height="32"></canvas>
-          <canvas id="i_120" class="icons-i" width="120" height="120"></canvas>
-          <canvas id="i_152" class="icons-i" width="152" height="152"></canvas>
-          <canvas id="i_76" class="icons-i" width="76" height="76"></canvas>
+          <canvas id="i_32" class="icons-i" width="32" height="32" data-filename="favicon.png"></canvas>
+          <canvas id="i_120" class="icons-i" width="120" height="120" data-filename="apple-touch-icon-120x120.png"></canvas>
+          <canvas id="i_152" class="icons-i" width="152" height="152" data-filename="apple-touch-icon-152x152.png"></canvas>
+          <canvas id="i_76" class="icons-i" width="76" height="76" data-filename="apple-touch-icon-76x76.png"></canvas>
         </div>
         
         <script src="{{ site.baseurl}}/a/bower_components/jquery/jquery.min.js"></script>
         
+        <script src="{{ site.baseurl}}/a/bower_components/FileSaver/FileSaver.js"></script>
+        <script src="{{ site.baseurl}}/a/bower_components/canvas-toBlob.js/canvas-toBlob.js"></script>
         <script src="{{ site.baseurl}}/a/js/icons.js"></script>
         
     </body>

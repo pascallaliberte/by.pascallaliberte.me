@@ -55,7 +55,12 @@
   draw_i_120();
   draw_i_152();
   draw_i_76();
-  
-  
+
+  $("canvas.icons-i").click(function(){
+    var filename = $(this).data("filename");
+    this.toBlob(function(blob) {
+      saveAs(blob, filename);
+    }, "image/png");
+  });
   
 })(jQuery);
