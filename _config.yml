@@ -1,4 +1,6 @@
-name: Pascal Laliberté
+name: A journal on leading a modern life while living the Gospel
+author: Pascal Laliberté
+url: http://pascallaliberte.me
 markdown: kramdown
 pygments: true
 permalink: /:categories/:year-:month-:title/

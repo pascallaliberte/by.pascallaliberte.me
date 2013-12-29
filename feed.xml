@@ -4,30 +4,30 @@ layout: nil
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>Pascal Laliberté</title>
-  <link href="http://pascallaliberte.me/"/>
-  <link type="application/atom+xml" rel="self" href="http://pascallaliberte.me/feed.xml"/>
+  <title>{{ site.name }}</title>
+  <link href="{{ site.url }}/"/>
+  <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://pascallaliberte.me/</id>
+  <id>{{ site.url }}/</id>
   <author>
-    <name>Pascal Laliberté</name>
-    <email>pascal.laliberte@gmail.com</email>
+    <name>{{ site.author }}</name>
+    <email>{{ site.email }}</email>
   </author>
 
   {% for post in site.posts %}
   {% if forloop.index > 20 %}{% break %}{% endif %}
   <entry>
-    <id>http://pascallaliberte.me{{ post.id }}</id>
+    <id>{{ site.url }}{{ post.id }}</id>
     {% if post.link %}
     <link type="text/html" rel="alternate" href="{{ post.link }}"/>
     {% else %}
-    <link type="text/html" rel="alternate" href="http://pascallaliberte.me{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
     {% endif %}
     <title>{{ post.title | xml_escape }}{% if post.link %}→{% endif %}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>Pascal Laliberté</name>
-      <uri>http://pascallaliberte.me/</uri>
+      <name>{{ site.author }}</name>
+      <uri>{{ site.url }}/</uri>
     </author>
     <content type="html">
       {{ post.content | xml_escape }}
@@ -35,7 +35,7 @@ layout: nil
       &lt;p&gt;&amp;mdash;&lt;br /&gt;{{ post.source | markdownify | xml_escape }}&lt;/p&gt;
       {% endif %}
       {% if post.source or post.link %}
-      &lt;p&gt;&lt;a href="http://pascallaliberte.me{{ post.url }}"&gt;Link to this post&lt;/p&gt;
+      &lt;p&gt;&lt;a href="{{ site.url }}{{ post.url }}"&gt;Link to this post&lt;/p&gt;
       {% endif %}
     </content>
   </entry>

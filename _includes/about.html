@@ -2,14 +2,14 @@
 
   <div class="about-details">
     {% if page.key == "is-home" %}
-    <h1 class="about-name">A journal on personal excellence and on making thoughtful decisions</h1>
+    <h1 class="about-name">{{ site.name }}</h1>
     {% else %}
-    <h2 class="about-name">A journal on personal excellence and on making thoughtful decisions</h2>
+    <h2 class="about-name">{{ site.name }}</h2>
     {% endif %}
     
-    <p class="about-description">If you're like me, there's something you want to be better at. Or maybe there are a lot of things you want to change. I'll share with you parts of my journey, my growth and my other interests: designing things, leadership, and science.</p>
+    <p class="about-description">Modern life is complex. In many ways, evolving with it requires personal excellence, doesn't it? And in trying to live a mature faith, I&nbsp;ran into some very modern ideas. I'll share on these topics and on my other interests: designing things, leadership, and science.</p>
     <p class="about-signature">
-      <span class="about-signature-name"><span rel="author">Pascal Laliberté</span>, Ottawa, Canada</span>
+      <span class="about-signature-name"><span rel="author">{{ site.author }}</span>, Ottawa, Canada</span>
       <a class="subscribe-follow-link btn btn-default" href="{{ site.baseurl}}/subscribe-follow/" data-toggle-text="Return to intro">
         <i class="fa fa-star-o"></i>
         Subscribe + Follow
