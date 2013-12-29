@@ -1,4 +1,4 @@
-/* line 3, ../../sass/modules/intro.sass */
+/* line 7, ../../sass/modules/intro.sass */
 .js .intro {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -11,23 +11,28 @@
   transition-duration: 0.5s;
 }
 
-/* line 8, ../../sass/modules/intro.sass */
+/* line 12, ../../sass/modules/intro.sass */
 .is-top-gutter-shown .intro {
   opacity: 0;
 }
 
-/* line 11, ../../sass/modules/intro.sass */
+/* line 15, ../../sass/modules/intro.sass */
 a.intro-more {
   text-decoration: none;
   color: inherit;
 }
-/* line 14, ../../sass/modules/intro.sass */
+/* line 18, ../../sass/modules/intro.sass */
 a.intro-more em {
   text-decoration: underline;
   font-style: normal;
 }
 
-/* line 18, ../../sass/modules/intro.sass */
+/* line 22, ../../sass/modules/intro.sass */
 a.intro-more:hover, a.intro-more:active {
   text-decoration: underline;
+}
+
+/* line 25, ../../sass/modules/intro.sass */
+.intro-author {
+  white-space: nowrap;
 }
