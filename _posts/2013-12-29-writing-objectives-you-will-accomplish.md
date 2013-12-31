@@ -36,7 +36,7 @@ Listen to what your mind says before each item. You'll probably hear "I'd like t
 * (I should) Exercise twice a week
 * (I'd like to) Spend more time with my family
 
-Each objective, alone, sounds fine. In a list, they're already in conflict with each other. With everything else that's in your life, they're just something your wishing you'll accomplish. As time goes by, they'll be more and more tied to the past. You may or may not follow your decisions. Guilt will set in. Inevitably, you'll have to go back to make a new list.
+Each objective, alone, sounds fine. In a list, they're already in conflict with each other. With everything else that's in your life, they're just something you're wishing you'll accomplish. As time goes by, they'll be more and more tied to the past. You may or may not follow your decisions. Guilt will set in. Inevitably, you'll have to go back to make a new list.
 
 So how do you rewrite objectives to be less like wishes and more like accomplishments that will occur? Don't start from now going forward, start with the end and work your way back.[^endinmind]
 
@@ -47,7 +47,7 @@ So how do you rewrite objectives to be less like wishes and more like accomplish
 
 ![Arrows stopping short of the goal, and one arrow going the full distance]({{ site.baseurl }}/d/writing-objectives-you-will-accomplish-02.png)
 
-The trick is a little weird: Rewrite the title of your list, and in it, include the words "I will have". You're probably best to including a date, while you're at it: "**Before May, I will have**."
+The trick is a little weird: Rewrite the title of your list, and in it, include the words "I will have". You're probably best to include a date, while you're at it: "**Before May, I will have**."
 
 Having "I will have" in the title forces you to rewrite the objectives with the start of "May" in mind. And it forces you to rewrite your statements. It's no longer "Lose 15 pounds", it's "Lost 15 pounds". That's what you *will have done*, before May.
 
