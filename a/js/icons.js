@@ -1,60 +1,38 @@
 (function($){
   
-  function draw_i_32() {
-    var canvas = document.getElementById("i_32");
+  function draw_favicon(canvas) {
     var context = canvas.getContext("2d");
     context.fillStyle = "#BB5400";
     context.fillRect(0, 0 , 32, 32);
     
-    context.fillStyle = "#ffffff";
-    context.font = "normal 20px adelle";
+    context.fillStyle = "rgba(255, 255, 255, 0.701961)";
+    context.font = "normal 20px adelle-sans";
         
-    context.fillText("A", 5, 25);
+    context.fillText("by", 5, 23);
   }
   
-  function draw_i_120() {
-    var canvas = document.getElementById("i_120");
+  function draw_apple_touch_icon(canvas, size) {
+    var base_size = 120;
+    var resize_factor = typeof size !== 'undefined' ? (size / base_size) : 1;
+    
     var context = canvas.getContext("2d");
     context.fillStyle = "#BB5400";
-    context.fillRect(0, 0 , 120, 120);
+    context.fillRect(0, 0 , 120 * resize_factor, 120 * resize_factor);
     
     context.fillStyle = "#ffffff";
-    context.font = "normal 28px adelle";
+    context.font = "normal " + (22 * resize_factor) + "px adelle";
         
-    context.fillText("A", 12, 70);
-    context.fillText("journal", 12, 100);
-  }
-  
-  function draw_i_152() {
-    var canvas = document.getElementById("i_152");
-    var context = canvas.getContext("2d");
-    context.fillStyle = "#BB5400";
-    context.fillRect(0, 0 , 152, 152);
-    
-    context.fillStyle = "#ffffff";
-    context.font = "normal 35.46666666666667px adelle";
-        
-    context.fillText("A", 15.2, 88.6666666666669);
-    context.fillText("journal", 15.2, 126.66666666666667);
-  }
-  
-  function draw_i_76() {
-    var canvas = document.getElementById("i_76");
-    var context = canvas.getContext("2d");
-    context.fillStyle = "#BB5400";
-    context.fillRect(0, 0 , 76, 76);
-    
-    context.fillStyle = "#ffffff";
-    context.font = "normal 17.73333333333333px adelle";
-        
-    context.fillText("A", 7.6, 44.33333333333333);
-    context.fillText("journal", 7.6, 63.33333333333333);
+    context.fillText("Thoughts", 10 * resize_factor, 78 * resize_factor);
+
+    context.fillStyle = "rgba(255, 255, 255, 0.701961)";
+    context.font = "normal " + (22 * resize_factor) + "px 'adelle-sans'";
+    context.fillText("by Pascal", 10 * resize_factor, 103 * resize_factor);
   }
 
-  draw_i_32();
-  draw_i_120();
-  draw_i_152();
-  draw_i_76();
+  draw_favicon(document.getElementById("i_32"));
+  draw_apple_touch_icon(document.getElementById("i_120"), 120);
+  draw_apple_touch_icon(document.getElementById("i_152"), 152);
+  draw_apple_touch_icon(document.getElementById("i_76"), 76);
 
   $("canvas.icons-i").click(function(){
     var filename = $(this).data("filename");
