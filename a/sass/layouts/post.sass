@@ -1,8 +1,9 @@
+@import "compass/css3"
 @import "site-settings"
 @import "mixins"
 @import "breakpoint"
 
-.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives, .subscribe-follow
+.post, .intro, .about-details, .site-details, .blog-nav-pagination-summary, .archives, .subscribe-follow, .post-next-steps
   max-width: 30em
   margin: 0 auto
   padding: 0 1em
@@ -162,7 +163,33 @@
   width: 10%
   margin: 0 auto
 
+.post-next-steps
+  color: #BCAFA5
+  +rem(font-size, 12px)
+  +rem(line-height, 16px)
+  text-align: center
+  .subscribe-follow-link
+    margin: 0
+    text-decoration: none
+    color: inherit
+    +transition-property(none)
+    +rem(margin-bottom, 5px)
+    &:hover, &:focus
+      color: white
+      background-color: #BB5400
+      border-color: #BB5400
+    &:active
+      background-color: darken(#BB5400, 10%)
+      border-color: darken(#BB5400, 10%)
+  .blog-nav-pagination-summary-links
+    margin: 0
+    font-size: inherit
+    line-height: inherit
+    +rem(margin-bottom, 10px)
+
 @media print
   .reversefootnote
+    display: none
+  .post-next-steps
     display: none
     
