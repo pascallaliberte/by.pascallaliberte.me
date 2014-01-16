@@ -1,0 +1,38 @@
+/* line 7, ../../sass/modules/share.sass */
+.share .share-link {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  display: inline-block;
+  color: white;
+  background: #bcafa5;
+  margin-right: 5px;
+  margin-right: 0.5rem;
+  margin-top: 8px;
+  margin-top: 0.8rem;
+  padding: 2px 5px 4px;
+  padding: 0.2rem 0.5rem 0.4rem;
+  text-decoration: none;
+}
+/* line 17, ../../sass/modules/share.sass */
+.share .share-link:hover, .share .share-link:focus {
+  background: #a69588;
+}
+
+/* line 20, ../../sass/modules/share.sass */
+.share {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 512px) {
+  /* line 20, ../../sass/modules/share.sass */
+  .share {
+    width: 100%;
+  }
+  /* line 26, ../../sass/modules/share.sass */
+  .share .share-link:last-of-type {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,27 @@
+@import "compass/css3"
+@import "site-settings"
+@import "mixins"
+@import "breakpoint"
+@import "compass/utilities/general/clearfix"
+
+.share .share-link
+  +rem(font-size, 12px)
+  +rem(line-height, 16px)
+  display: inline-block
+  color: white
+  background: #BCAFA5
+  +rem(margin-right, 5px)
+  +rem(margin-top, 8px)
+  +rem(padding, 2px 5px 4px)
+  text-decoration: none
+  &:hover, &:focus
+    background: darken(#BCAFA5, 10%)
+    
+.share
+  text-align: center
+  width: 80%
+  margin: 0 auto
+  +breakpoint($medium-width)
+    width: 100%
+    .share-link:last-of-type
+      margin-right: 0
