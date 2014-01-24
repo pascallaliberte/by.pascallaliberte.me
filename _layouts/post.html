@@ -25,7 +25,7 @@ key: is-post
 </p>
 
 <div class="post-details">
-{{ content }}
+{{ content | replace_first:site.excerpt_separator,'<div id="continue-reading"></div>'}}
 </div>
 
 {% include share.html %}

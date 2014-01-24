@@ -34,7 +34,7 @@ layout: home
     <div class="post-details">
       {% if post.content contains site.excerpt_separator %}
           {{ post.content | split:site.excerpt_separator | first }}
-          <a href="{{ post.url }}">Continue reading<i class="fa fa-chevron-right post-link-icon"></i></a>
+          <a href="{{ post.url }}#continue-reading">Continue reading<i class="fa fa-chevron-right post-link-icon"></i></a>
       {% else %}
           {{ post.content }}
       {% endif %}
