@@ -94,6 +94,12 @@
         });
   }
   
+  init_arrow_down = function() {
+    if ($("body").eq(0).hasClass("is-not-home")) return;
+    
+    $( ".blog-nav-pagination-summary hr.post-separator" ).replaceWith( '<div class="post-separator-arrow post-separator-arrow-bottom"><div class="post-separator-arrow-left-angle"></div><div class="post-separator-arrow-right-angle"></div></div>' );
+  }
+  
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
     
@@ -116,7 +122,8 @@
       $(".site").eq(0).css("min-height",$( window ).height());
       update_page_properties()
     });
-        
+    
+    init_arrow_down();
     init_gallery();
   });
 })(jQuery);
