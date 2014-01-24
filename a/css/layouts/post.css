@@ -254,16 +254,6 @@
 }
 
 /* line 159, ../../sass/layouts/post.sass */
-.is-home .post-separator {
-  border: 0;
-  height: 2px;
-  height: 0.2rem;
-  background-color: #e8e3df;
-  width: 10%;
-  margin: 0 auto;
-}
-
-/* line 166, ../../sass/layouts/post.sass */
 .post-next-steps {
   color: #bcafa5;
   font-size: 12px;
@@ -272,7 +262,7 @@
   line-height: 1.6rem;
   text-align: center;
 }
-/* line 171, ../../sass/layouts/post.sass */
+/* line 164, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link {
   margin: 0;
   text-decoration: none;
@@ -284,18 +274,18 @@
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
 }
-/* line 177, ../../sass/layouts/post.sass */
+/* line 170, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
   background-color: #bb5400;
   border-color: #bb5400;
 }
-/* line 181, ../../sass/layouts/post.sass */
+/* line 174, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
   background-color: #883d00;
   border-color: #883d00;
 }
-/* line 184, ../../sass/layouts/post.sass */
+/* line 177, ../../sass/layouts/post.sass */
 .post-next-steps .blog-nav-pagination-summary-links {
   margin: 0;
   font-size: inherit;
@@ -305,12 +295,12 @@
 }
 
 @media print {
-  /* line 191, ../../sass/layouts/post.sass */
+  /* line 184, ../../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 193, ../../sass/layouts/post.sass */
+  /* line 186, ../../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
