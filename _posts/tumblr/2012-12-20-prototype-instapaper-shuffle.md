@@ -10,11 +10,11 @@ tags:
 tumblr_url: http://pascallaliberte.me/post/38382914001/instapaper-shuffle
 ---
 
-* [![Image 1](/d/instapaper-prototype-01.jpg)](/d/instapaper-prototype-01.jpg)
-* [![Image 2](/d/instapaper-prototype-02.png)](/d/instapaper-prototype-02.png)
-* [![Image 3](/d/instapaper-prototype-03.png)](/d/instapaper-prototype-03.png)
-* [![Image 4](/d/instapaper-prototype-04.png)](/d/instapaper-prototype-04.png)
-* [![Image 5](/d/instapaper-prototype-05.png)](/d/instapaper-prototype-05.png)
+* [![Image 1](/d/2013/instapaper-prototype-01.jpg)](/d/2013/instapaper-prototype-01.jpg)
+* [![Image 2](/d/2013/instapaper-prototype-02.png)](/d/2013/instapaper-prototype-02.png)
+* [![Image 3](/d/2013/instapaper-prototype-03.png)](/d/2013/instapaper-prototype-03.png)
+* [![Image 4](/d/2013/instapaper-prototype-04.png)](/d/2013/instapaper-prototype-04.png)
+* [![Image 5](/d/2013/instapaper-prototype-05.png)](/d/2013/instapaper-prototype-05.png)
 {: .gallery .gallery-2-3}
 
 Lately, when using [Instapaper](http://www.instapaper.com), I've been wishing I could hit a shuffle button and just get the app to suggest a random article out of my pile of unreads.

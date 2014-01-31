@@ -16,7 +16,7 @@ I came back to my old job, and not only did this mental model idea help me defus
 
 ## Mental models are like coloured eyeglasses
 
-![A mind with a filter looks at a green apple, interprets it as a red apple]({{ site.base_url }}/d/intro-to-mental-models-01.jpg)
+![A mind with a filter looks at a green apple, interprets it as a red apple]({{ site.base_url }}/d/2014/intro-to-mental-models-01.jpg)
 
 Let's say you were born wearing pink-coloured eyeglasses. All your life, you never realized there could be any other way to see the world than with the colours you're perceiving.
 
@@ -47,7 +47,7 @@ Your mind usually doesn't know when it's seeing through a filter. The hard part 
 
 ## Identifying the mental model you have
 
-![Identifying the presence of the filter, the mind sees the real object: a green apple]({{ site.base_url }}/d/intro-to-mental-models-02.jpg)
+![Identifying the presence of the filter, the mind sees the real object: a green apple]({{ site.base_url }}/d/2014/intro-to-mental-models-02.jpg)
 
 There are a few usual signs that tell you your mind is caught wrestling with a mental model. Something won't feel right. You'll be agitated, annoyed, restless. You might become obsessed. You'll be in a _reaction_. When stuck in a state of reaction, it's hard to regain some perspective. 
 

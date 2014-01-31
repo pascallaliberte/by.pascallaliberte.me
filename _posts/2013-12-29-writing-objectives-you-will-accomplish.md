@@ -6,7 +6,7 @@ date: 2013-12-29 3:20pm
 
 There's a problem with most of the objectives we write down: most of them are written as wishes, and that's why they don't get done.
 
-![Arrows stopping short of the goal]({{ site.baseurl }}/d/writing-objectives-you-will-accomplish-01.png)
+![Arrows stopping short of the goal]({{ site.baseurl }}/d/2013/writing-objectives-you-will-accomplish-01.png)
 
 Objectives we write usually end up looking something like this: 
 
@@ -45,7 +45,7 @@ So how do you rewrite objectives to be less like wishes and more like accomplish
 
 ## Starting with "I will have"
 
-![Arrows stopping short of the goal, and one arrow going the full distance]({{ site.baseurl }}/d/writing-objectives-you-will-accomplish-02.png)
+![Arrows stopping short of the goal, and one arrow going the full distance]({{ site.baseurl }}/d/2013/writing-objectives-you-will-accomplish-02.png)
 
 The trick is a little weird: Rewrite the title of your list, and in it, include the words "I will have". You're probably best to include a date, while you're at it: "**Before May, I will have**."
 
