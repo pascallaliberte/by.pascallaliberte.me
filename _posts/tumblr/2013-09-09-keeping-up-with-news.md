@@ -6,7 +6,7 @@ tags:
 tumblr_url: http://pascallaliberte.me/post/60751996372/keeping-up-with-news
 ---
 
-![Illustration showing how overwhelming keeping up with the news can be.](http://media.tumblr.com/e6f695709333cbff98d6ecec968c68cb/tumblr_inline_msv2awUm571qz4rgp.png) I developed a system for handling the news and updates from people I follow. Let me run through the problems I was experiencing, and I'll step through the solution.
+![Illustration showing how overwhelming keeping up with the news can be.](/d/2013/keeping-up-with-news-01.png) I developed a system for handling the news and updates from people I follow. Let me run through the problems I was experiencing, and I'll step through the solution.
 
 I used to feel overwhelmed with news and updates, tempted to '[unfollow](https://www.google.com/search?q=unfollow)' people and I wanted to reduce the time spent on this habit. Since the new system, I follow everybody I want and all the news sources I want, I check in just a few times a day (it could be less), and I keep up with the updates that matter to me.
 
@@ -30,7 +30,7 @@ Stephen Covey, in his book _[The 7 Habits of Highly Effective People][7habits]_,
 
 [7habits]:http://www.amazon.com/The-Habits-Highly-Effective-People/dp/0743269519
 
-![Diagram of 'dependence', 'independence', interdependence'](http://media.tumblr.com/bf6fef21d5ac19362c36147dbfefa9db/tumblr_inline_msu4vlFk8x1qz4rgp.png)
+![Diagram of 'dependence', 'independence', interdependence'](/d/2013/keeping-up-with-news-02.png)
 
 This model illustrates the three stages of maturity a person can be in: **dependence**, **independence**, and **interdependence**. The maturity continuum applies to relationships; for example, the relationship I have with my parents:
 
@@ -46,7 +46,7 @@ There had to be a mature way to handle this: staying connected with everyone I w
 
 It was time to stop thinking in black and white and start thinking in gradients. I needed to figure out who mattered most and who mattered less — for me. For that, I used the idea of circles. Not disparate circles (many lives), but concentric circles (one life).
 
-![Diagram of disparate circles and concentric circles (preferred)](http://media.tumblr.com/731cfc76b2a373cc8302c4f2c0bd1a08/tumblr_inline_msu4wbgBJW1qz4rgp.png)
+![Diagram of disparate circles and concentric circles (preferred)](/d/2013/keeping-up-with-news-03.png)
 
 Google+ has the idea of circles, and Facebook has some basic groups it proposes (e.g., family), but I think it's all wrong. I don't have friends separate from family. Making family a sacred island creates absolute thinking like "I should keep up with all my aunts and uncles the same as my Mom and Dad". Work acquaintances? Friends? I don't have three lives, three Pascals, there's just this one.
 
