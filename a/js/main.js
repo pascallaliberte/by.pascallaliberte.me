@@ -112,14 +112,10 @@
   
     $(".site").eq(0).css("min-height",$( window ).height());
   
-    if ("#continue-reading" == document.location.hash
-        && 1 == $("#continue-reading-position").length) {
-      // first scroll to the position of the topGutterheight
-      $(window).scrollTop(topGutterHeight);
-      
-      // then scroll to just above the continue-reading-position
+    if ("#continue-reading" == document.location.hash) {
+      // scroll to just above the continue-reading-position
       $.smoothScroll({
-        scrollTarget: '#continue-reading-position',
+        scrollTarget: '#continue-reading',
         offset: -80,
         speed: 0
       });
