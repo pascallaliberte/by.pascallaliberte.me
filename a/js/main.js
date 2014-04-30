@@ -112,7 +112,24 @@
   
     $(".site").eq(0).css("min-height",$( window ).height());
   
-    if ($("body").eq(0).hasClass("is-not-home")) {
+    if ("#continue-reading" == document.location.hash
+        && 1 == $("#continue-reading-position").length) {
+      // first scroll to the position of the topGutterheight
+      $(window).scrollTop(topGutterHeight);
+      
+      // then scroll to just above the continue-reading-position
+      $.smoothScroll({
+        scrollTarget: '#continue-reading-position',
+        offset: -80,
+        speed: 0
+      });
+      
+      // remove the hash from the URL, for sharing
+      if (window.history.replaceState) {
+        window.history.replaceState({},window.title,document.location.pathname);
+      }
+    }
+    else if ($("body").eq(0).hasClass("is-not-home")) {
       $(window).scrollTop(topGutterHeight);
     }
   
