@@ -691,7 +691,7 @@ div.intro {
   }
 
   /* line 188, ../sass/layouts/post.sass */
-  .share {
+  .is-post .share {
     display: none;
   }
 }
