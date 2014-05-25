@@ -689,6 +689,11 @@ div.intro {
   .post-next-steps {
     display: none;
   }
+
+  /* line 188, ../sass/layouts/post.sass */
+  .share {
+    display: none;
+  }
 }
 /* line 8, ../sass/modules/post-separator.sass */
 .is-home .post-separator {

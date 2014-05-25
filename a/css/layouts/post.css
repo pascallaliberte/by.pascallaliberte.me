@@ -304,4 +304,9 @@
   .post-next-steps {
     display: none;
   }
+
+  /* line 188, ../../sass/layouts/post.sass */
+  .share {
+    display: none;
+  }
 }
