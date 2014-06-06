@@ -35,7 +35,7 @@ layout: home
       {% if post.content contains site.excerpt_separator %}
           {% assign footnote_full_prefix = post.url | append: '#fn' %}
           {{ post.content | split:site.excerpt_separator | first | replace:'#fn',footnote_full_prefix }}
-          <a href="{{ post.url }}#continue-reading">Continue reading<i class="fa fa-chevron-right post-link-icon"></i></a>
+          <a href="{{ post.url }}#continue-reading" class="post-continue-reading"><span class="post-continue-reading-link">Continue reading</span>&hellip;</a>
       {% else %}
           {{ post.content }}
       {% endif %}

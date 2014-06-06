@@ -100,6 +100,15 @@
     $( ".blog-nav-pagination-summary hr.post-separator" ).replaceWith( '<div class="post-separator-arrow post-separator-arrow-bottom"><div class="post-separator-arrow-left-angle"></div><div class="post-separator-arrow-right-angle"></div></div>' );
   }
   
+  init_continue_reading_save_offset = function() {
+    $("a[href$='#continue-reading']").click(function( event ) {
+      event.preventDefault();
+      continueReadingScrollOffset = this.getBoundingClientRect().top * -1;
+      $.cookie('continueReadingScrollOffset', continueReadingScrollOffset, { path: '/' });
+      document.location = this.href;
+    });
+  }
+  
   $(document).ready(function(){
     $("body").eq(0).addClass('js');
     
@@ -113,10 +122,17 @@
     $(".site").eq(0).css("min-height",$( window ).height());
   
     if ("#continue-reading" == document.location.hash) {
+      
+      continueReadingScrollOffset = -80;
+      if ($.cookie('continueReadingScrollOffset')) { 
+        continueReadingScrollOffset = $.cookie('continueReadingScrollOffset', Number);
+        $.removeCookie('continueReadingScrollOffset');
+      }
+      
       // scroll to just above the continue-reading-position
       $.smoothScroll({
         scrollTarget: '#continue-reading',
-        offset: -80,
+        offset: continueReadingScrollOffset,
         speed: 0
       });
       
@@ -138,5 +154,6 @@
     
     init_arrow_down();
     init_gallery();
+    init_continue_reading_save_offset();
   });
 })(jQuery);

@@ -685,18 +685,29 @@ div.intro {
   margin-bottom: 1rem;
 }
 
+/* line 187, ../sass/layouts/post.sass */
+.post-continue-reading {
+  text-decoration: none;
+}
+
+/* line 190, ../sass/layouts/post.sass */
+.post-continue-reading-link {
+  text-decoration: underline;
+  padding-right: 0.2em;
+}
+
 @media print {
-  /* line 188, ../sass/layouts/post.sass */
+  /* line 195, ../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 190, ../sass/layouts/post.sass */
+  /* line 197, ../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
 
-  /* line 192, ../sass/layouts/post.sass */
+  /* line 199, ../sass/layouts/post.sass */
   .is-post .share {
     display: none;
   }
