@@ -1,15 +1,18 @@
 name: Thoughts on leading a modern life while living the Gospel
 author: Pascal Laliberté
-url: http://pascallaliberte.me
+url: http://by.pascallaliberte.me
+lang: en
+alt_lang: fr
+alt_lang_url: http://par.pascallaliberte.me
 markdown: kramdown
 highlighter: true
 permalink: /:categories/:year-:month-:title/
 paginate: 5
 paginate_path: "page:num"
 excerpt_separator: "<!-- MORE -->"
-baseurl: 
+baseurl:
 gems:
   - jekyll-sitemap
-exclude: 
+exclude:
   - a/bower_components/jquery.smooth-scroll/index.html
   - a/bower_components/swipebox/index.html
