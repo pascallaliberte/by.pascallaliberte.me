@@ -29,25 +29,24 @@
   border-top-width: 0.2rem;
   border-top-color: #e8e3df;
   border-top-style: solid;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
 /* line 34, ../../sass/modules/post-separator.sass */
 .is-home .post-separator-arrow-left-angle {
-  -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
   transform: rotate(15deg);
   margin-right: 6px;
   margin-right: 0.6rem;
@@ -56,20 +55,18 @@
 }
 /* line 38, ../../sass/modules/post-separator.sass */
 .is-home .post-separator-arrow-right-angle {
-  -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
   margin-bottom: -10px;
   margin-bottom: -1rem;
 }
 /* line 43, ../../sass/modules/post-separator.sass */
 .is-home.is-not-top .post-separator-arrow-left-angle, .is-home.is-not-top .post-separator-arrow-right-angle, .is-home.is-fits-blog-nav .post-separator-arrow-left-angle, .is-home.is-fits-blog-nav .post-separator-arrow-right-angle {
-  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   margin-right: 0;
   margin-bottom: 0;

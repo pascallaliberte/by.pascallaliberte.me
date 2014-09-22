@@ -31,7 +31,7 @@
   font-weight: 400;
   font-style: normal;
   text-transform: none;
-  color: #bb5400;
+  color: #BB5400;
 }
 
 /* line 31, ../../sass/layouts/post.sass */
@@ -156,7 +156,7 @@
 /* line 103, ../../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 
 /* line 107, ../../sass/layouts/post.sass */
@@ -185,7 +185,7 @@
 
 /* line 122, ../../sass/layouts/post.sass */
 .post-quote-dash {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 
 /* line 125, ../../sass/layouts/post.sass */
@@ -202,7 +202,7 @@
 
 /* line 131, ../../sass/layouts/post.sass */
 .post-permalink {
-  color: #bcafa5;
+  color: #BCAFA5;
   text-decoration: none;
 }
 
@@ -216,7 +216,7 @@
 
 /* line 139, ../../sass/layouts/post.sass */
 .post-permalink:hover {
-  color: #bb5400;
+  color: #BB5400;
 }
 
 /* line 142, ../../sass/layouts/post.sass */
@@ -225,7 +225,7 @@
   font-size: 1.4rem;
   line-height: 20px;
   line-height: 2rem;
-  border-top: 1px solid #bcafa5;
+  border-top: 1px solid #BCAFA5;
   padding-top: 12px;
   padding-top: 1.2rem;
   margin-top: 40px;
@@ -261,7 +261,7 @@
 
 /* line 163, ../../sass/layouts/post.sass */
 .post-next-steps {
-  color: #bcafa5;
+  color: #BCAFA5;
   font-size: 12px;
   font-size: 1.2rem;
   line-height: 16px;
@@ -273,9 +273,9 @@
   margin: 0;
   text-decoration: none;
   color: inherit;
-  -webkit-transition-property: none;
   -moz-transition-property: none;
   -o-transition-property: none;
+  -webkit-transition-property: none;
   transition-property: none;
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
@@ -283,8 +283,8 @@
 /* line 174, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
-  background-color: #bb5400;
-  border-color: #bb5400;
+  background-color: #BB5400;
+  border-color: #BB5400;
 }
 /* line 178, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {

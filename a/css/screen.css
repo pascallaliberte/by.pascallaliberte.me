@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 9, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -20,7 +20,7 @@ summary {
   display: block;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 29, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 audio,
 canvas,
 progress,
@@ -35,7 +35,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
 [hidden],
 template {
   display: none;
@@ -60,7 +60,7 @@ a {
   background: transparent;
 }
 
-/* line 16, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+/* line 15, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -72,7 +72,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 16, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 15, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 b,
 strong {
   font-weight: bold;
@@ -100,7 +100,7 @@ small {
   font-size: 80%;
 }
 
-/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -148,7 +148,7 @@ pre {
   overflow: auto;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+/* line 29, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
 code,
 kbd,
 pre,
@@ -158,7 +158,7 @@ samp {
 }
 
 /*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
-/* line 19, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 15, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 input,
 optgroup,
@@ -174,13 +174,13 @@ button {
   overflow: visible;
 }
 
-/* line 37, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 36, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -189,13 +189,13 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 58, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 57, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 65, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -207,14 +207,14 @@ input {
   line-height: normal;
 }
 
-/* line 84, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 83, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 94, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 93, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -228,7 +228,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 114, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+/* line 113, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -264,7 +264,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 15, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+/* line 14, ../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
 td,
 th {
   padding: 0;
@@ -284,7 +284,7 @@ body {
   font-size: 1.6rem;
   line-height: 25px;
   line-height: 2.5rem;
-  color: #333333;
+  color: #333;
 }
 
 /* line 17, ../sass/_base.sass */
@@ -295,14 +295,14 @@ strong {
 
 /* line 21, ../sass/_base.sass */
 a {
-  color: #bb5400;
-  -webkit-transition-property: color;
+  color: #BB5400;
   -moz-transition-property: color;
   -o-transition-property: color;
+  -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
@@ -316,13 +316,13 @@ div.intro {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   padding-top: 20px;
   padding-top: 2rem;
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 
 /* line 34, ../sass/_base.sass */
 .site-details {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
-  color: #bcafa5;
+  color: #BCAFA5;
   text-align: center;
   margin-top: -30px;
   margin-top: -3rem;
@@ -334,7 +334,7 @@ div.intro {
     text-align: left;
     margin-top: 30px;
     margin-top: 3rem;
-    color: #333333;
+    color: #333;
   }
 }
 /* line 46, ../sass/_base.sass */
@@ -373,9 +373,9 @@ div.intro {
 
 /* line 72, ../sass/_base.sass */
 .btn-default {
-  color: #333333;
-  background-color: white;
-  border-color: #cccccc;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 
 /* line 1, ../sass/_states.sass */
@@ -416,7 +416,7 @@ div.intro {
   font-weight: 400;
   font-style: normal;
   text-transform: none;
-  color: #bb5400;
+  color: #BB5400;
 }
 
 /* line 31, ../sass/layouts/post.sass */
@@ -541,7 +541,7 @@ div.intro {
 /* line 103, ../sass/layouts/post.sass */
 .post p.meta {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 
 /* line 107, ../sass/layouts/post.sass */
@@ -570,7 +570,7 @@ div.intro {
 
 /* line 122, ../sass/layouts/post.sass */
 .post-quote-dash {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 
 /* line 125, ../sass/layouts/post.sass */
@@ -587,7 +587,7 @@ div.intro {
 
 /* line 131, ../sass/layouts/post.sass */
 .post-permalink {
-  color: #bcafa5;
+  color: #BCAFA5;
   text-decoration: none;
 }
 
@@ -601,7 +601,7 @@ div.intro {
 
 /* line 139, ../sass/layouts/post.sass */
 .post-permalink:hover {
-  color: #bb5400;
+  color: #BB5400;
 }
 
 /* line 142, ../sass/layouts/post.sass */
@@ -610,7 +610,7 @@ div.intro {
   font-size: 1.4rem;
   line-height: 20px;
   line-height: 2rem;
-  border-top: 1px solid #bcafa5;
+  border-top: 1px solid #BCAFA5;
   padding-top: 12px;
   padding-top: 1.2rem;
   margin-top: 40px;
@@ -646,7 +646,7 @@ div.intro {
 
 /* line 163, ../sass/layouts/post.sass */
 .post-next-steps {
-  color: #bcafa5;
+  color: #BCAFA5;
   font-size: 12px;
   font-size: 1.2rem;
   line-height: 16px;
@@ -658,9 +658,9 @@ div.intro {
   margin: 0;
   text-decoration: none;
   color: inherit;
-  -webkit-transition-property: none;
   -moz-transition-property: none;
   -o-transition-property: none;
+  -webkit-transition-property: none;
   transition-property: none;
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
@@ -668,8 +668,8 @@ div.intro {
 /* line 174, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
-  background-color: #bb5400;
-  border-color: #bb5400;
+  background-color: #BB5400;
+  border-color: #BB5400;
 }
 /* line 178, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
@@ -743,25 +743,24 @@ div.intro {
   border-top-width: 0.2rem;
   border-top-color: #e8e3df;
   border-top-style: solid;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  -webkit-transition-timing-function: linear;
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
 /* line 34, ../sass/modules/post-separator.sass */
 .is-home .post-separator-arrow-left-angle {
-  -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
   transform: rotate(15deg);
   margin-right: 6px;
   margin-right: 0.6rem;
@@ -770,20 +769,18 @@ div.intro {
 }
 /* line 38, ../sass/modules/post-separator.sass */
 .is-home .post-separator-arrow-right-angle {
-  -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
   margin-bottom: -10px;
   margin-bottom: -1rem;
 }
 /* line 43, ../sass/modules/post-separator.sass */
 .is-home.is-not-top .post-separator-arrow-left-angle, .is-home.is-not-top .post-separator-arrow-right-angle, .is-home.is-fits-blog-nav .post-separator-arrow-left-angle, .is-home.is-fits-blog-nav .post-separator-arrow-right-angle {
-  -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   margin-right: 0;
   margin-bottom: 0;
@@ -792,13 +789,13 @@ div.intro {
 /* line 7, ../sass/modules/intro.sass */
 .js .intro {
   opacity: 1;
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
@@ -837,7 +834,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 1.8rem;
   height: 308px;
   height: 30.8rem;
-  background: #bb5400;
+  background: #BB5400;
   width: 100%;
   top: 0;
   left: 0;
@@ -870,13 +867,13 @@ a.intro-more:hover, a.intro-more:active {
 /* line 30, ../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
@@ -1085,13 +1082,13 @@ a.intro-more:hover, a.intro-more:active {
 /* line 14, ../sass/modules/blog-nav.sass */
 .blog-nav {
   opacity: 1;
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   position: relative;
   height: 200px;
@@ -1144,13 +1141,13 @@ a.intro-more:hover, a.intro-more:active {
   background: rgba(87, 55, 29, 0.4);
   padding: 20px;
   padding: 2rem;
-  -webkit-transition-property: background;
   -moz-transition-property: background;
   -o-transition-property: background;
+  -webkit-transition-property: background;
   transition-property: background;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   z-index: 3;
   font-size: 20px;
@@ -1190,9 +1187,9 @@ a.intro-more:hover, a.intro-more:active {
 
 /* line 74, ../sass/modules/blog-nav.sass */
 .blog-nav-previous:active, .blog-nav-next:active {
-  -webkit-transition-property: none;
   -moz-transition-property: none;
   -o-transition-property: none;
+  -webkit-transition-property: none;
   transition-property: none;
   background: rgba(87, 55, 29, 0.8);
 }
@@ -1304,7 +1301,7 @@ a.intro-more:hover, a.intro-more:active {
   font-family: adelle, "Palatino Linotype", "Charcoal", "Georgia", serif;
   padding-top: 40px;
   padding-top: 4rem;
-  color: #bcafa5;
+  color: #BCAFA5;
   text-align: center;
 }
 
@@ -1336,7 +1333,7 @@ a.intro-more:hover, a.intro-more:active {
 }
 /* line 162, ../sass/modules/blog-nav.sass */
 .blog-nav-pagination-summary-links a:hover, .blog-nav-pagination-summary-links a:active {
-  color: #bb5400;
+  color: #BB5400;
 }
 
 @media print {
@@ -1353,7 +1350,7 @@ a.intro-more:hover, a.intro-more:active {
   line-height: 1.6rem;
   display: inline-block;
   color: white;
-  background: #bcafa5;
+  background: #BCAFA5;
   margin-right: 5px;
   margin-right: 0.5rem;
   margin-top: 8px;
@@ -1389,13 +1386,13 @@ a.intro-more:hover, a.intro-more:active {
   display: none;
   opacity: 0;
   z-index: 1;
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 

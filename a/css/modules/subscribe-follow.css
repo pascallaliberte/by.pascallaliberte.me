@@ -4,7 +4,7 @@
   border-style: solid;
   border-width: 1px;
   border-width: 0.1rem;
-  border-color: #bcafa5;
+  border-color: #BCAFA5;
   font-family: adelle-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -15,35 +15,35 @@
   display: block;
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
-  color: #bb5400;
+  color: #BB5400;
 }
 /* line 41, ../../sass/_mixins.scss */
 .subscribe-follow-email-address.placeholder {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 /* line 42, ../../sass/_mixins.scss */
 .subscribe-follow-email-address:-moz-placeholder {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 /* line 43, ../../sass/_mixins.scss */
 .subscribe-follow-email-address::-moz-placeholder {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 /* line 44, ../../sass/_mixins.scss */
 .subscribe-follow-email-address:-ms-input-placeholder {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 /* line 45, ../../sass/_mixins.scss */
 .subscribe-follow-email-address::-webkit-input-placeholder {
-  color: #bcafa5;
+  color: #BCAFA5;
 }
 /* line 22, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-email-address:focus {
   outline-style: solid;
   outline-width: 2px;
   outline-width: 0.2rem;
-  outline-color: #bb5400;
-  border-color: #bb5400;
+  outline-color: #BB5400;
+  border-color: #BB5400;
 }
 @media (min-width: 512px) {
   /* line 7, ../../sass/modules/subscribe-follow.sass */
@@ -64,8 +64,8 @@
   padding: 8px 10px;
   padding: 0.8rem 1rem;
   text-transform: uppercase;
-  background-color: #bb5400;
-  border-color: #bb5400;
+  background-color: #BB5400;
+  border-color: #BB5400;
   color: white;
 }
 /* line 41, ../../sass/modules/subscribe-follow.sass */
@@ -109,7 +109,7 @@
   font-weight: 400;
   font-style: normal;
   text-transform: none;
-  color: #bb5400;
+  color: #BB5400;
 }
 @media (min-width: 512px) {
   /* line 59, ../../sass/modules/subscribe-follow.sass */
@@ -150,18 +150,16 @@
   font-size: 12px;
   font-size: 1.2rem;
   display: inline-block;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
+  background-color: #eee;
+  border: 1px solid #ddd;
   padding: 1px 6px;
   padding: 0.1rem 0.6rem;
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 /* line 94, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-rss a, .subscribe-follow-rss a:hover, .subscribe-follow-rss a:active {
-  color: #333333;
+  color: #333;
   text-decoration: underline;
 }

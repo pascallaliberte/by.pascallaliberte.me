@@ -7,7 +7,7 @@
   line-height: 1.8rem;
   height: 308px;
   height: 30.8rem;
-  background: #bb5400;
+  background: #BB5400;
   width: 100%;
   top: 0;
   left: 0;
@@ -40,13 +40,13 @@
 /* line 30, ../../sass/modules/about.sass */
 .js .about-details {
   opacity: 1;
-  -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
