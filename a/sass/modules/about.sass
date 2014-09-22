@@ -23,7 +23,7 @@
 .js
   +rem(padding-top, 300px)
 
-.js .about a 
+.js .about a
   color: inherit
   text-decoration: underline
 
@@ -31,12 +31,12 @@
   opacity: 1
   +transition-property(opacity)
   +transition-duration(0.5s)
-  
+
 .js .about-details
   max-width: 30em
   margin: 0 auto
   opacity: 0
-  
+
 .is-home .about-details
   opacity: 1
 
@@ -44,7 +44,7 @@
   opacity: 0
 
 .is-top-gutter-shown .about-details
-  opacity: 1  
+  opacity: 1
 
 .about-name
   +rem(font-size, 18px)
@@ -58,7 +58,7 @@
     +rem(font-size, 28px)
     +rem(line-height, 35px)
     +rem(margin-top, 30px)
-  
+
 
 .js .about-links, .js .about-signature
   +clearfix
@@ -77,7 +77,13 @@
   display: inline-block
   .fa //icon
     +rem(padding-right, 2px)
-  
+
+.js .about-links-alt-lang
+  float: right
+  display: inline-block
+  .fa //icon
+    +rem(padding-left, 5px)
+
 .js .about-signature-follow
   margin: 0
   white-space: nowrap
@@ -90,21 +96,21 @@
   +rem(padding-right, 10px)
 
 .js .about-signature
-  +rem(margin-top, -3px)  
+  +rem(margin-top, -3px)
   +breakpoint(min-width $medium-width)
     +rem(padding-top, 5px)
     +rem(margin-top, -5px)
-  
+
 .about-signature-follow .fa //icon
   +rem(font-size, 25px)
   +rem(padding-right, 10px)
-  
+
 .js .about-links a, .js .about-signature a
   text-decoration: none
-  
+
 .js .about-links a:hover, .js .about-signature a:hover
   color: rgba(255,255,255,1)
-  
+
 .js .about, .is-home .about
   .btn-default
     color: rgba(255,255,255,0.7)
@@ -124,7 +130,7 @@
 .subscribe-follow-link .fa
   +rem(margin-left, -2px)
   +rem(margin-right, 2px)
-  
+
 @media print
   .js.is-not-home
     padding-top: 0

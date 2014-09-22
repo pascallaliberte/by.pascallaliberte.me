@@ -32,7 +32,7 @@
     text-decoration: none
   a:hover, a:active
     text-decoration: underline
-  
+
 .is-post .post .post-title
   +breakpoint((min-width $medium-width) (min-height $small-height))
     +rem(font-size, 66px)
@@ -52,7 +52,7 @@
   .is-post .post
     max-width: 70%
     margin: 0
-    
+
 
 .post h2
   +rem(font-size, 22px)
@@ -99,7 +99,7 @@
   font-family: inherit
   font-weight: inherit
   font-style: inherit
-  
+
 .post p.meta
   font-family: $font-secondary
   color: #BCAFA5
@@ -111,14 +111,14 @@
 
 .post-quote
   +rem(margin-top, 70px)
-  
+
 .post-quote blockquote
   margin-left: 0
   margin-right: 0
 
 .post-quote-source p
   margin: 0
-  
+
 .post-quote-dash
   color: #BCAFA5
 
@@ -127,16 +127,19 @@
 
 .post-meta-separator
   +rem(padding, 0 5px)
-  
+
 .post-permalink
   color: #BCAFA5
   text-decoration: none
 
-.post-permalink-icon
+.post-alt-lang-link
+  color: #BCAFA5
+
+.post-permalink-icon, .post-alt-lang-link-icon
   +rem(font-size, 14px)
   +rem(padding-left, 5px)
-  
-.post-permalink:hover
+
+.post-permalink:hover, .post-alt-lang-link:hover
   color: #BB5400
 
 .post .footnotes
@@ -149,13 +152,13 @@
 .post .post-link-title, .is-post .post .post-link-title
   +rem(font-size, 28px)
   +rem(line-height, 32px)
-  
+
 .post-link-icon
   +rem(font-size, 16px)
   +rem(padding-left, 8px)
   +rem(padding-bottom, 3px)
   vertical-align: middle
-  
+
 .is-home .post
   +rem(margin-top, 70px)
   +rem(margin-bottom, 70px)
@@ -186,7 +189,7 @@
 
 .post-continue-reading
   text-decoration: none
-  
+
 .post-continue-reading-link
   text-decoration: underline
   padding-right: 0.2em
@@ -198,4 +201,3 @@
     display: none
   .is-post .share
     display: none
-    

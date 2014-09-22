@@ -136,6 +136,17 @@
 }
 
 /* line 81, ../../sass/modules/about.sass */
+.js .about-links-alt-lang {
+  float: right;
+  display: inline-block;
+}
+/* line 84, ../../sass/modules/about.sass */
+.js .about-links-alt-lang .fa {
+  padding-left: 5px;
+  padding-left: 0.5rem;
+}
+
+/* line 87, ../../sass/modules/about.sass */
 .js .about-signature-follow {
   margin: 0;
   white-space: nowrap;
@@ -144,25 +155,25 @@
   margin-top: 0.5rem;
 }
 @media (min-width: 512px) {
-  /* line 81, ../../sass/modules/about.sass */
+  /* line 87, ../../sass/modules/about.sass */
   .js .about-signature-follow {
     margin-top: 0;
   }
 }
 
-/* line 89, ../../sass/modules/about.sass */
+/* line 95, ../../sass/modules/about.sass */
 .js .about-signature-name {
   padding-right: 10px;
   padding-right: 1rem;
 }
 
-/* line 92, ../../sass/modules/about.sass */
+/* line 98, ../../sass/modules/about.sass */
 .js .about-signature {
   margin-top: -3px;
   margin-top: -0.3rem;
 }
 @media (min-width: 512px) {
-  /* line 92, ../../sass/modules/about.sass */
+  /* line 98, ../../sass/modules/about.sass */
   .js .about-signature {
     padding-top: 5px;
     padding-top: 0.5rem;
@@ -171,7 +182,7 @@
   }
 }
 
-/* line 98, ../../sass/modules/about.sass */
+/* line 104, ../../sass/modules/about.sass */
 .about-signature-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -179,17 +190,17 @@
   padding-right: 1rem;
 }
 
-/* line 102, ../../sass/modules/about.sass */
+/* line 108, ../../sass/modules/about.sass */
 .js .about-links a, .js .about-signature a {
   text-decoration: none;
 }
 
-/* line 105, ../../sass/modules/about.sass */
+/* line 111, ../../sass/modules/about.sass */
 .js .about-links a:hover, .js .about-signature a:hover {
   color: white;
 }
 
-/* line 109, ../../sass/modules/about.sass */
+/* line 115, ../../sass/modules/about.sass */
 .js .about .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
@@ -199,7 +210,7 @@
   margin-top: 5px;
   margin-top: 0.5rem;
 }
-/* line 116, ../../sass/modules/about.sass */
+/* line 122, ../../sass/modules/about.sass */
 .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
@@ -207,14 +218,14 @@
   outline: none;
 }
 @media (min-width: 512px) {
-  /* line 109, ../../sass/modules/about.sass */
+  /* line 115, ../../sass/modules/about.sass */
   .js .about .btn-default, .is-home .about .btn-default {
     margin-top: -5px;
     margin-top: -0.5rem;
   }
 }
 
-/* line 124, ../../sass/modules/about.sass */
+/* line 130, ../../sass/modules/about.sass */
 .subscribe-follow-link .fa {
   margin-left: -2px;
   margin-left: -0.2rem;
@@ -223,12 +234,12 @@
 }
 
 @media print {
-  /* line 129, ../../sass/modules/about.sass */
+  /* line 135, ../../sass/modules/about.sass */
   .js.is-not-home {
     padding-top: 0;
   }
 
-  /* line 131, ../../sass/modules/about.sass */
+  /* line 137, ../../sass/modules/about.sass */
   .js.is-not-home .about {
     display: none;
   }

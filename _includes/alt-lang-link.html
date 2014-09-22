@@ -1,0 +1,17 @@
+{% if include.from == "about" %}
+
+  {% if page.alt_lang_path %}
+  <a href="{{ site.alt_lang_url }}{{ page.alt_lang_path }}" lang="{{ site.alt_lang }}" hreflang="{{ site.alt_lang }}" rel="alternate" class="about-links-alt-lang nowrap">Français<i class="about-links-alt-lang-icon fa fa-chevron-right"></i></a>
+  {% else %}
+  <a href="{{ site.alt_lang_url }}" lang="{{ site.alt_lang }}" hreflang="{{ site.alt_lang }}" rel="alternate" class="about-links-alt-lang nowrap">Français<i class="about-links-alt-lang-icon fa fa-chevron-right"></i></a>
+  {% endif %}
+{% else %}
+  {% if page.alt_lang_path or post.alt_lang_path %}
+  <span class="instapaper_ignore post-alt-lang">
+  <span class="post-meta-separator">&bull;</span>
+
+  <a href="{{ site.alt_lang_url }}{% if page.alt_lang_path %}{{ page.alt_lang_path }}{% else %}{{ post.alt_lang_path }}{% endif %}" lang="{{ site.alt_lang }}" hreflang="{{ site.alt_lang }}" rel="alternate" class="post-alt-lang-link nowrap">Changer au français<i class="post-alt-lang-link-icon fa fa-angle-right"></i></a>
+
+  </span>
+  {% endif %}
+{% endif %}

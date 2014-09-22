@@ -207,19 +207,24 @@
 }
 
 /* line 135, ../../sass/layouts/post.sass */
-.post-permalink-icon {
+.post-alt-lang-link {
+  color: #BCAFA5;
+}
+
+/* line 138, ../../sass/layouts/post.sass */
+.post-permalink-icon, .post-alt-lang-link-icon {
   font-size: 14px;
   font-size: 1.4rem;
   padding-left: 5px;
   padding-left: 0.5rem;
 }
 
-/* line 139, ../../sass/layouts/post.sass */
-.post-permalink:hover {
+/* line 142, ../../sass/layouts/post.sass */
+.post-permalink:hover, .post-alt-lang-link:hover {
   color: #BB5400;
 }
 
-/* line 142, ../../sass/layouts/post.sass */
+/* line 145, ../../sass/layouts/post.sass */
 .post .footnotes {
   font-size: 14px;
   font-size: 1.4rem;
@@ -232,7 +237,7 @@
   margin-top: 4rem;
 }
 
-/* line 149, ../../sass/layouts/post.sass */
+/* line 152, ../../sass/layouts/post.sass */
 .post .post-link-title, .is-post .post .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -240,7 +245,7 @@
   line-height: 3.2rem;
 }
 
-/* line 153, ../../sass/layouts/post.sass */
+/* line 156, ../../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
@@ -251,7 +256,7 @@
   vertical-align: middle;
 }
 
-/* line 159, ../../sass/layouts/post.sass */
+/* line 162, ../../sass/layouts/post.sass */
 .is-home .post {
   margin-top: 70px;
   margin-top: 7rem;
@@ -259,7 +264,7 @@
   margin-bottom: 7rem;
 }
 
-/* line 163, ../../sass/layouts/post.sass */
+/* line 166, ../../sass/layouts/post.sass */
 .post-next-steps {
   color: #BCAFA5;
   font-size: 12px;
@@ -268,7 +273,7 @@
   line-height: 1.6rem;
   text-align: center;
 }
-/* line 168, ../../sass/layouts/post.sass */
+/* line 171, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link {
   margin: 0;
   text-decoration: none;
@@ -280,18 +285,18 @@
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
 }
-/* line 174, ../../sass/layouts/post.sass */
+/* line 177, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
   background-color: #BB5400;
   border-color: #BB5400;
 }
-/* line 178, ../../sass/layouts/post.sass */
+/* line 181, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
   background-color: #883d00;
   border-color: #883d00;
 }
-/* line 181, ../../sass/layouts/post.sass */
+/* line 184, ../../sass/layouts/post.sass */
 .post-next-steps .blog-nav-pagination-summary-links {
   margin: 0;
   font-size: inherit;
@@ -300,29 +305,29 @@
   margin-bottom: 1rem;
 }
 
-/* line 187, ../../sass/layouts/post.sass */
+/* line 190, ../../sass/layouts/post.sass */
 .post-continue-reading {
   text-decoration: none;
 }
 
-/* line 190, ../../sass/layouts/post.sass */
+/* line 193, ../../sass/layouts/post.sass */
 .post-continue-reading-link {
   text-decoration: underline;
   padding-right: 0.2em;
 }
 
 @media print {
-  /* line 195, ../../sass/layouts/post.sass */
+  /* line 198, ../../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 197, ../../sass/layouts/post.sass */
+  /* line 200, ../../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
 
-  /* line 199, ../../sass/layouts/post.sass */
+  /* line 202, ../../sass/layouts/post.sass */
   .is-post .share {
     display: none;
   }

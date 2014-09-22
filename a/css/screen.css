@@ -592,19 +592,24 @@ div.intro {
 }
 
 /* line 135, ../sass/layouts/post.sass */
-.post-permalink-icon {
+.post-alt-lang-link {
+  color: #BCAFA5;
+}
+
+/* line 138, ../sass/layouts/post.sass */
+.post-permalink-icon, .post-alt-lang-link-icon {
   font-size: 14px;
   font-size: 1.4rem;
   padding-left: 5px;
   padding-left: 0.5rem;
 }
 
-/* line 139, ../sass/layouts/post.sass */
-.post-permalink:hover {
+/* line 142, ../sass/layouts/post.sass */
+.post-permalink:hover, .post-alt-lang-link:hover {
   color: #BB5400;
 }
 
-/* line 142, ../sass/layouts/post.sass */
+/* line 145, ../sass/layouts/post.sass */
 .post .footnotes {
   font-size: 14px;
   font-size: 1.4rem;
@@ -617,7 +622,7 @@ div.intro {
   margin-top: 4rem;
 }
 
-/* line 149, ../sass/layouts/post.sass */
+/* line 152, ../sass/layouts/post.sass */
 .post .post-link-title, .is-post .post .post-link-title {
   font-size: 28px;
   font-size: 2.8rem;
@@ -625,7 +630,7 @@ div.intro {
   line-height: 3.2rem;
 }
 
-/* line 153, ../sass/layouts/post.sass */
+/* line 156, ../sass/layouts/post.sass */
 .post-link-icon {
   font-size: 16px;
   font-size: 1.6rem;
@@ -636,7 +641,7 @@ div.intro {
   vertical-align: middle;
 }
 
-/* line 159, ../sass/layouts/post.sass */
+/* line 162, ../sass/layouts/post.sass */
 .is-home .post {
   margin-top: 70px;
   margin-top: 7rem;
@@ -644,7 +649,7 @@ div.intro {
   margin-bottom: 7rem;
 }
 
-/* line 163, ../sass/layouts/post.sass */
+/* line 166, ../sass/layouts/post.sass */
 .post-next-steps {
   color: #BCAFA5;
   font-size: 12px;
@@ -653,7 +658,7 @@ div.intro {
   line-height: 1.6rem;
   text-align: center;
 }
-/* line 168, ../sass/layouts/post.sass */
+/* line 171, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link {
   margin: 0;
   text-decoration: none;
@@ -665,18 +670,18 @@ div.intro {
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
 }
-/* line 174, ../sass/layouts/post.sass */
+/* line 177, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
   background-color: #BB5400;
   border-color: #BB5400;
 }
-/* line 178, ../sass/layouts/post.sass */
+/* line 181, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
   background-color: #883d00;
   border-color: #883d00;
 }
-/* line 181, ../sass/layouts/post.sass */
+/* line 184, ../sass/layouts/post.sass */
 .post-next-steps .blog-nav-pagination-summary-links {
   margin: 0;
   font-size: inherit;
@@ -685,29 +690,29 @@ div.intro {
   margin-bottom: 1rem;
 }
 
-/* line 187, ../sass/layouts/post.sass */
+/* line 190, ../sass/layouts/post.sass */
 .post-continue-reading {
   text-decoration: none;
 }
 
-/* line 190, ../sass/layouts/post.sass */
+/* line 193, ../sass/layouts/post.sass */
 .post-continue-reading-link {
   text-decoration: underline;
   padding-right: 0.2em;
 }
 
 @media print {
-  /* line 195, ../sass/layouts/post.sass */
+  /* line 198, ../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 197, ../sass/layouts/post.sass */
+  /* line 200, ../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
 
-  /* line 199, ../sass/layouts/post.sass */
+  /* line 202, ../sass/layouts/post.sass */
   .is-post .share {
     display: none;
   }
@@ -963,6 +968,17 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 /* line 81, ../sass/modules/about.sass */
+.js .about-links-alt-lang {
+  float: right;
+  display: inline-block;
+}
+/* line 84, ../sass/modules/about.sass */
+.js .about-links-alt-lang .fa {
+  padding-left: 5px;
+  padding-left: 0.5rem;
+}
+
+/* line 87, ../sass/modules/about.sass */
 .js .about-signature-follow {
   margin: 0;
   white-space: nowrap;
@@ -971,25 +987,25 @@ a.intro-more:hover, a.intro-more:active {
   margin-top: 0.5rem;
 }
 @media (min-width: 512px) {
-  /* line 81, ../sass/modules/about.sass */
+  /* line 87, ../sass/modules/about.sass */
   .js .about-signature-follow {
     margin-top: 0;
   }
 }
 
-/* line 89, ../sass/modules/about.sass */
+/* line 95, ../sass/modules/about.sass */
 .js .about-signature-name {
   padding-right: 10px;
   padding-right: 1rem;
 }
 
-/* line 92, ../sass/modules/about.sass */
+/* line 98, ../sass/modules/about.sass */
 .js .about-signature {
   margin-top: -3px;
   margin-top: -0.3rem;
 }
 @media (min-width: 512px) {
-  /* line 92, ../sass/modules/about.sass */
+  /* line 98, ../sass/modules/about.sass */
   .js .about-signature {
     padding-top: 5px;
     padding-top: 0.5rem;
@@ -998,7 +1014,7 @@ a.intro-more:hover, a.intro-more:active {
   }
 }
 
-/* line 98, ../sass/modules/about.sass */
+/* line 104, ../sass/modules/about.sass */
 .about-signature-follow .fa {
   font-size: 25px;
   font-size: 2.5rem;
@@ -1006,17 +1022,17 @@ a.intro-more:hover, a.intro-more:active {
   padding-right: 1rem;
 }
 
-/* line 102, ../sass/modules/about.sass */
+/* line 108, ../sass/modules/about.sass */
 .js .about-links a, .js .about-signature a {
   text-decoration: none;
 }
 
-/* line 105, ../sass/modules/about.sass */
+/* line 111, ../sass/modules/about.sass */
 .js .about-links a:hover, .js .about-signature a:hover {
   color: white;
 }
 
-/* line 109, ../sass/modules/about.sass */
+/* line 115, ../sass/modules/about.sass */
 .js .about .btn-default, .is-home .about .btn-default {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0);
@@ -1026,7 +1042,7 @@ a.intro-more:hover, a.intro-more:active {
   margin-top: 5px;
   margin-top: 0.5rem;
 }
-/* line 116, ../sass/modules/about.sass */
+/* line 122, ../sass/modules/about.sass */
 .js .about .btn-default:hover, .js .about .btn-default:active, .js .about .btn-default:focus, .is-home .about .btn-default:hover, .is-home .about .btn-default:active, .is-home .about .btn-default:focus {
   color: white;
   border-color: white;
@@ -1034,14 +1050,14 @@ a.intro-more:hover, a.intro-more:active {
   outline: none;
 }
 @media (min-width: 512px) {
-  /* line 109, ../sass/modules/about.sass */
+  /* line 115, ../sass/modules/about.sass */
   .js .about .btn-default, .is-home .about .btn-default {
     margin-top: -5px;
     margin-top: -0.5rem;
   }
 }
 
-/* line 124, ../sass/modules/about.sass */
+/* line 130, ../sass/modules/about.sass */
 .subscribe-follow-link .fa {
   margin-left: -2px;
   margin-left: -0.2rem;
@@ -1050,12 +1066,12 @@ a.intro-more:hover, a.intro-more:active {
 }
 
 @media print {
-  /* line 129, ../sass/modules/about.sass */
+  /* line 135, ../sass/modules/about.sass */
   .js.is-not-home {
     padding-top: 0;
   }
 
-  /* line 131, ../sass/modules/about.sass */
+  /* line 137, ../sass/modules/about.sass */
   .js.is-not-home .about {
     display: none;
   }
