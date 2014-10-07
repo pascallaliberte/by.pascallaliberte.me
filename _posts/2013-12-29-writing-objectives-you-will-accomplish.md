@@ -2,13 +2,14 @@
 layout: post
 title: 'Writing objectives you will accomplish'
 date: 2013-12-29 3:20pm
+alt_lang_path: /2014-10-rediger-des-objectifs-et-les-realiser/
 ---
 
 There's a problem with most of the objectives we write down: most of them are written as wishes, and that's why they don't get done.
 
 ![Arrows stopping short of the goal]({{ site.baseurl }}/d/2013/writing-objectives-you-will-accomplish-01.png)
 
-Objectives we write usually end up looking something like this: 
+Objectives we write usually end up looking something like this:
 
 ### My objectives:
 

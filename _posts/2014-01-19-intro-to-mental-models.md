@@ -2,6 +2,7 @@
 layout: post
 title: An introduction to mental models
 date: 2014-01-19 0:09am
+alt_lang_path: /2014-10-intro-aux-modeles-mentaux/
 ---
 
 A few years ago, I discovered  something that turned out to play an essential role in my personal development: I found out about mental models. While before I was trapped in my own ways of thinking, I'm now much more in command of my thoughts.
@@ -49,7 +50,7 @@ Your mind usually doesn't know when it's seeing through a filter. The hard part 
 
 ![Identifying the presence of the filter, the mind sees the real object: a green apple]({{ site.base_url }}/d/2014/intro-to-mental-models-02.jpg)
 
-There are a few usual signs that tell you your mind is caught wrestling with a mental model. Something won't feel right. You'll be agitated, annoyed, restless. You might become obsessed. You'll be in a _reaction_. When stuck in a state of reaction, it's hard to regain some perspective. 
+There are a few usual signs that tell you your mind is caught wrestling with a mental model. Something won't feel right. You'll be agitated, annoyed, restless. You might become obsessed. You'll be in a _reaction_. When stuck in a state of reaction, it's hard to regain some perspective.
 
 There's a simple question I like to ask myself when I'm stuck in a reactive moment: "What are you so convinced of?" That usually reminds me that I have a mental model colouring my options, a conclusion I'm drawing, a bias I'm not questioning, or a label I'm applying. "What are you so sure of?"
 

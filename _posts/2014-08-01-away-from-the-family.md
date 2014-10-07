@@ -2,6 +2,7 @@
 layout: post
 title: 'Away from the family'
 date: 2014-08-01 8:11am
+alt_lang_path: /2014-10-sabsenter-de-la-famille/
 ---
 
 Taking time away from the family can feel wrong, like you're neglecting the ones you love. There's no need to feel that way.

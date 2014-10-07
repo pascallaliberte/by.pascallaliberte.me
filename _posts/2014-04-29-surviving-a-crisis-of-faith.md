@@ -2,6 +2,7 @@
 layout: post
 title: 'Surviving a crisis of faith and living the Gospel fully'
 date: 2014-04-29 20:12pm
+alt_lang_path: /2014-10-survivre-une-crise-de-foi/
 ---
 
 If you care about faith and about being a sensible, honest person, you've probably struggled with doubt. Maybe you're going through a crisis of faith right now. If so, hold on.
