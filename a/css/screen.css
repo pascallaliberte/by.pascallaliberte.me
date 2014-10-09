@@ -1052,8 +1052,7 @@ a.intro-more:hover, a.intro-more:active {
 @media (min-width: 512px) {
   /* line 115, ../sass/modules/about.sass */
   .js .about .btn-default, .is-home .about .btn-default {
-    margin-top: -5px;
-    margin-top: -0.5rem;
+    margin-top: 0;
   }
 }
 
