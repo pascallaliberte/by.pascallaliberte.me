@@ -5,6 +5,11 @@
   {% else %}
   <a href="{{ site.alt_lang_url }}" lang="{{ site.alt_lang }}" hreflang="{{ site.alt_lang }}" rel="alternate" class="about-links-alt-lang nowrap">Français<i class="about-links-alt-lang-icon fa fa-chevron-right"></i></a>
   {% endif %}
+{% elsif include.from == "head" %}
+  {% if page.alt_lang_path %}
+        <link rel="alternate" hreflang="{{ site.lang }}" href="{{ site.url }}{{ page.url }}" />
+        <link rel="alternate" hreflang="{{ site.alt_lang }}" href="{{ site.alt_lang_url }}{{ page.alt_lang_path }}" />
+  {% endif %}
 {% else %}
   {% if page.alt_lang_path or post.alt_lang_path %}
   <span class="instapaper_ignore post-alt-lang">
