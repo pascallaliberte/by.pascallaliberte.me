@@ -29,7 +29,7 @@ That's a long list of goals, and I wanted to go deep in every one of those items
 
 I couldn't go deep in each one, so what's the other option? Balance?
 
-But balance isn't even a thing you can aim for. It's a false goal. You can't go full speed toward balance; it presupposes the action of holding back. It means switching tasks constantly, compartmentalizing your life. None of this is really great.
+But balance isn't even a thing you can aim for. It's a false target. You can't go full speed toward balance; it presupposes the action of holding back. It means switching tasks constantly, compartmentalizing your life. None of this is really great.
 
 Trying to do everything was going to burn me out, but staying at the surface of everything was wearing me thin. The problem, I found, was that I was going too deep in the wrong things.
 
