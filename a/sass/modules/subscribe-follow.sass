@@ -22,12 +22,12 @@
   &:focus
     outline-style: solid
     +rem(outline-width, 2px)
-    outline-color: #BB5400 
+    outline-color: #BB5400
     border-color: #BB5400
   +breakpoint(min-width $medium-width)
     +rem(font-size, 22px)
     width: 70%
-    float: left  
+    float: left
     display: inline-block
     margin-bottom: 0
 
@@ -68,12 +68,12 @@
       +rem(font-size, 35px)
       +rem(line-height, 40px)
       text-align: center
-    
+
 .subscribe-follow-secondary
   +breakpoint(min-width $medium-width)
     max-width: 20em
     margin: 0 auto
-    
+
   h2
     +rem(font-size, 18px)
     +rem(line-height, 25px)
@@ -94,5 +94,13 @@
   a, a:hover, a:active
     color: #333
     text-decoration: underline
-  
-  
+
+.subscribe-follow-why-subscribe
+  +breakpoint(min-width $medium-width)
+    max-width: 25em
+    margin: 0 auto 2em
+
+.subscribe-follow-note
+  color: darken(#BCAFA5, 20%)
+  +rem(font-size, 15px)
+  margin-bottom: 2em
