@@ -167,7 +167,8 @@
 /* line 98, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-note {
   color: #907b6b;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 13px;
+  font-size: 1.3rem;
   margin-bottom: 2em;
+  text-align: center;
 }
