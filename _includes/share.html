@@ -1,6 +1,5 @@
 <footer class="share">
   <a class="share-link share-link-facebook" rel="external" href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]={{ site.url }}{{ page.url | uri_escape }}&p[images][0]=&p[title]={% if include.layout == "quote" %}Quote:%20%22{{ page.title | uri_escape }}%22{% else %}{{ page.title | uri_escape }}{% endif %}&p[summary]=">Share on Facebook</a>
   <a class="share-link share-link-twitter" rel="external" href="http://twitter.com/home?status={% if include.layout == "quote" %}Quote:%20%22{{ page.title | truncate: 109, '…' | uri_escape }}%22{% else %}{{ page.title | truncate: 118, '…' | uri_escape }}{% endif %}%20{{ site.url }}{{ page.url | uri_escape }}">Share on Twitter</a>
-  <a class="share-link share-link-google-plus" rel="external" href="https://plus.google.com/share?url={{ site.url }}{{ page.url | uri_escape }}">Share on Google+</a>
   <a class="share-link share-link-linkedin" rel="external" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | uri_escape }}&title={% if include.layout == "quote" %}Quote:%20%22{{ page.title | uri_escape }}%22{% else %}{{ page.title | uri_escape }}{% endif %}&summary=">Share on LinkedIn</a>
 </footer>
