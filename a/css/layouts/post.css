@@ -275,9 +275,14 @@
   text-align: center;
 }
 /* line 172, ../../sass/layouts/post.sass */
+.post-next-steps .intro {
+  margin: 0 0 0.5em;
+}
+/* line 174, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link {
   margin: 0;
-  margin-top: 0.5em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
   text-decoration: none;
   color: inherit;
   -moz-transition-property: none;
@@ -287,18 +292,18 @@
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
 }
-/* line 179, ../../sass/layouts/post.sass */
+/* line 182, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
   background-color: #BB5400;
   border-color: #BB5400;
 }
-/* line 183, ../../sass/layouts/post.sass */
+/* line 186, ../../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
   background-color: #883d00;
   border-color: #883d00;
 }
-/* line 186, ../../sass/layouts/post.sass */
+/* line 189, ../../sass/layouts/post.sass */
 .post-next-steps .blog-nav-pagination-summary-links {
   display: inline;
   margin: 0;
@@ -308,29 +313,29 @@
   margin-bottom: 1rem;
 }
 
-/* line 193, ../../sass/layouts/post.sass */
+/* line 196, ../../sass/layouts/post.sass */
 .post-continue-reading {
   text-decoration: none;
 }
 
-/* line 196, ../../sass/layouts/post.sass */
+/* line 199, ../../sass/layouts/post.sass */
 .post-continue-reading-link {
   text-decoration: underline;
   padding-right: 0.2em;
 }
 
 @media print {
-  /* line 201, ../../sass/layouts/post.sass */
+  /* line 204, ../../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 203, ../../sass/layouts/post.sass */
+  /* line 206, ../../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
 
-  /* line 205, ../../sass/layouts/post.sass */
+  /* line 208, ../../sass/layouts/post.sass */
   .is-post .share {
     display: none;
   }
