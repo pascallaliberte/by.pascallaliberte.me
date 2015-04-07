@@ -164,15 +164,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 512px) {
-  /* line 98, ../../sass/modules/subscribe-follow.sass */
-  .subscribe-follow-why-subscribe {
-    max-width: 25em;
-    margin: 0 auto 2em;
-  }
-}
-
-/* line 103, ../../sass/modules/subscribe-follow.sass */
+/* line 98, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-note {
   color: #907b6b;
   font-size: 15px;
