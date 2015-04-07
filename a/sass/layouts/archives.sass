@@ -1,0 +1,26 @@
+@import "compass/css3"
+@import "site-settings"
+@import "mixins"
+@import "breakpoint"
+
+.archives-next-steps
+  color: darken(#BCAFA5, 20%)
+  +rem(font-size, 15px)
+  +rem(line-height, 16px)
+  margin-top: 2em
+  text-align: center
+  .subscribe-follow-link
+    margin: 0
+    margin-left: 0.5em
+    margin-top: 0.5em
+    text-decoration: none
+    color: inherit
+    +transition-property(none)
+    +rem(margin-bottom, 5px)
+    &:hover, &:focus
+      color: white
+      background-color: #BB5400
+      border-color: #BB5400
+    &:active
+      background-color: darken(#BB5400, 10%)
+      border-color: darken(#BB5400, 10%)

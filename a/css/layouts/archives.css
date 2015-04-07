@@ -1,0 +1,35 @@
+/* line 6, ../../sass/layouts/archives.sass */
+.archives-next-steps {
+  color: #907b6b;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  margin-top: 2em;
+  text-align: center;
+}
+/* line 12, ../../sass/layouts/archives.sass */
+.archives-next-steps .subscribe-follow-link {
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  text-decoration: none;
+  color: inherit;
+  -moz-transition-property: none;
+  -o-transition-property: none;
+  -webkit-transition-property: none;
+  transition-property: none;
+  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
+}
+/* line 20, ../../sass/layouts/archives.sass */
+.archives-next-steps .subscribe-follow-link:hover, .archives-next-steps .subscribe-follow-link:focus {
+  color: white;
+  background-color: #BB5400;
+  border-color: #BB5400;
+}
+/* line 24, ../../sass/layouts/archives.sass */
+.archives-next-steps .subscribe-follow-link:active {
+  background-color: #883d00;
+  border-color: #883d00;
+}
