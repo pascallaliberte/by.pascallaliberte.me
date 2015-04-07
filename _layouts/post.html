@@ -31,6 +31,16 @@ key: is-post
 
 {% include share.html %}
 
+<footer class="post-next-steps">
+  <div>Want more articles like this one?</div>
+  <a class="subscribe-follow-link btn btn-default" href="{{ site.baseurl}}/subscribe-follow/">
+    <i class="fa fa-star-o"></i>
+    Subscribe + Follow
+  </a>
+  {% include blog-nav-pagination-summary-links.html %}
+</footer>
+
+
 </article>
 
 {% include about.html %}
@@ -38,11 +48,3 @@ key: is-post
 {% include to-top.html %}
 
 {% include blog-nav.html %}
-
-<footer class="post-next-steps">
-  <a class="subscribe-follow-link btn btn-default" href="{{ site.baseurl}}/subscribe-follow/">
-    <i class="fa fa-star-o"></i>
-    Subscribe + Follow
-  </a>
-  {% include blog-nav-pagination-summary-links.html %}
-</footer>

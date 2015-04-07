@@ -651,16 +651,18 @@ div.intro {
 
 /* line 166, ../sass/layouts/post.sass */
 .post-next-steps {
+  margin-top: 2em;
   color: #BCAFA5;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 16px;
   line-height: 1.6rem;
   text-align: center;
 }
-/* line 171, ../sass/layouts/post.sass */
+/* line 172, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link {
   margin: 0;
+  margin-top: 0.5em;
   text-decoration: none;
   color: inherit;
   -moz-transition-property: none;
@@ -670,19 +672,20 @@ div.intro {
   margin-bottom: 5px;
   margin-bottom: 0.5rem;
 }
-/* line 177, ../sass/layouts/post.sass */
+/* line 179, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:hover, .post-next-steps .subscribe-follow-link:focus {
   color: white;
   background-color: #BB5400;
   border-color: #BB5400;
 }
-/* line 181, ../sass/layouts/post.sass */
+/* line 183, ../sass/layouts/post.sass */
 .post-next-steps .subscribe-follow-link:active {
   background-color: #883d00;
   border-color: #883d00;
 }
-/* line 184, ../sass/layouts/post.sass */
+/* line 186, ../sass/layouts/post.sass */
 .post-next-steps .blog-nav-pagination-summary-links {
+  display: inline;
   margin: 0;
   font-size: inherit;
   line-height: inherit;
@@ -690,29 +693,29 @@ div.intro {
   margin-bottom: 1rem;
 }
 
-/* line 190, ../sass/layouts/post.sass */
+/* line 193, ../sass/layouts/post.sass */
 .post-continue-reading {
   text-decoration: none;
 }
 
-/* line 193, ../sass/layouts/post.sass */
+/* line 196, ../sass/layouts/post.sass */
 .post-continue-reading-link {
   text-decoration: underline;
   padding-right: 0.2em;
 }
 
 @media print {
-  /* line 198, ../sass/layouts/post.sass */
+  /* line 201, ../sass/layouts/post.sass */
   .reversefootnote {
     display: none;
   }
 
-  /* line 200, ../sass/layouts/post.sass */
+  /* line 203, ../sass/layouts/post.sass */
   .post-next-steps {
     display: none;
   }
 
-  /* line 202, ../sass/layouts/post.sass */
+  /* line 205, ../sass/layouts/post.sass */
   .is-post .share {
     display: none;
   }
