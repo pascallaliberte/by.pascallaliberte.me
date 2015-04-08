@@ -165,6 +165,16 @@
 }
 
 /* line 98, ../../sass/modules/subscribe-follow.sass */
+.subscribe-follow-intro {
+  color: #907b6b;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 16px;
+  line-height: 1.6rem;
+  margin-top: 2em;
+}
+
+/* line 104, ../../sass/modules/subscribe-follow.sass */
 .subscribe-follow-note {
   color: #907b6b;
   font-size: 13px;
