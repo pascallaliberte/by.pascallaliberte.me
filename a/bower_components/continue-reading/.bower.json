@@ -1,0 +1,35 @@
+{
+  "name": "continue-reading",
+  "authors": [
+    "Pascal Laliberté <pascal.laliberte@gmail.com>"
+  ],
+  "description": "Let your readers click the \"Continue Reading\" link without missing their spot",
+  "main": "continue-reading.js",
+  "keywords": [
+    "expand",
+    "in-place",
+    "continue",
+    "reading",
+    "more",
+    "link",
+    "more",
+    "jump"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "33f959e369",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "33f959e369072e877625aacffa4b3fd4881acee6"
+  },
+  "_source": "/Users/work/Desktop/continue-reading",
+  "_target": "*",
+  "_originalSource": "../../../continue-reading/"
+}

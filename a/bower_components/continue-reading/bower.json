@@ -1,0 +1,27 @@
+{
+  "name": "continue-reading",
+  "version": "0.1.0",
+  "authors": [
+    "Pascal Laliberté <pascal.laliberte@gmail.com>"
+  ],
+  "description": "Let your readers click the \"Continue Reading\" link without missing their spot",
+  "main": "continue-reading.js",
+  "keywords": [
+    "expand",
+    "in-place",
+    "continue",
+    "reading",
+    "more",
+    "link",
+    "more",
+    "jump"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
