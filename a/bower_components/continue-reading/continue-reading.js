@@ -23,6 +23,17 @@
         localStorage.removeItem('continueReadingScrollOffset');
       }
 
+      // set the width and height of images and other items before they're done
+      // loading so that when they're done, they don't push down the
+      // continue-reading position
+      if (localStorage['stuffToPreSizeAboveContinueReading']) {
+        stuffToPresize = JSON.parse(localStorage['stuffToPreSizeAboveContinueReading']);
+        localStorage.removeItem('stuffToPreSizeAboveContinueReading');
+        for(selector in stuffToPresize) {
+          $(selector).innerWidth(stuffToPresize[selector].width).innerHeight(stuffToPresize[selector].height);
+        }
+      }
+
       continueReadingScrollPos = 0;
       if (1 <= $('#' + continueReading).size()) {
         continueReadingScrollPos = parseFloat($('#' + continueReading).offset().top);
@@ -42,6 +53,7 @@
         event.preventDefault();
         continueReadingScrollOffset = this.getBoundingClientRect().top * -1;
         localStorage['continueReadingScrollOffset'] = continueReadingScrollOffset;
+        localStorage['stuffToPreSizeAboveContinueReading'] = JSON.stringify(findStuffToPreSizeAbove(this));
         document.location = this.href;
       });
     });
@@ -59,6 +71,34 @@
       return defaultLang;
     }
     return lang;
+  }
+
+  function findStuffToPreSizeAbove(continueReadingLink) {
+    offsetTopOfContinueReadingLink = $(continueReadingLink).offset().top;
+
+    // find offsetTop of the previous continue-reading link, zero if we're the first
+    offsetTopOfPrevContinueReadingLink = 0;
+    $("a[href$='#" + continueReading + "']").each(function(){
+      offsetTopOfThis = $(this).offset().top;
+      if (offsetTopOfThis < offsetTopOfContinueReadingLink) {
+        offsetTopOfPrevContinueReadingLink = offsetTopOfThis;
+      }
+    });
+
+    // list the stuff (images, videos, whatever) that take space when loaded
+    var stuffToPreSize = {};
+    $("img, iframe").each(function(){
+      offsetTopOfThis = $(this).offset().top;
+      if (offsetTopOfThis > offsetTopOfPrevContinueReadingLink && offsetTopOfThis < offsetTopOfContinueReadingLink && $(this).attr('src') && $(this).attr('src') != "") {
+        stuffToPreSize["img[src='" + $(this).attr('src') + "']"] = {
+          width: $(this).innerWidth(),
+          height: $(this).innerHeight()
+        };
+      }
+    });
+
+    return stuffToPreSize;
+
   }
 
 }( jQuery ));
