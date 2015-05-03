@@ -23,11 +23,11 @@
     "test",
     "tests"
   ],
-  "_release": "5c38a3f035",
+  "_release": "36c8eea7cf",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "5c38a3f035afd9ec86716c38e0d6f31e2deee935"
+    "commit": "36c8eea7cf416eca47237170a6845f5103c80f06"
   },
   "_source": "/Users/work/Desktop/continue-reading",
   "_target": "*",
