@@ -13,6 +13,6 @@ excerpt_separator: "<!-- MORE -->"
 baseurl:
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 exclude:
   - a/bower_components/jquery.smooth-scroll/index.html
-  - a/bower_components/swipebox/index.html
