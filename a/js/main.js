@@ -61,39 +61,6 @@
     }, 500);
   }
 
-  init_gallery = function() {
-    $(".gallery-2-3 li").each(function(i){
-      if (i < 2) {
-        $(this).addClass("gallery-1of2");
-        if (i == 1) {
-          $(this).addClass("gallery-last");
-        }
-      }
-      if (i >= 2) {
-        $(this).addClass("gallery-1of3");
-        if ((i + 2) % 3 == 0) {
-          $(this).addClass("gallery-last");
-        }
-      }
-    });
-
-    $(".gallery").each(function(){
-      $(this).addClass("gallery-enhanced");
-    });
-
-    // initialize the lightbox
-
-    $('<link>')
-      .appendTo($('head'))
-      .attr({type : 'text/css', rel : 'stylesheet'})
-      .attr('href', '/a/bower_components/swipebox/source/swipebox.css')
-
-      $.getScript('/a/bower_components/swipebox/source/jquery.swipebox.js')
-        .done(function(script, textStatus) {
-          $(".gallery a").swipebox();
-        });
-  }
-
   init_arrow_down = function() {
     if ($("body").eq(0).hasClass("is-not-home")) return;
 
@@ -126,6 +93,5 @@
     });
 
     init_arrow_down();
-    init_gallery();
   });
 })(jQuery);
