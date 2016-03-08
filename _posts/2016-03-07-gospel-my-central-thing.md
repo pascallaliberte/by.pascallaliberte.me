@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What if the Gospel was my central thing?'
+title: 'What if the Gospel were my central thing?'
 date: 2016-03-07 9:25pm
 alt_lang_path: /2016-03-evangile-au-centre/
 ---
