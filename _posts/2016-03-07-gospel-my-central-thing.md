@@ -29,7 +29,7 @@ All of them feel a little off, especially when I compare their alignment against
 
 **Work**: It's a close one, but it's not the right one. There is work to be done in living the Gospel (in *building* the Kingdom), but living the Gospel isn't just about work. It's also about contemplation, rest, renewal and (re)connection. I can't go all the way with work.
 
-**fulfillment**: Craftsmanship, skillfulness, effectiveness, efficiency, knowledge, achievement, success. Being at the top of my game. I'm attracted to these... a lot! And yet, when I imagine the end of my days, reaching for my own fulfillment seems secondary to something else. Tuned against a life lived for the Gospel, success rings hollow.
+**Fulfillment**: Craftsmanship, skillfulness, effectiveness, efficiency, knowledge, achievement, success. Being at the top of my game. I'm attracted to these... a lot! And yet, when I imagine the end of my days, reaching for my own fulfillment seems secondary to something else. Tuned against a life lived for the Gospel, success rings hollow.
 
 **Giving**: We're coming close with this one. Giving is such a big part of surpassing oneself. It requires renouncing our wants, keeping left-overs for others, giving all of what we have, even. I could go a long way toward this destination and be very close to the heart of the Gospel, but it wouldn't be the same as the Gospel. The Gospel is something else.
 
