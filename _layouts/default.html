@@ -20,7 +20,8 @@
         <link href="{{ site.baseurl}}/a/css/{{ page.custom_css }}.css" media="screen, projection, print" rel="stylesheet" type="text/css" />
         {% endif %}
 
-        <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl}}/feed.xml" title="Atom feed">
+        <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+        <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl}}/feed.xml" title="{{ site.title }}">
 
         {% include alt-lang-link.html from="head" %}
 
