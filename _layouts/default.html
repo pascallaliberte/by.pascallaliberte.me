@@ -20,7 +20,8 @@
         <link href="{{ site.baseurl}}/a/css/{{ page.custom_css }}.css" media="screen, projection, print" rel="stylesheet" type="text/css" />
         {% endif %}
 
-        <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl}}/feed.xml" title="Atom feed">
+        <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+        <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl}}/feed.xml" title="{{ site.title }}">
 
         {% include alt-lang-link.html from="head" %}
 
@@ -31,7 +32,7 @@
         <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl}}/icons/apple-touch-icon-76x76.png" />
         <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl}}/icons/apple-touch-icon-120x120.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl}}/icons/apple-touch-icon-152x152.png" />
-
+        <script async src="https://api.netfloodmeter.com/floodmeter.js?u=YNCNFPNY"></script>
 
     </head>
     <body class="{{ page.key }}{% if page.key != "is-home" or paginator.page != 1 %} is-not-home {% endif %}">

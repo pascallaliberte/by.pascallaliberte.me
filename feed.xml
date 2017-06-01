@@ -1,9 +1,9 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
   <title>{{ site.name }}</title>
   <link href="{{ site.url }}/"/>
   <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.xml"/>
@@ -40,5 +40,5 @@ layout: nil
     </content>
   </entry>
   {% endfor %}
- 
+
 </feed>
